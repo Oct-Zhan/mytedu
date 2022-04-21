@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    transition: all .2s;
+    cursor: pointer;
+}
+button,input,textarea,select{
+    outline: none;
+}
+button,.btn{
+    cursor: pointer;
+}
+textarea{
+    resize:none;
+}
+input::placeholder{
+    color: #999999;
+}
+input::-webkit-input-placeholder{
+    color: #999999;
+}
+input::-moz-placeholder{
+    color: #999999;
+}
+.line{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.line2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.line3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+#container,main{
+    display: flex;
+    flex-direction: column;
+}
+#container,.module,main,#headerpage,#footerpage{
+    width: 100%;
+    min-width: 1200px; 
+}
+#headerpage,#footerpage{
+    display: flex;
+}
+#headerpage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+.module-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.float-box{
+    height: 239px;
+    background-image: url("../images/index/float_bg.png");
+    background-size: cover;
+    background-position: center top;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index:100;
+}
+.float-box  .module-wrap{
+    position: relative;
+}
+.float-box  .module-wrap>.title-box .title{
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 41px 0 8px;
+    font-weight: normal;
+    display: flex;
+}
+.float-box  .module-wrap>.title-box .title .num{
+    font-size: 42px;
+    margin-top: -9px;
+}
+.float-box  .module-wrap>.title-box  .subtitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, .6);
+}
+.float-box  .form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.float-box  .form-box input{
+    width: 342px;
+    height: 52px;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 0 18px;
+    margin-right: 16px;
+    color: #333333;
+}
+.float-box  .form-box input::placeholder{
+    color:#B2BEDA;
+}
+.float-box  .form-box input::-webkit-input-placeholder{
+    color:#B2BEDA;
+}
+.float-box  .form-box input::-moz-placeholder{
+    color:#B2BEDA;
+}
+.float-box  .form-box input:-ms-input-placeholder{
+    color:#B2BEDA;
+}
+.float-box  .form-box  button{
+    width: 200px;
+    height: 52px;
+    background-color: #01CE73;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px #01B35B;
+}
+.float-box .icon_close{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+}
+
