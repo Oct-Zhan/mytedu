@@ -1,0 +1,17 @@
+/* 公司简介 */
+.box-flex{
+  position: relative;
+  top:30rpx;
+  text-align: center;
+  font-weight:bold;
+  color:#D7000F;
+  margin: 0rpx 0rpx 60rpx 0rpx;
+}
+.center-lunbo{
+  height: 450rpx;
+}
+.center-lunbo image{
+  width: 750rpx;
+  height:100%;
+}
+

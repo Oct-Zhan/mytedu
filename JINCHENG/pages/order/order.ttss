@@ -1,0 +1,46 @@
+/* pages/order/order.ttss */
+/* 产品图 */
+.conter{
+  text-align: center;
+  font-size: 30rpx;
+  position: relative;
+  top:70rpx;
+  border: 1px solid black;
+}
+/* 产品文字标题 */
+.component{
+  position: relative;
+  top: 30rpx;
+  color: #D7000F;
+  text-align: center;
+  font-weight: bold;
+}
+/* 产品列表 */
+.prolist{
+  margin-top: 20rpx;
+}
+.prolist-info{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+.prolist-photo{
+  width: 350rpx;
+  height: 350rpx;
+  margin-top: 100rpx;
+  justify-content: space-between;
+}
+.prolist-desc{
+  color: #000;
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  width: 92%;
+  text-align: center;
+  font-size: 30rpx;
+  padding: 0rpx;
+  transform: translate(2%,-12%);
+}
+
+

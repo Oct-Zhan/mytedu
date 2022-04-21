@@ -1,0 +1,52 @@
+<!-- pages/order/order.ttml -->
+<!-- 产品页 -->
+<view class="header">
+    <view class="logo">
+        <image style="width:100% " src="/image/精胜logo.png" mode="widthFix" />
+    </view>
+    <view class="page-top {{open ? '' : 'c-state'}}"  bindtap="isShow">
+        <image src="/icon/duv.png" style="width: 80rpx;height:80rpx;
+            position:relative;right:20rpx;top:16rpx;"></image>
+    </view>
+    <!-- 侧边栏内容  -->
+    <view class="nav-wrap" tt:if="{{isShow}}">
+        <view class="cover" bindtap="isCover"></view>
+        <view class="nav-box" animation="{{animationData}}">
+            <image bindtap="tap_ch" src="/icon/up.png"  class="sanjiao"></image>
+            <view class="page-content">
+                <view class="list">
+                    <txet><image src="/icon/list/index.png"></image>公司介绍</txet>
+                </view>
+                <view class="list">
+                    <txet><image src="/icon/list/product.png"></image>产品信息</txet>
+                </view>
+                <view class="list">
+                    <txet><image src="/icon/list/cases.png"></image>成功案例</txet>
+                </view>
+                <view class="list">
+                    <txet><image src="/icon/list/mine.png"></image>关于我们</txet>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 产品图 -->
+<view class="center">
+    <image class="lunbo" style="width:100% " src="/image/lb_03.jpg" mode="widthFix" />
+</view>
+<!-- 成分分类（下拉菜单） -->
+<view class="component">产品中心</view>
+<view class="conter">一家消防产品研发、生产、销售、安装为一体的企业</view>
+<!-- 产品列表 -->
+<view class="prolist">
+    <block tt:for="{{items}}" tt:key="item">
+        <view class="maincon">
+            <navigator url="pages/order/order?id={{item.id}}">
+                <view class="prolist-info" index="{{index}}">
+                <image class="prolist-photo" src="{{item.imageUrl}}" />
+                    <text class="prolist-desc">{{item.content}}</text>
+                </view>
+            </navigator>
+        </view>
+    </block>
+</view>

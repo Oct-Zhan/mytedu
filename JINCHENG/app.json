@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/phone/phone",
+    "pages/order/order",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#white",
+    "navigationBarTitleText": "精诚消防设备有限公司",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+   "color": "#fff",
+   "borderStyle": "black",
+   "backgroundColor": "#333333",
+   "list": [{
+     "selectedIconPath": "icon/ficon01.png",
+     "iconPath": "icon/ficon01.png",
+     "pagePath": "pages/index/index",
+     "text": "首页"
+   },
+   {
+     "selectedIconPath": "icon/ficon04.png",
+     "iconPath": "icon/ficon04.png",
+     "pagePath": "pages/phone/phone",
+     "text": "产品"
+   },
+   {
+     "selectedIconPath": "icon/ficon03.png",
+     "iconPath": "icon/ficon03.png",
+     "pagePath": "pages/order/order",
+     "text": "文章"
+   },
+   {
+     "selectedIconPath": "icon/ficon02.png",
+     "iconPath": "icon/ficon02.png",
+     "pagePath": "pages/mine/mine",
+     "text": "我的"
+   }
+   ]
+ }
+}
+

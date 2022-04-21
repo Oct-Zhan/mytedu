@@ -1,0 +1,68 @@
+/* pages/mine/mine.ttss */
+  /* title */
+.company-name{
+      text-align: center;
+      position: relative;
+      top: 20rpx;
+      right:62rpx;
+  }
+  .megImg{
+      width: 30%;
+  }
+  .megss{
+      position: relative;
+      top:14rpx;
+      left: 90rpx;
+      font-size: 26rpx;
+
+    }
+  .megImg image{
+      width:40rpx;
+      height: 40rpx;
+      position: relative;
+      top: 65rpx;
+      left:40rpx;
+  }
+  .address{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10rpx;
+  }
+.online-message{
+    width: 750rpx;
+    height: 800rpx;
+    background-color: #a10000;
+    position: relative;
+    top:50rpx;
+}
+/*在线留言*/
+.mess{
+  width: 100%;
+  color: white;
+  position: relative;
+  top:35rpx;
+  font-size: 40rpx;
+  text-align: center;
+  margin: 20rpx 100rpx 0rpx 296rpx;
+}
+/*在线留言（小字）*/
+.xiaozi{
+  width: 100%;
+  font-size: 20rpx;
+  color: white;
+  position: relative;
+  top: 35rpx;
+  text-align: center;
+  left:122rpx;
+}
+/* 输入文本框 */
+.mess-text{
+  width: 650rpx;
+  height: 350rpx;
+  background-color: white;
+  visibility: visible;/*可见性*/
+  position: relative;
+  top:80rpx;
+  left: 45rpx;
+}

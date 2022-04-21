@@ -1,0 +1,55 @@
+<view class="header">
+    <view class="logo">
+        <image style="width:100% " src="/image/精胜logo.png" mode="widthFix" />
+    </view>
+    <view class="page-top {{open ? '' : 'c-state'}}" bindtap="isShow">
+        <image src="/icon/duv.png" style="width: 80rpx;height:80rpx;
+            position:relative;right:20rpx;top:16rpx;"></image>
+    </view>
+    <!-- 侧边栏内容  -->
+    <view class="nav-wrap" tt:if="{{isShow}}">
+        <view class="cover" bindtap="isCover"></view>
+        <view class="nav-box" animation="{{animationData}}">
+            <image bindtap="tap_ch" src="/icon/up.png"  class="sanjiao"></image>
+            <view class="page-content">
+                <view class="list">
+                    <text>公司简介</text>
+                </view>
+                <view class="list">
+                    <text>产品测试</text>
+                </view>
+                <view class="list">
+                    <text>产品分类</text>
+                </view>
+                <view class="list">
+                    <text>文章列表</text>
+                </view>
+                <view class="list">
+                    <text>联系我们</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 轮播 -->
+<view class="center">
+    <!-- 样式 类名 面板指示点 自动切换 滑动动画时长 触发事件 -->
+    <swiper class="center-lunbo" indicator-dots="false" autoplay="true" duration="1000" bindchange="listenSwiper">
+        <swiper-item>
+            <image class="lunbo" src="/image/lb_01.jpg" mode="widthFix"/>
+        </swiper-item>
+        <swiper-item>
+            <image class="lunbo" src="/image/lb_02.jpg" mode="widthFix"/>
+        </swiper-item>
+        <swiper-item>
+            <image class="lunbo" src="/image/lb_03.jpg" mode="widthFix"/>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="box-flex">公司简介</view>
+<!-- 间隔 -->
+<view class="det">
+    <rich-text nodes="{{htmlSnip}}"></rich-text>
+</view>
+<!-- footer -->
+<!-- <view class='nav-box'></view> -->

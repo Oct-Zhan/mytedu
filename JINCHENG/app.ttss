@@ -1,0 +1,83 @@
+/* Common style */
+.header{
+    width: 100%;
+    height: 110rpx;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+.logo{
+    width: 120rpx;
+    height: 100rpx;
+    margin-top: 10rpx;
+  }
+ /* 侧边导航按钮  */
+ .page-top image{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  right: 25rpx;
+  top: 20rpx;
+}
+/* 侧边栏样式 */
+.nav-wrap{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+}
+/* 侧边特效 */
+.c-state{
+  transform: ease-in-out;
+}
+/* 侧边内容 */
+.nav-box{
+  width: 226rpx;
+  height: 410rpx;
+  position: absolute;/*绝对定位*/
+  right: -200rpx;
+  top: 110rpx;
+}
+.nav-box .page-content{
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+  padding-top: 5rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.list{
+  border-bottom: 1px solid #a8a8a8;
+}
+.nav-box .sanjiao{
+  width: 45rpx;
+  height:45rpx;
+  position: absolute;
+  top: -28rpx;
+  left: 122rpx;
+}
+.page-top{
+  width: 200rpx;
+  height: 350rpx;
+  /* transition: All 0.6s ease-out;
+  -webkit-transition: All 0.6s ease-out; */
+}
+/* 左上角图标的样式 */
+.page-top image {
+  position: absolute;
+  width: 68rpx;
+  height: 68rpx;
+  left: 80rpx;
+  top: 20rpx;
+}
+
+/* 遮盖层样式 */
+.cover{
+  width: 100%;
+  height: 100%;
+  background-color:gray;
+  opacity: 0.3;
+}
