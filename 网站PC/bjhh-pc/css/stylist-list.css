@@ -1,0 +1,23 @@
+.verify-wrap span {
+  border-bottom: 0;
+  margin-right: 0;
+}
+
+.des-apply .verify-wrap {
+  width: 237px;
+  margin-top: 15px;
+}
+
+.des-apply .agreement-box {
+  width: 237px;
+  margin: 15px auto;
+}
+
+.des-apply .agreement-box .item:first-of-type span {
+  margin-right: 0;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}
+/*# sourceMappingURL=stylist-list.css.map */

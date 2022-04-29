@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="applicable-device" content="pc">
+    <meta name="mobile-agent" content="format=html5;url=https://m.bao315.com/">
+    <title>文章详情页</title>
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.bao315.com/" >
+    <link rel="stylesheet" href="css/common1.css">
+    <link rel="stylesheet" href="css/reuse1.css">
+    <link rel="stylesheet" href="css/common3.css">
+    <link rel="stylesheet" href="css/articleDetail.css">
+    <link rel="stylesheet" href="css/reuse3.css">
+    <link rel="stylesheet" href="css/mfsj.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jq-slideVerify.js"></script>
+    <script src="js/common1.js"></script>
+    <script src="js/common3.js"></script>
+</head>
+
+<body>
+    <!-- 公共头部开始 -->
+    <header id="header-page"></header>
+    <!-- 公共头部结束 -->
+
+    <!-- 导航栏 -->
+    <div class="juhe-nav article-nav">您当前位置：首页 ><a href=''> 装修攻略</a> > <a href=""> 房屋装修</a> ><a href=""> 客厅装修</a> ><a
+            href=""> 日式客厅装修</a> > <a href=''> 装修流程</a> > <a href=''> 新房如何验房？毛坯房验房流程和注意事项</a>
+    </div>
+    <div class="xgt-tab01 article-info">
+        <!--左边-->
+        <div class="article-content">
+            <div class="to-share">
+                <div class="to-collect"><img src="./images/article/star-1.png" alt=""></div>
+                <div class="share-box to-share-weibo"><img src="./images/article/weibo-1.png" alt=""></div>
+                <div class="share-box to-share-weima"><img src="./images/article/pengyouquan-1.png"></div>
+                <div class="share-box to-share-qq"><img src="./images/article/qqkongjian-1.png" alt=""></div>
+                <div class="share-box share-last"><img src="./images/article/shouj-1.png" alt=""></div>
+                <p class="share-weima">
+                    <img src="./images/article/shouji.png" alt="">
+                </p>
+                <p class="share-wenzhang">
+                    <img src="./images/article/shouji.png" alt="">
+                </p>
+            </div>
+            <div class="cal_pop">
+                <div class="cal_pop_cont">
+                    <div class="cal_pop_input clear">
+                        <div class="cal_title-box">
+                            <p class="cal_title"><i>10秒免费获取</i>装修报价</p>
+                        </div>
+                        <form class="cal_pop_input_main " id="cityJsqForm">
+                            <div class="cal_pop_input_col clear">
+                                <div class="cal_pop_input_col_ri air">
+                                    <select name="houseCityId" id="navProvince">
+                                        <option value="">省份</option>
+                                    </select>
+                                    <select name="cityId" id="navCity">
+                                        <option value="">城市</option>
+                                    </select>
+                                    <input name="classId" type="hidden" value="146">
+                                    <input type="text" name="houseArea" id="housearea" placeholder="房屋面积"> <span
+                                        class="m2">m²</span>
+                                </div>
+                            </div>
+                            <div class="cal_pop_input_col-info clear">
+                                <div class="cal_pop_input_col_ri large">
+                                    <select class="spe large-info" id="shiselect">
+                                        <option value="1">1室</option>
+                                        <option value="2">2室</option>
+                                        <option value="3">3室</option>
+                                        <option value="4">4室</option>
+                                        <option value="5">5室</option>
+                                        <option value="6">6室</option>
+                                    </select>
+                                    <select class="spe" id="tingselect">
+                                        <option value="1">1厅</option>
+                                        <option value="2">2厅</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cal_pop_input_col clear">
+                                <div class="cal_pop_input_col_ri kitchen-info">
+                                    <select class="kitchen" id="chuselect">
+                                        <option value="1">1厨</option>
+                                        <option value="2">2厨</option>
+                                    </select>
+                                    <select id="weiselect " class="kitchen">
+                                        <option value="1">1卫</option>
+                                        <option value="2">2卫</option>
+                                        <option value="3">3卫</option>
+                                        <option value="4">4卫</option>
+                                    </select>
+                                    <select class="kitchen spe" id="ytselect">
+                                        <option value="1">1阳台</option>
+                                        <option value="2">2阳台</option>
+                                        <option value="3">3阳台</option>
+                                        <option value="4">4阳台</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cal_pop_input_col clear">
+                                <div class="cal_pop_input_col_ri">
+                                    <input type="text" name="mobile" id="phone1" placeholder="输入手机号码 报价结果将发送到您的手机">
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="cal_pop_btn">
+                            <div class="cal_pop_btn_span">
+                            </div>
+                            <div class="cal_pop_btn_div">
+                                <div class="cal_pop_btn_line_01"></div>
+                            </div>
+                        </div>
+
+                        <div class="cal_pop_mid ">
+                            <p class="cal_title-info">您的装修预算约<span>?</span>元</p>
+                            <div class="cal_pop_mid_div">
+                                <section>
+                                    <span class="cal_pop_mid_span">材料费</span>
+                                    <span id="clfreeDiv">?</span>
+                                    <span>元</span>
+                                </section>
+                                <section>
+                                    <span class="cal_pop_mid_span">设计费</span>
+                                    <span id="sjfree">0</span>
+                                    <span>元</span>
+                                </section>
+                                <section>
+                                    <span class="cal_pop_mid_span">人工费</span>
+                                    <span id="rgfreeDiv">?</span>
+                                    <span>元</span>
+                                </section>
+                                <section>
+                                    <span class="cal_pop_mid_span">质检费</span>
+                                    <span id="zjfree">0</span>
+                                    <span>元</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article-content-info">
+                <h1>新房如何验房？毛坯房验房流程和注意事项</h1>
+                <div class="page-view">
+                    <p>作者：<span>维纳斯的断臂</span></p>
+                    <p>浏览量：<span>21555</span></p>
+                    <p>发布时间：<span>2019-05-26 14:25:26</span></p>
+                </div>
+                <div class="guide-read">
+                    <img src="./images/article/yuedu.png" alt="">
+                    <span></span>
+                    <div>装修房子这件事是一件大事情，所以一定要慎重，在很多的环节上我们都要去下功夫，很多人买房的时候就会想要开始进行装修有一个美美的家，但是验房才是温馨家装的开始，那么新房如何验房?
+                    </div>
+                </div>
+                <div class="article-title">
+                    一件大事情，所以一定要慎重，在很多的环节上我们都要去下功夫，很多人买房的时候就会想要开始进行装修，有一个美美的家，但是验房才是温馨家装的开始，那么新房如何验房?毛坯房验房流程和注意事项有哪些呢?下面我们就跟保驾护航的小编来看看相关内容，希望小保的介绍能给您的日式客厅装修提供一些帮助，保驾护航一站式家装助您有个舒适温馨的家。
+                    <p class="subtitle">1、找人</p>
+                    约定一个日期，带上专业的验房师验房。找不到人就找你的装修工长，让他发现问题，他发现不了问题，以后装修中出来问题就是他的事情了。云儿毛坯验房之后还有1年精装修才交楼，就没有找专业验房师和装修公司了，但也不能单枪匹马地过去，至少要3人同行相互合作。
+                    <p class="subtitle">2、资料</p>
+                    首先要去物业部门查看相关的资料，以下几份资料是需要查阅：<br>
+                    。 三书：房屋的《住宅质量保证书》--可带走、《住宅使用说明书》--可带走、《建筑工程质量认定书》<br>
+                    。 一证：《房地产开发建设项目竣工中和验收合格证》<br>
+                    。 一图：管线分布竣工图(水、强电、弱电、结构)--可带走<br>
+                    。 三书一证<br>
+                    一般开发商应有专人陪同你验房，并有一份《住户验房交接表》之类的文件供你在验房过程中记录发现的问题，如果开发商未有此类表格，你应该自己准备以记录，如下图<br>
+                    需要的小伙伴在后台回复“毛坯验房”可下载<br>
+                </div>
+                <div class="read-more">
+                    <p class="info-title"><span></span>延伸阅读</p>
+                    <ul>
+                        <li>
+                            <p>房屋面积如何算？</p>
+                        </li>
+                        <li>
+                            <p>2019装修vfdvdfvdvdfvdfvdf房屋的fffwfwfw步骤</p>
+                        </li>
+                        <li>
+                            <p>2019装修房屋效果图</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>客厅吊顶装修价格，装修必看！</p>
+                        </li>
+                        <li>
+                            <p>水电改造需注意的99条事项看了绝对...</p>
+                        </li>
+                        <li>
+                            <p>家装改造需注意的99条事项快来看看...</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="like">
+                    <div class="like-info">
+                        <img src="./images/article/zan-5.png" alt="">
+                        <p>236</p>
+                    </div>
+                </div>
+                <div class="about-title">
+                    <span class="first-span">相关标签：</span>
+                    <span>收房验房</span>
+                    <span>家居装饰</span>
+                    <span>创意家居</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                    <span>家居摆设</span>
+                </div>
+                <div class="context">
+                    <a href=""><span>上一篇：</span>客厅吊顶装修价格，装修必看！</a>
+                    <a href=""><span>下一篇：</span>2019装修房屋的步骤2019装修房屋效果图</a>
+                </div>
+            </div>
+            <div class="decorate-strategy">
+                <p class="tell-us">上述内容来自用户上传或者互联网，如有侵权，请及时联系我们。</p>
+                <img src="./images/article/advertising.png" class="advertising-img">
+                <p class="info-title"><span></span>相关装修攻略</p>
+                <div class="decorate-content">
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                    <a class="decorate-content-info">
+                        <div class="info-imgs">
+                            <img src="./images/article/content-1.png" alt="">
+                        </div>
+                        <div class="decorate-content-title">
+                            <p>史上最全水电定位注意事项</p>
+                            <span>在钢筋水泥建造的城市中，你或许也想在家里将心放空,感受诗惬意...</span>
+                            <img src="./images/article/goon.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="result-img">
+                <p class="info-title"><span></span>相关装修效果图</p>
+                <div class="result-content">
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                    <a class="result-content-info">
+                        <div class="result-img-box">
+                            <img src="./images/article/realut-img.png" alt="">
+                        </div>
+                        <div class="result-img-title">
+                            <p>家装改造需注意的99条事项快来学习啦</p>
+                            <div></div>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hot-lab">
+                <p class="info-title"><span></span>热门标签</p>
+                <div class="hot-content">
+                    <span>17平米</span>
+                    <span>玄关柜</span>
+                    <span>办公室</span>
+                    <span>墙绘</span>
+                    <span>榻榻米装修效果图</span>
+                    <span>书柜</span>
+                    <span>阳台</span>
+                    <span>窗户装修效果图</span>
+                    <span>墙绘</span>
+                    <span>阁楼</span>
+                    <span>卧室效果图</span>
+                    <span>客厅装修</span>
+                    <span>隔断</span>
+                    <span>7平米</span>
+                    <span>榻榻米装修效果图</span>
+                    <span>书柜</span>
+                    <span>8平米</span>
+                    <span>窗户装修效果图</span>
+                    <span>墙绘</span>
+                    <span>阳台</span>
+                </div>
+            </div>
+        </div>
+        <!--右边-->
+        <div class="article-Advertisement">
+            <div class="des-apply">
+                <div class="des-ap-pic">
+                    <img src="./images/sjs/sjs-img-05.png" alt="">
+                </div>
+                <p class="quota">今日还剩 <span>0</span><span>6</span><span>8</span> 个免费名额</p>
+                <form>
+                    <div class="text-inp">
+                        <input type="text" placeholder="请输入姓名">
+                    </div>
+                    <div class="text-inp">
+                        <input type="text" placeholder="输入手机号码，获取免费设计">
+
+                    </div>
+                    <select name="" id="">
+                        <option value="">经济装修</option>
+                        <option value="">经济装修</option>
+                    </select>
+                    <div class="verify-wrap" id="verify-wrap"></div>
+                    <div class="agreement-box">
+                        <div class="item">
+                            <img src="./images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                            <span class="agreement-item" data-agreement="1">《用户协议》</span>
+                            <span class="agreement-item" data-agreement="2">《隐私政策》</span>
+                        </div>
+                        <div class="item">
+                            <img src="./images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                            <span class="agreement-item" data-agreement="3">《共享说明》</span>
+                        </div>
+                    </div>
+                    <div class="sub-btn">
+                        <span>立即申请</span>
+                    </div>
+                </form>
+            </div>
+            <div class="newest-article">
+                <div class="newest-article-header">
+                    <p>最新文章</p>
+                    <span>LATEST ARTICLES</span>
+                </div>
+                <ul class="newest-article-list">
+                    <a>
+                        <li><span class="first-trimeste">1</span>
+                            <p>【设计】适合小卫的装修空间</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span class="first-trimeste">2</span>
+                            <p>【生活小常识】关于客厅的小的装修常识</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span class="first-trimeste">3</span>
+                            <p>【家居风水】文财神爷与武财的来源 </p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>4</span>
+                            <p>【空调】变频空调和定频空调的区别</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>5</span>
+                            <p>【厨房设备】适合小卫的装修空间</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>6</span>
+                            <p>【生活小常识】关于客厅的小的装修常识</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>7</span>
+                            <p>【家居风水】文财神爷与武财的来源</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>8</span>
+                            <p>【空调】变频空调和定频空调的区别</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>9</span>
+                            <p>【设计】适合小卫的装修空间</p>
+                        </li>
+                    </a>
+                    <a>
+                        <li><span>10</span>
+                            <p>【生活小常识】关于客厅的小的装修常识</p>
+                        </li>
+                    </a>
+                </ul>
+                <p class="newest-learn-more">了解更多</p>
+            </div>
+            <div class="newest-article">
+                <div class="newest-article-header">
+                    <p>最新装修效果图</p>
+                    <span>RENDERING</span>
+                </div>
+                <div class="newest-article-imgs">
+                    <a class="newest-article-bigImg">
+                        <div><img src="./images/article/img.png" alt=""></div>
+                        <p class="first-p">打造简约现代极致的家装风格,让你眼前一亮</p>
+                    </a>
+                    <a class="newest-article-imgList">
+                        <div><img src="./images/article/list-1.png" alt=""></div>
+                        <p class="first-p"> 史上最全水电定位 注意事项</p>
+                    </a>
+                    <a class="newest-article-imgList">
+                        <div><img src="./images/article/list-1.png" alt=""></div>
+                        <p class="first-p">史上最全水电定位 注意事项</p>
+                    </a>
+                    <a class="newest-article-imgList">
+                        <div><img src="./images/article/list-1.png" alt=""></div>
+                        <p class="first-p">史上最全水电定位 注意事项</p>
+                    </a>
+                </div>
+                <p class="newest-learn-more">了解更多</p>
+            </div>
+            <div class="des-recommend decoration-case newest-article">
+                <div class="newest-article-header">
+                    <p>厦门市装修公司推荐</p>
+                    <span>DECORATION COMPANY</span>
+                </div>
+                <section class="zxgs-ranks">
+                    <!-- 装修公司排行榜 -->
+                    <ul>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>1</span>
+                                    <span>福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b zxgs-pic-hide">525</b>
+                                </div>
+                                <div class="case-pic-acitve">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>2</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>3</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>4</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>5</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>6</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>7</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>8</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>9</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p><span>口碑值</span><b>525</b></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="case-con">
+                            <a href="">
+                                <div class="case-text zxgs-text-01">
+                                    <span>10</span>
+                                    <span class="zxgs-name">福建五福九鼎装修设计工程有限公司</span>
+                                    <b class="zxgs-b">525</b>
+                                </div>
+                                <div class="zxgs-pic-hide">
+                                    <div class="zxgs-pic">
+                                        <img src="./images/zxgs/zxgs-logo.png" alt="">
+                                    </div>
+                                    <div class="zxgs-rank">
+                                        <div>
+                                            <i><img src="./images/zxgs/zxgs-A.png" alt=""></i>
+                                            <i><img src="./images/zxgs/zxgs-xin.png" alt=""></i>
+                                        </div>
+                                        <p>
+                                            <span>口碑值</span>
+                                            <b>525</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="newest-learn-more">了解更多</p>
+                </section>
+            </div>
+            <div class="newest-article">
+                <div class="newest-article-header">
+                    <p>最新装修视频</p>
+                    <span>DECORATION VIDEO</span>
+                </div>
+                <div class="newest-article-video">
+                    <a class="newest-article-videos">
+                        <div class="video-img-box">
+                            <img src="./images/article/vidoe-img.png" alt="">
+                        </div>
+                        <div class="newest-video">
+                            <p>史上最全水电定位 注意事项</p>
+                            <span class="newest-video">55次播放</span>
+                        </div>
+                    </a>
+                    <a class="newest-article-videos">
+                        <div class="video-img-box">
+                            <img src="./images/article/vidoe-img.png" alt="">
+                        </div>
+                        <div class="newest-video">
+                            <p>史上最全水电定位 注意事项</p>
+                            <span class="newest-video">55次播放</span>
+                        </div>
+                    </a>
+                    <a class="newest-article-videos">
+                        <div class="video-img-box">
+                            <img src="./images/article/vidoe-img.png" alt="">
+                        </div>
+                        <div class="newest-video">
+                            <p>史上最全水电定位 注意事项</p>
+                            <span class="newest-video">55次播放</span>
+                        </div>
+                    </a>
+                    <a class="newest-article-videos">
+                        <div class="video-img-box">
+                            <img src="./images/article/vidoe-img.png" alt="">
+                        </div>
+                        <div class="newest-video">
+                            <p>史上最全水电定位 注意事项</p>
+                            <span class="newest-video">55次播放</span>
+                        </div>
+                    </a>
+                </div>
+                <p class="newest-learn-more">了解更多</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 协议弹窗开始 -->
+    <div id="agreement-mask-page"></div>
+    <!-- 协议弹窗结束 -->
+
+    <!-- 公共底部开始 -->
+    <footer id="footer-page"></footer>
+    <!-- 公共底部结束 -->
+
+    <!-- 尾部 -->
+</body>
+<script>
+    $(function () {
+        /* 引入公共部分 */
+        $('#header-page').load('../public/header1.html', function () {
+            $('#header .header-bot .nav').removeClass('active')
+            $('#header .header-bot .nav3').addClass('active')
+        })
+        $('#footer-page').load('../public/footer1.html')
+        $('#agreement-mask-page').load('../public/mask-agreement.html')
+
+        /* 滑动验证 */
+        // slideVerify.resetVerify();可以重置插件回到初始状态 
+        var slideVerifyVal = false
+        var SlideVerifyPlug = window.slideVerifyPlug;
+        var slideVerify = new SlideVerifyPlug('#verify-wrap', {
+            wrapWidth: '237',
+            initText: '按住滑块向右拖动',
+            sucessText: '验证通过',
+            getSuccessState: function (res) {
+                slideVerifyVal = res
+            }
+        });
+
+        $('.share-weima').hide();
+        $('.share-wenzhang').hide();
+
+        $('.case-con a').hover(function () {
+        $(this).children().eq(1).show('fast');
+        $(this).children().eq(0).children().eq(1).removeClass('zxgs-name');
+        $(this).children().eq(0).children().eq(2).hide();
+        $(this).parent().siblings().children().children().each(function (i, v) {
+                var creat = $(v).attr('class');
+                if (creat == 'zxgs-pic-hide' || creat == 'case-pic-acitve') {
+                    $(v).hide('fast');
+                    $(v).siblings().children().eq(1).addClass('zxgs-name');
+                    $(v).siblings().children().eq(2).show();
+                }
+            })
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 200) {
+                $('.to-share').addClass('to-share-top')
+                $('.to-share').css('top', $(window).scrollTop() - 50)
+
+            } else {
+                $('.to-share').removeClass('to-share-top')
+                $('.to-share').css('top', 0)
+            }
+            if ($(window).scrollTop() > 3000) {
+                $('.des-apply').addClass('scroll-Design')
+                $('.des-apply').css('top', $(window).scrollTop() - 50)
+
+            } else {
+                $('.des-apply').removeClass('scroll-Design')
+            }
+        })
+        $('.like-info').click(function () {
+            let img = $(this).find('img').attr('src')
+            let url = img.substring(0, img.indexOf("-"));
+            $(this).find('img').attr("src", './' + url + '-3.png')
+            $(this).addClass('like-infos').removeClass('like-info')
+        })
+        $('.to-collect').click(function () {
+            let img = $(this).find('img').attr('src')
+            let url = img.substring(0, img.indexOf("-"));
+            $(this).find('img').attr("src", './' + url + '-2.png')
+        })
+        $('.to-share>.share-box').mouseover(function () {
+            let img = $(this).find('img').attr('src')
+            let url = img.substring(0, img.indexOf("-"));
+            $(this).find('img').attr("src", './' + url + '-2.png')
+        })
+        $('.to-share>.share-box').mouseleave(function () {
+            let img = $(this).find('img').attr('src')
+            let url = img.substring(0, img.indexOf("-"));
+            $(this).find('img').attr("src", './' + url + '-1.png')
+        })
+        $('.to-share-weima').mouseover(function () {
+            $('.share-weima').fadeIn();
+            $('.share-weima').css('z-index', '1')
+        })
+        $('.to-share-weima').mouseleave(function () {
+            $('.share-weima').fadeOut();
+            $('.share-weima').css('z-index', '1')
+        })
+        $('.share-last').mouseover(function () {
+            $('.share-wenzhang').fadeIn();
+            $('.share-wenzhang').css('z-index', '1')
+        })
+        $('.share-last').mouseleave(function () {
+            $('.share-wenzhang').fadeOut();
+            $('.share-wenzhang').css('z-index', '1')
+        })
+        $('.to-share-qq').click(function () {
+            let shareqqzonestring = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?summary=' + 'title' + '&url=' + 'http://xiaoguo.bao315.com/p325568' + '&pics=' + './images/article/star-1.png';
+
+            window.open(shareqqzonestring, 'newwindow', 'height=400,width=400,top=100,left=100');
+        })
+        $('.to-share-weibo').click(function () {
+            let shareweibo = 'http://v.t.sina.com.cn/share/share.php?title=' + 'title' + '&url=' + 'http://xiaoguo.bao315.com/p325568' + '&content=utf-8&sourceUrl=' + 'http://xiaoguo.bao315.com/p325568' + '&pic=' + 'http://xiaoguo.bao315.com/p325568';
+            window.open(shareweibo, 'newwindow', 'height=500,width=500,top=100,left=300');
+        })
+    })
+</script>
+
+</html>

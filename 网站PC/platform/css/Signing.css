@@ -1,0 +1,935 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body { width: 100%; height:auto; }
+
+
+.header{
+    width: 1920px;
+    height: 150px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#boot{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    min-height:100vh;
+}
+.main{
+    width:100%;
+    min-width: 1200px;
+    max-width: 1920px;
+    position: relative;
+}
+.backdrop{
+    width:100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 150px;
+    background-image: url('../image/heard.png');
+    background-size: cover;
+    background-position: top center;
+}
+.tabclass{
+    background: url(../image/footer-bg.jpg) no-repeat;
+    background-position: bottom center;
+}
+/*logo*/
+.logo{
+    width: 1200px;
+    height:40px;
+    margin: 0 auto;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 68px;
+}
+.bao-logo{
+    width:143px;
+    height: 35px;
+    margin-right: 18px;
+}
+/*logo文字*/
+.writing{
+    height:35px;
+    line-height: 35px;
+    width: 144px;
+    height: 27px;
+    font-size:24px;
+    color: #5d5d5c;
+    position: relative;
+    padding-left: 20px;
+}
+.writing::before{
+    content: "";
+    width:1px;
+    height:26px;
+    background-color:#333;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+/* 内容背景 */
+.details{
+    width: 1200px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #888888;
+    margin: 0 auto;
+    z-index: 2;
+    padding-bottom:63px;
+}
+.tabbg{
+    width: 100%;
+    max-width:1920px;
+    min-width: 1200px;
+    height:100%;
+    background-color:#f2f6fc;
+    /* background-color:#169be8;
+    position: absolute; */
+}
+/* 内容标题 */
+.center{
+    position: relative;
+    left:50px;
+    top:30px;
+    font-size:14px;
+    color: #adadad;
+}
+.link-top{
+        width: 1100px;
+        height: 1px;
+        border-bottom: 1px solid #eeeeee;
+        margin-top: 12px;
+
+}
+/* 银行汇款复制 */
+.mittan{
+    width: 1031px;
+    height: 214px;
+    margin-top: 72px;
+    margin-left: 50px
+}
+/* 中国工商 */
+.icbc{
+    width:453px;
+    height:92px;
+    float: left;
+}
+.icbc-icon{
+    top:92px;
+    left: 50px;
+}
+.icbc-title{
+    width: 341px;
+    height: 83px;
+    margin-left:112px;
+    margin-top:-98px;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+.copy{
+    width: 45px;
+    height: 24px;
+    border-color: aliceblue;
+    border-radius: 4px;
+    background-color: #4c8bff;
+    color: #fff;
+    border-style: none;
+    font-size: 14px;
+    position: static;
+}
+/* 中国银行 */
+.china{
+    width:453px;
+    height:92px;
+    float: right;
+}
+.china-icon{
+    top:92px;
+    left: 50px;
+}
+.china-title{
+    width: 341px;
+    height: 83px;
+    margin-left:112px;
+    margin-top:-98px;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+/* 建设银行 */
+.ccb{
+    width:453px;
+    height:92px;
+    float: left;
+    margin-top: 30px;
+}
+.ccb-icon{
+    top:92px;
+    left: 50px;
+}
+.ccb-title{
+    width: 341px;
+    height: 83px;
+    margin-left:112px;
+    margin-top:-98px;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+/* 农业银行 */
+.abc{
+    width:453px;
+    height:92px;
+    float: right;
+    margin-top: 30px;
+}
+.abc-icon{
+    top:92px;
+    left: 50px;
+}
+.abc-title{
+    width: 341px;
+    height: 83px;
+    margin-left:112px;
+    margin-top:-98px;
+    z-index: 1;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+.link-footer{
+    width: 1100px;;
+    height:1px;
+    border-top:1px solid #eeeeee;
+    margin-top:212px;
+}
+/* 在线支付 */
+.onpay{
+   width:1100px;
+   height:102px;
+   margin-top: 76px; 
+   margin-left:50px;
+}
+.onpay span{
+    width: 3px;
+    height: 18px;
+    background-color: #169be8;
+    float: left;
+    margin-top:3px;
+}
+.onpay label{
+    margin-left:13px;
+    font-size:18px;
+    margin-top:-10px;
+}
+.onpayfirm{
+    width:1068px;
+    height: 57px;
+    line-height: 57px;
+    display: inline-block;
+    border:1px solid #dddddd ;
+    outline-color:#4c8bff; 
+    color: #333333;
+    margin-top: 26px;
+    padding-left: 30px;
+} 
+/* 企业付款 */
+.firmware{
+    width: 1100px;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 41px;
+}
+.firmware span{
+    width: 3px;
+    height: 18px;
+    background-color: #169be8;
+    float: left;
+    margin-top:3px;
+}
+.firmware label{
+    margin-left:13px;
+    font-size:18px;
+    top:30px;
+}
+.firm-wrap{
+    border:1px solid #dddddd ;
+    width:1100px;
+    margin:0 auto;
+    padding:0 30px;
+    box-sizing: border-box;   
+    z-index:auto;
+    outline-color:#169be8;
+    overflow: hidden;
+}
+.firm-wrap:hover{
+    border:1px solid #169be8 !important;
+}
+
+ .dropUp{
+     height:57px;
+     transition:height 1s;
+ }
+ .dropDown{
+    height:480px;
+    transition: height 1s;
+ }
+.firm{
+    height:57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firm .firm-left {
+    width: 162px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.firm .firm-left .firm-img{
+    width:25px;
+    height:25px;
+}
+.firm .firm-left .title{
+    font-size:16px;
+    margin-left: 10px;
+}
+.firm-dole{
+    justify-content: flex-start;
+}
+/*银行列表*/
+.item-main ul{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    padding: 80px 0 20px;
+    margin: 0;
+  } 
+  .filter li{
+      width: 200px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+  }
+  .filter li:hover{
+    border: 1px solid #169be8;
+  }
+.newclass{
+    border: 1px solid #169be8 !important;
+    background: url(../image/icon/bingo.png) no-repeat right bottom;
+}
+  .filter {
+      width: 200px;
+      height: 40px;
+      border: 1px solid #eee;
+      cursor: pointer;/*定义鼠标指针范围*/
+      z-index: 0;
+      margin-right: 9px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+  }
+  .filter:nth-of-type(5),
+  .filter:nth-of-type(10),
+  .filter:nth-of-type(15){
+      margin-right:0
+  }
+  .bank-img{
+      height: 22px;
+      float: left;
+      margin-top: -20px;
+      margin-left: 38px;
+  }
+  .bank-cpy{
+      width: 24px;
+      height: 24px;
+  }
+  /* 表格 */
+.common{
+    padding-top:10px;
+}
+.com-btn{
+    padding-bottom: 42px;
+}  
+.com-limit{
+    width: 984px;
+    height: 31px;
+    text-align: right;
+    border-collapse: collapse;
+    margin:0px;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.com-limit td{
+    line-height:27px;
+    font-size:12px;
+    /* width:138px; */
+    color: #acacac;
+}
+  /* 个人付款 */
+.indual{
+    width:100%;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.indual span{
+    width: 3px;
+    height: 18px;
+    background-color: #169be8;
+    float: left;
+    margin-top:3px;
+}
+.indual label{
+    margin-left:13px;
+    font-size:18px;
+    top:30px;
+}
+.indual-big-box{
+        border:1px solid #dddddd ;
+        width:1100px;
+        margin:0 auto;
+        padding:0 30px;
+        box-sizing: border-box;
+        padding-bottom: 30px;  
+        z-index:auto;
+        outline-color:#169be8;
+        overflow: hidden;
+}
+.indual-big-box:hover{
+    border:1px solid #169be8 !important;
+}
+.indualDown{
+   height:375px;
+   transition: height 1s;
+}
+.indual-son{
+    height:57px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.indual-son .indual-left{
+    width: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.indual-son .indual-left .indual-img{
+    width: 25px;
+    height: 25px;
+}
+.indual-son .indual-left .indual-title{
+    font-size: 16px;
+    margin-left: 10px;
+}
+/* 支付宝二维码 */
+.ind-inner{
+    padding-bottom: 20px;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ind-inner .ind-ma{
+    font-size:12px;
+    /* margin-left:80px; */
+}
+.ind-pan{
+    display: block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #888;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+}
+.ind-inner .ind-time{
+    font-size:12px;
+}
+.ind-img{
+    display: flex;
+    justify-content: space-between;
+}
+.ind-ptbox{
+    width:233px;
+    height:232px;
+    border: 1px solid #cccccc;
+    
+}
+.ind-photo{
+    width:210px;
+    height:210px;
+    margin:10px 10px 10px 10px;
+}
+.ind-handle{
+    width: 100%;
+    height: 100%;
+   margin-left: 30px;
+   
+}
+.ind-handle p{
+    font-size: 16px;
+    color: #169be8;
+    padding-bottom:20px;
+}
+.ind-handle .ind-list .ind-item{
+    line-height: 30px;
+}
+.ind-item label{
+    font-size:12px;
+    color: #169be8;
+}
+.ind-item span{
+    font-size:14px;
+    margin-left: 5px;
+}
+.ind-left{
+    width: 23px;
+    height:23px;
+    font-size: 26px;
+    color: #169be8;
+    vertical-align:middle;
+}
+/* 银联聚合码 */
+.union-big-box{
+    border: 1px solid #dddddd;
+    width:1100px;
+    margin-top:20px;
+    margin-left: 50px;
+    padding:0 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;   
+    z-index:auto;
+    outline-color:#169be8;
+    overflow: hidden;
+}
+.union-big-box:hover{
+    border:1px solid #169be8 !important;
+}
+.union{
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.unionDown{
+    height:375px;
+    transition: height 1s;
+}
+.union .union-left {
+    width: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.union .union-left .union-img{
+    width:25px;
+    height:25px;
+}
+.union-title{
+    font-size:16px;
+    margin-left: 10px;
+}
+.union-left img{
+    width:25px;
+    height:25px;
+}
+/* 银联二维码 */
+.union-inner{
+    padding-bottom: 20px;
+    margin-left: -80px;
+    padding-top: 18px;
+}
+.union-inner span{
+    font-size:16px;
+}
+.union-img{
+    width:230px;
+    height:224px;
+}
+.union-photo{
+    width:260px;
+    height:260px;
+    background:#e0e0e0;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.union-handle{
+    margin-left:340px;
+    margin-top: -200px;
+}
+.union-handle p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #169be8;
+    margin: 0px 0px -10px 40px;
+}
+.union-item{
+    line-height: 42px;
+}
+.union-item label{
+    font-size:12px;
+    color: #169be8;
+}
+.union-item span{
+    font-size:14px;
+    margin-left: 5px;
+}
+.union-left{
+    width: 30px;
+    height:30px;
+    font-size: 26px;
+    vertical-align:middle;
+}
+/* 个人网银 */
+.silver-wrap{
+    border: 1px solid #dddddd;
+    width: 1100px;
+    /* height: 480px; */
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    /*z-index:auto;*/
+    outline-color:#169be8;
+    overflow: hidden;
+}
+.silver-wrap:hover{
+    border: 1px solid #169be8
+}
+
+.silverUp{
+    height:57px;
+    transition:height 1s;
+}
+.silverDown{
+    height:480px;
+    transition: height 1s;
+}
+.silver{
+    height:57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.silver .silver-left {
+    width: 162px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.silver .silver-left .silver-image{
+    width:25px;
+    height:25px;
+}
+.silver .silver-left .title{
+    font-size:16px;
+    margin-left: 10px;
+}
+.silver-dole{
+    justify-content: flex-start;
+}
+/* 显示隐藏 */
+.click{
+    position: relative;
+    top:12px;
+}
+.click li{
+    list-style: none;
+}
+.click .spdcard{
+    display:block;
+    width:1px;
+    height:13px;
+    background-color:#6e6e6e;
+    margin:4px 10px 0 10px;
+    float: left;
+
+}
+.headline1{
+    width:1040px;
+    height:194px; 
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding-top:10px;
+}
+.silver-main .reveal{
+    font-size:14px;
+    border: none;
+    background-color: transparent;
+}
+.silver-main .reveal2 {
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+.silver-main .reveal:hover{
+    color:#169be8;
+}
+/* 信用卡hover */
+.active{
+    color:#169be8;
+}
+/*银行列表*/
+.silver-main ul{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    padding: 4px 0 20px;
+    margin: 0;
+  }
+  .silver-item li{
+      width: 200px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+  }
+  .silver-item {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    z-index: 0;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+  .silver-img{
+    height: 22px;
+    float: left;
+    margin-top: 8px;
+    display: flex;
+    justify-content:center;
+  }
+  .silver-item:nth-of-type(5),
+  .silver-item:nth-of-type(10),
+  .silver-item:nth-of-type(15),
+  .silver-item:nth-of-type(20){
+      margin-right:0
+  }
+  .com-tips{
+      width:160px;
+      height:40px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 14px;
+      background-color: #169be8;
+      color: #fff;
+      border-style: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  /* 表格 */
+.com-btn{
+    padding-bottom: 42px;
+}  
+.com-limit{
+    width: 984px;
+    height:31px;
+    text-align: right;
+    border-collapse: collapse;
+    margin-top: 30px;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.com-limit td{
+    line-height:27px;
+    font-size:12px;
+    width:138px;
+    color: #acacac;
+}
+
+
+/* 快捷支付 */
+.quick-wrap{
+    border: 1px solid #dddddd;
+    width: 1100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    z-index:auto;
+    outline-color:#169be8;
+    overflow: hidden;
+}
+.quick-wrap:hover{
+    border: 1px solid #169be8;
+}
+.quickDown{
+    height:649px;
+    transition: height 1s;
+}
+.quickUp{
+    height:57px;
+    transition:height 1s;
+}
+.quick{
+    height:57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quick .quick-left {
+    width: 162px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.quick .quick-left .quick-img{
+    width:25px;
+    height:25px;
+}
+.quick .quick-left .title{
+    font-size:16px;
+    margin-left: 10px;
+}
+.quick-dole{
+    justify-content: flex-start;
+}
+/* 头部结束 */
+/* 卡号 */
+.bind-card{
+    line-height: 50px;
+    top:4px;
+    left:84px;
+    position: relative;
+}
+.ipt-item{
+    width: 100%;
+    float: left;
+}
+.ipt-lab{
+    width: 100px;
+    line-height: 50px;
+    text-align: right;
+    float: left;
+}
+.ipt-bank-add{
+    flex-direction: row-reverse;
+}
+.form_input{
+    width: 242px;
+    height: 35px;
+    line-height: 33px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+}
+.sav{
+    margin-top: 8px;
+    padding-bottom: 47px;
+}
+.sav-btn{
+    width:92px;
+    height:35px;
+    background:none;
+    text-align: center;
+    border: 1px solid #169be8;
+    color: #169be8;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.stat{
+   display: flex;
+   flex-direction:row;
+    position: relative;
+    left:-280px;
+    top:12px;
+    font-size:14px;
+    color: #ff6666;
+}
+.stat .stat-img{
+    width:18px;
+    height:18px;
+}
+.information{
+    position: relative;
+    top:40px;
+}
+/* 验证码按钮 */
+.sav .auth{
+    width:90px;
+    height:35px;
+    background:none;
+    text-align: center;
+    border: 1px solid #169be8;
+    color: #169be8;
+    margin-left: 10px;
+}
+.ipt-txt-yzm {
+    width: 142px;
+    height: 35px;
+    line-height: 33px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+}
+
+.ipt-info-l {
+    color: #488fd7;
+    cursor: pointer;
+    position: relative;
+    left: -245px;
+    top: 27px;
+}
+.judge-control{
+    width:202px;
+    height:72px;
+    float: left;
+    padding-top:82px;
+    justify-content:center;
+    margin-left: 50px;
+    /* color: #eeeeee; */
+}
+.judge-control .mate{
+    width:204px;
+    height:38px;
+    border:none !important;
+    font-size:14px;
+    color: #999999;
+}
+.agre{
+    margin-top:10px;
+}
+.agre a{
+    color: #488fd7;
+    text-decoration:none;
+}
+.quick-site{
+    padding-left: 32px;
+}
+.footercopyright{
+    width:100%;
+    max-width:1920px;
+    min-width: 1200px;
+    height:138px;
+    color: #999999;
+    text-align: center;
+    line-height:160px;
+    font-size:16px;
+}

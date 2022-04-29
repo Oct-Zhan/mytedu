@@ -1,0 +1,192 @@
+/* banner */
+.row{
+    max-width: 1920px;
+    min-height:640px;
+    height:640px;
+    margin: 0 auto;
+    background-image: url(../img/banner02.png);
+    background-position: center top;
+    background-size: cover;
+}
+.aui-banner-main{
+    width:1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.aui-banner-box{
+    width:330px;
+    height:48px;
+    position: relative;
+    top:500px;
+}
+.aui-banner-button a {
+    width:168px;
+    height:48px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #2a64fd;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.aui-banner-button a:hover {
+    color: #fff;
+    border-color: #3981ff;
+    background-color: #3981ff;
+}
+
+/* 公司概况 */
+.solu-box{
+	max-width:1920px;
+	min-height: 726px;
+	height:640px;
+	margin:0 auto;
+	background-image: url(../img/bg02.png);
+	background-position: center top;
+    background-size: cover;
+}
+.solu {
+	width:1200px;
+	height: 726px;
+	margin: 0 auto;
+	
+}
+.solu-text{
+	width: 580px;
+	height: 478px;
+	position: relative;
+	top:112px;
+	left:47%;
+}
+.solu-text .solu-title{
+	font-size: 32px;
+	font-weight: bold;
+	color: #121212;
+}
+.solu-p{
+	height: 450px;
+	display: table;
+}
+.solu-p p{
+	display: table-cell;
+	vertical-align:middle;
+	text-align:justify;/* 文字两端对齐 */
+	line-height:35px;
+	font-size: 14px;
+}
+
+.conter-box{
+	width:100%;
+	height: 260px;
+	background-image: url(../img/text.png);
+}
+
+.conter-sim{
+	padding-top:46px;
+}
+
+.conter{
+	width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conter span{
+	width: 1px;
+    height: 130px;
+    background-color: rgb(207, 207, 207);
+}
+
+/* 内容 */
+.about-box{
+	width: 1200px;
+	margin:  0 auto;
+	text-align: center;
+	color: #121212;
+}
+.about{
+	margin-top:110px;
+	padding-bottom:100px;
+}
+.about span{
+	font-size: 32px;
+	font-weight: bold;
+}
+.about .abouttext{
+	display: table-cell;
+	vertical-align:middle;
+	text-align:center;
+	line-height:35px;
+	font-size: 14px;
+	padding: 56px 90px 56px 90px;
+}
+.about-main1{
+	width: 1200px;
+	height: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+.about-nav{
+	width: 789px;
+	height: 372px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.about-nav span{
+	font-size: 24px;
+	margin: 30px 0px 30px 5px;
+}
+.about-nav p{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 5px;
+	line-height:30px;
+}
+.about-nav2{
+	width:380px ;
+	height: 372px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.about-nav2 span{
+	font-size: 24px;
+	margin: 30px 0px 30px 5px;
+}
+.about-nav2 p{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 5px;
+	line-height:30px;
+}
+
+.about-main2{
+	width: 1200px;
+	height: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+.about-titl{
+	width: 380px;
+	height: 372px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.about-titl span{
+	font-size: 24px;
+	margin: 30px 0px 30px 5px;
+}
+.about-titl p{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 5px;
+	line-height: 30px;
+}
+

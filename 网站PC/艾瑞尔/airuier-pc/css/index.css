@@ -1,0 +1,268 @@
+.module-wrap>.title-box,
+.case-box .case-list,
+.case-box .case-list .case-item,
+.company-info-box .company-text-box .text-box,
+.company-info-box .icon-text-box .icon-item,
+.client-case,
+.client-case .text-box,
+.strength-list .strength-item .text-box{
+    display: flex;
+    flex-direction: column;
+}
+.module-wrap>.more-btn-box,
+.case-box .case-list .case-item .text-box,
+.company-info-box .company-text-box,
+.company-info-box .icon-text-box,
+.client-case-box .client-case-list,
+.strength-list .strength-item{
+    display: flex;
+    align-items: center;
+}
+.module-wrap>.title-box{
+    align-items: center;
+    padding: 80px 0 50px;
+}
+.module-wrap>.title-box .title{
+    font-size: 36px;
+    color: #333333;
+}
+.module-wrap>.title-box .subtitle{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 4px;
+}
+.module-wrap>.more-btn-box{
+    padding: 50px 0 90px;
+    justify-content: center;
+}
+.module-wrap>.more-btn-box .more-btn{
+    height: 39px;
+    padding: 0 35px;
+    border: 1px solid #DFDFDF;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.module-wrap>.more-btn-box .more-btn:hover{
+    border: 1px solid #0078FF;
+    color: #0078FF;
+    transition: all .2s;
+}
+.banner-box{
+    height: 642px;
+    background-image: url('../images/index/banner.png');
+    background-size:cover;
+    background-position: center top;
+}
+.banner-box .module-wrap{
+    padding-top: 72px;
+    position: relative;
+}
+.banner-box .module-wrap button{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    width: 168px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #2A64FD;
+}
+.case-box .case-list{
+    height: 580px;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.case-box .case-list .case-item{
+    margin-right: 20px;
+    width: 376px;
+    cursor: pointer;
+}
+.case-box .case-list .case-item:nth-of-type(3n){
+    margin-right: 0;
+}
+.case-box .case-list .case-item>img{
+    width: 376px;
+    height: 209px;
+}
+.case-box .case-list .case-item .text-box{
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 12px;
+    height: 66px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.case-box .case-list .case-item .text-box .text{
+    font-size: 16px;
+    color: #666666;
+    max-width: 206px;
+}
+.company-info-box{
+    height: 805px;
+    background-image: url('../images/index/banner_2.png');
+    background-size:cover;
+    background-position: center top;
+}
+.company-info-box .module-wrap>.title-box .title{
+    color: #ffffff;
+}
+.company-info-box .module-wrap>.title-box .subtitle{
+    color: rgba(255, 255, 255, .4);
+}
+.company-info-box .company-text-box{
+   width: 100%;
+   height: 296px;
+   background-color: #ffffff;
+   padding: 40px 40px 40px 55px;
+   justify-content: space-between;
+   margin-top: 7px;
+}
+.company-info-box .company-text-box>img{
+    width: 411px;
+    height: 216px;
+}
+.company-info-box .company-text-box .text-box{
+   margin-right: 43px;
+   height: 216px;
+   justify-content: space-between;
+}
+.company-info-box .company-text-box .text-box .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.company-info-box .company-text-box .text-box .text{
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
+.company-info-box .company-text-box .text-box button{
+    border-radius: 2px;
+    background-color: #0078FF;
+    font-size: 14px;
+    color: #ffffff;
+    width: 124px;
+    height: 39px;
+}
+.company-info-box .icon-text-box{
+    justify-content: space-between;
+    margin: 70px 0 68px;
+}
+.company-info-box .icon-text-box .icon-item{
+     justify-content: flex-end;
+     align-items: center;
+     height: 170px;
+     padding: 0 16px;
+     position: relative;
+}
+.company-info-box .icon-text-box .icon-item::after{
+    content: "";
+    width: 1px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, .3);
+    position: absolute;
+    top: 7px;
+    right: -66px;
+}
+.company-info-box .icon-text-box .icon-item:nth-of-type(4)::after{
+    display: none;
+}
+.company-info-box .icon-text-box .icon-item .text1{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 0 13px;
+    font-weight: bold;
+}
+.company-info-box .icon-text-box .icon-item .text2{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    line-height: 25px;
+}
+.client-case-box{
+    height: 868px;
+}
+.client-case-box .client-case-list{
+   justify-content: space-between;
+}
+.client-case{
+   width: 382px;
+   height: 490px;
+   border: 1px solid #F2F2F2;
+   align-items: center;
+   padding: 8px 0 0;
+   cursor: pointer;
+}
+.client-case>img{
+    width: 362px;
+    height: 202px;
+}
+.client-case .text-box{
+    width: 362px;
+    padding: 28px 20px;
+}
+.client-case .text-box .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+.client-case .text-box .subtitle{
+    font-size: 16px;
+    color: #0078FF;
+    margin: 17px 0 5px;
+}
+.client-case .text-box .text{
+    font-size: 14px;
+    color: #999999;
+    line-height: 25px;
+    height: 100px;
+}
+.client-case .text-box>img{
+    width: 29px;
+    height: 28px;
+    margin-top: 24px;
+}
+.strength-box{
+    height: 578px;
+    background-image: url('../images/index/banner_3.png');
+    background-size:cover;
+    background-position: center top;
+}
+.strength-list{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0 16px;
+}
+.strength-list .strength-item{
+    width: 376px;
+    height: 120px;
+    background-color: #ffffff;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.strength-list .strength-item>img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.strength-list .strength-item .text-box{
+    height: 52px;
+    justify-content: space-between;
+}
+.strength-list .strength-item .text-box .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.strength-list .strength-item .text-box  .text{
+    font-size: 14px;
+    color: #666666;
+}

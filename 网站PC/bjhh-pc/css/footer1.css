@@ -1,0 +1,195 @@
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#footer .global-container {
+  width: 100%;
+}
+
+#footer .footer-box1 {
+  min-height: 195px;
+  background-color: #F4F4F6;
+}
+
+#footer .footer-box1 .global-content {
+  padding: 54px 0 35px;
+}
+
+#footer .footer-box1 .global-content .footer-tab-box {
+  margin-bottom: 15px;
+}
+
+#footer .footer-box1 .global-content .footer-tab-box span {
+  padding: 0 15px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #E7E8EA;
+  color: #666;
+  font-size: 14px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+#footer .footer-box1 .global-content .footer-tab-box .active {
+  color: #fff;
+  background-color: #B1B1B1;
+}
+
+#footer .footer-box1 .global-content .footer-company-box .footer-company-text {
+  display: none;
+}
+
+#footer .footer-box1 .global-content .footer-company-box .footer-company-text a {
+  margin-right: 10px;
+  color: #A6A6A6;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#footer .footer-box1 .global-content .footer-company-box .footer-company-text1 {
+  display: block;
+}
+
+#footer .footer-box2 {
+  height: 468px;
+  background-image: url("../images//footer1/bg.png");
+  background-position: center top;
+  background-size: cover;
+}
+
+#footer .footer-box2 .global-content {
+  padding-top: 62px;
+}
+
+#footer .footer-box2 .global-content .bot-main {
+  margin-bottom: 70px;
+  overflow: hidden;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-logo {
+  float: left;
+  margin: 6px 68px 0 0;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col {
+  vertical-align: top;
+  line-height: 35px;
+  float: left;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col p:first-child {
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col p:nth-child(2) {
+  font-size: 25px;
+  color: #fff;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col p:last-child {
+  font-size: 14px;
+  color: #8a8f94;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col a {
+  display: block;
+  color: #8a8f94;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col a:hover {
+  color: #DE0010;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col1 {
+  width: 160px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col2 {
+  width: 135px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col3 {
+  width: 140px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col4 {
+  width: 130px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-col5 {
+  width: 155px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-code {
+  float: right;
+  text-align: center;
+  padding-top: 6px;
+}
+
+#footer .footer-box2 .global-content .bot-main .bot-code p {
+  color: #fff;
+  line-height: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer .footer-box2 .global-content .bot-cont {
+  font-size: 12px;
+  color: #8a8f94;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-l {
+  float: left;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-l p a {
+  color: #8a8f94;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-l p a:hover {
+  color: #DE0010;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-l p span {
+  padding: 0 4px;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-l .footer-text2 {
+  display: none;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-r {
+  float: right;
+  vertical-align: middle;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-r a {
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+#footer .footer-box2 .global-content .bot-cont .bot-r a:last-of-type {
+  margin-right: 0;
+}
+/*# sourceMappingURL=footer1.css.map */

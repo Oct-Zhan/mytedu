@@ -1,0 +1,64 @@
+#footer .footer-box1 {
+  background-color: #FFFFFF;
+}
+
+#footer .footer-box1 .global-content {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+
+#footer .footer-box1 .global-content .text {
+  display: inline-block;
+  padding: 0 16px;
+  position: relative;
+  font-size: 12px;
+  color: #999999;
+}
+
+#footer .footer-box1 .global-content .text:hover {
+  color: #e30113;
+}
+
+#footer .footer-box1 .global-content .text::after {
+  content: '';
+  width: 1px;
+  height: 8px;
+  background-color: #CCCCCC;
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 0;
+}
+
+#footer .footer-box1 .global-content .text:last-of-type::after {
+  display: none;
+}
+
+#footer .footer-box2 {
+  height: 59px;
+  background-color: #F7F7F7;
+}
+
+#footer .footer-box2 .global-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  color: #999999;
+}
+
+#footer .footer-box2 .global-content .text2 {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=footer2.css.map */

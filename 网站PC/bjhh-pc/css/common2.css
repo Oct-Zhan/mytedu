@@ -1,0 +1,162 @@
+/*重置css*/
+p,
+dl,
+dd,
+dt,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+html {
+    margin: 0 auto;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+input {
+    border: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+a {
+    color: #333;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+/*取消长按时的系统默认事件--ios*/
+/* body, img {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-webkit-touch-callout: none
+} */
+.clear:after {
+    clear: both;
+    content: "​";
+    display: block;
+    height: 0;
+}
+
+.clear {
+    *zoom: 1
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right !important;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.light {
+    font-family: 'PingFangLight' !important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.none {
+    display: none !important;
+}
+
+.img-none {
+    display: none;
+}
+textarea,
+input,
+select {
+    outline: 0;
+    resize: none;
+}
+
+@font-face {
+    font-family: PingFangLight;
+    src: url('../font/PingFangLight.ttf');
+}
+
+@font-face {
+    font-family: PingFangRegular;
+    src: url('../font/PingFangRegular.ttf');
+}
+
+@font-face {
+    font-family: PingFangHeavy;
+    src: url('../font/PingFangHeavy.ttf');
+}
+
+@font-face {
+    font-family: PingFangMedium;
+    src: url('../font/PingFangMedium.ttf');
+}
+
+@font-face {
+    font-family: DIN1451EF-EngAlt;
+    src: url('../font/DIN1451EF-EngAlt.otf');
+}
+
+
+
+

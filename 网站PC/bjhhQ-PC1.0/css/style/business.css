@@ -1,0 +1,294 @@
+.banner-box {
+    height: 520px;
+    background-image: url("../../images/college/banner.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+.banner-box .module-wrap {
+    height: 100%;
+    padding-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-box .text-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.banner-box .text-box .label {
+    width: 86px;
+    height: 21px;
+    line-height: 21px;
+    border-radius: 30px;
+    background-color: #0AE483;
+    color: #343AC9;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 9px;
+}
+
+.banner-box .text-box .text {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.banner-box .text2 {
+    display: flex;
+    align-items: center;
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.banner-box .text2 span {
+    color: #09E583;
+}
+
+.banner-box .module-wrap>.text {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.banner-box .text3 {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 35px;
+}
+
+.banner-box button {
+    width: 172px;
+    height: 50px;
+    background-color: #01CE73;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.banner-box .time {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 22px;
+}
+
+.tab-box {
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.tab-box-float {
+    position: fixed;
+    top: 112px;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px -5px rgba(212, 212, 221, 0.4);
+}
+
+.tab-box .module-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tab-box .tab {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #333333;
+    height: 100%;
+    cursor: pointer;
+}
+
+.tab-box .tab-cur {
+    color: #3664ff;
+    position: relative;
+}
+
+.tab-box .tab-cur::after {
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: #3664ff;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 75px);
+}
+
+.list {
+    background-color: #ffffff;
+}
+
+.list>.module-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 50px;
+}
+
+.list-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.list-box .item {
+    width: 386px;
+    height: 384px;
+    margin: 0 20px 40px 0;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    cursor: pointer;
+}
+
+.list-box .item:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.list-box .item .text1-box {
+    width: 100%;
+    height: 214px;
+    display: flex;
+    position: relative;
+}
+
+.list-box .item .text1-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.list-box .item .text1-box .text1-c {
+    height: 100%;
+    width: 100%;
+    padding-left: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.list-box .item .text1-box .text1-c .title {
+    line-height: 35px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.list-box .item .text1-box .text1-c .wire {
+    width: 200px;
+    height: 1px;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+.list-box .item .text1-box .text1-c .text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .84);
+    letter-spacing: 3.3px;
+}
+
+.list-box .item .text1-box .text1-cur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.list-box .item .text1-box .text1-cur button {
+    width: 142px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #3664FF;
+    color: #ffffff;
+}
+
+.list-box .item .text2-box {
+    height: 168px;
+    padding: 22px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.list-box .item .text2-box .title {
+    font-size: 22px;
+    line-height: 35px;
+    color: #333333;
+}
+
+.list-box .item .text2-box .text-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-box .item .text2-box .text-b .price {
+    font-size: 20px;
+    color: #FF452D;
+}
+
+.list-box .item .text2-box .text-b .num {
+    font-size: 14px;
+    color: #999999;
+}
+
+.list-box .item:hover {
+    box-shadow: 0 0 10px 2px #F5F5F6;
+}
+
+.list-box .item:hover .text1-cur {
+    display: flex;
+}
+
+.more-btn {
+    width: 172px;
+    height: 50px;
+    border: 1px solid #3664FF;
+    font-size: 18px;
+    color: #3664FF;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 2px;
+    margin: 10px 0 40px;
+}
+
+.list2,
+.list3 {
+    display: none;
+}
+
+.float-box .module-wrap>.title-box .title {
+    padding: 41px 0 8px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.float-box .module-wrap>.title-box .title .num {
+    font-size: 42px;
+    margin-top: -9px;
+}
+
+.float-box .module-wrap>.title-box .subtitle {
+    font-size: 16px;
+    color: #b8c7ff;
+    text-align: center;
+}

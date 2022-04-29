@@ -1,0 +1,36 @@
+.zx-col-img{
+  background: url('../images/zxgl/img04.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gl01-col-img{
+  background: url('../images/zxgl/gl-02.jpg') no-repeat;
+  background-position: center;
+  background: cover;
+}
+
+.pro-col-img{
+  background: url('../images/zxgl/pro.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gl-col-img{
+  background: url('../images/zxgl/gl-04.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.common-video-img{
+  background: url('../images/zxgl/zxgl-pic-01.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gl-nav-wrap1{
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+

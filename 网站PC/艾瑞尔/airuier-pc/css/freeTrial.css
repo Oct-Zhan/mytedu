@@ -1,0 +1,98 @@
+.free-box{
+    width: 100%;
+    height: 391px;
+    background-image: url("../images/freeTrial/bg.png");
+    background-size: cover;
+    background-position: center top;
+}
+.free-box .module-wrap{
+    position: relative;
+}
+.free-box .content{
+    position: absolute;
+    top: 152px;
+    left: 0;
+    height: 730px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.free-box .content .title{
+    font-size: 36px;
+    color: #ffffff;
+}
+.free-box  .form-box{
+    width: 100%;
+    height: 625px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px 1px rgba(204, 207, 212, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 119px 0 92px;
+}
+.free-box .form-box>img{
+    width: 503px;
+    height: 374px;
+    margin-top: 47px;
+}
+.free-box .form{
+    height: 421px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 11px 0;
+}
+.free-box .form .title{
+    font-size: 16px;
+    color: #666666;
+    margin: 20px 0 22px;
+}
+.free-box .form  .input-box{
+    display: flex;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 12px;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+.free-box .form  .input-box .icon-box{
+    width: 49px;
+    height: 53px;
+    border-right: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FBFF;
+}
+.free-box .form  .input-box input{
+    flex: 1;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.free-box .form .verification-code button{
+    width: 138px;
+    font-size: 16px;
+    color: #0078FF;
+    background-color: transparent;
+}
+.free-box .form .verification-code input{
+    width: 201px;
+}
+.free-box .form>button{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    background-color: #0078FF;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0 3px 8px 2px #C7E1FF;
+    margin-top: 18px;
+}
+.white-bg-box{
+    background-color: #F9FBFF;
+    height: 615px;
+}

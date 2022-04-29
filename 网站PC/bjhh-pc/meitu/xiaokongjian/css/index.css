@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft Yahei';
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#header-page{
+    height: 94px;
+}
+
+.box {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.box-container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.box-container>.title {
+    width: 1199px;
+    height: 49px;
+}
+
+.box1 {
+    background: url('../images/banner.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1114px;
+}
+
+.box1 .box1-container {
+    margin: 0 auto ;
+    position: relative;
+}
+
+.top-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../images/top-img.png');
+    background-size: 100% 100%;
+    width: 119px;
+    height: 119px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.top-box .text {
+    color: white;
+}
+
+.top-box .text1 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.top-box .text2 {
+    font-size: 24px;
+}
+
+.box2 {
+    background: url('../images/box2-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1001px;
+}
+
+.box2-container>.title {
+    margin: 100px auto 46px;
+}
+
+.box2-container .tap-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2-container .tap-box div {
+    width: 163px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #4C558D;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.box2-container .tap-box div:nth-of-type(2) {
+    margin: 0 30px;
+}
+
+.box2-container .tap-box div img {
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 6px;
+    display: none;
+}
+
+.cur2 {
+    background-color: #D5665B !important;
+}
+
+.cur2 img {
+    display: block !important;
+}
+.box2-container .img-text-box {
+    margin-top: 40px;
+    width: 100%;
+    height: 524px;
+    box-sizing: 100% 100%;
+    position: relative;
+}
+
+.box2-container .img-text-box1 {
+    background-image: url('../images/rational-img1.png');
+}
+
+.box2-container .img-text-box2 {
+    background-image: url('../images/rational-img2.png');
+}
+
+.box2-container .img-text-box3 {
+    background-image: url('../images/rational-img3.png');
+}
+
+.box2-container .img-text-box .text-box {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 396px;
+    height: 497px;
+    padding: 75px 46px 0 44px;
+}
+
+.box2-container .img-text-box .text-box .title {
+    font-size: 36px;
+    color: #6273AA;
+    font-weight: bold;
+}
+
+.box2-container .img-text-box .text-box .content-text {
+    font-size: 18px;
+    color: #333333;
+    line-height: 33px;
+    margin: 40px 0;
+}
+
+.box2-container .img-text-box .text-box .btn1-box {
+    margin-left: -10px;
+    background-image: url('../images/btn1.png');
+    background-size: 100% 100%;
+    width: 218px;
+    height: 68px;
+    position: relative;
+}
+
+.box2-container .img-text-box .text-box .btn1-box a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 4px;
+    left: 11px;
+}
+.box3 {
+    background: url('../images/box3-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1437px;
+}
+
+.box3-container>.title {
+    margin: 120px auto 85px;
+}
+
+.box3-container .content-box {
+    position: relative;
+    width: 100%;
+    height: 954px;
+}
+
+.box3-container .content-box .text-box {
+    width: 302px;
+    height: 378px;
+    padding: 65px 37px 0 30px;
+    position: absolute;
+}
+
+.box3-container .content-box .text-box .title {
+    font-size: 36px;
+    color: #6273AA;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.box3-container .content-box .text-box .content {
+    font-size: 18px;
+    color: #333333;
+    line-height: 33px;
+}
+
+.box3-container .content-box .text-box1 {
+    top: 0;
+    left: 282px;
+}
+
+.box3-container .content-box .text-box2 {
+    top: 0;
+    right: 4px;
+}
+
+.box3-container .content-box .text-box3 {
+    bottom: 0;
+    left: 282px;
+}
+
+.box3-container .content-box .text-box4 {
+    bottom: 0;
+    right: 4px;
+}
+
+.box4 {
+    background: url('../images/box4-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1060px;
+}
+
+.box4-container>.title {
+    margin: 105px auto 53px;
+}
+
+.box4-container .tap-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4-container .tap-box div {
+    width: 137px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    color: #B59F86;
+    font-size: 20px;
+    border: 1px solid #B59F86;
+    margin-right: 24px;
+}
+
+.box4-container .tap-box div:last-of-type {
+    margin: 0;
+}
+
+.box4-container .tap-box div img {
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 6px;
+    display: none;
+}
+
+.cur3 {
+    background-color: #D0A972 !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.cur3 img {
+    display: block !important;
+}
+
+.box4-container .img-text-box {
+    margin-top: 59px;
+    width: 100%;
+    height: 548px;
+    box-sizing: 100% 100%;
+    position: relative;
+}
+
+.box4-container .img-text-box1 {
+    background-image: url('../images/style-img1.png');
+}
+
+.box4-container .img-text-box2 {
+    background-image: url('../images/style-img2.png');
+}
+
+.box4-container .img-text-box3 {
+    background-image: url('../images/style-img3.png');
+}
+
+.box4-container .img-text-box4 {
+    background-image: url('../images/style-img4.png');
+}
+
+.box4-container .img-text-box5 {
+    background-image: url('../images/style-img5.png');
+}
+
+.box4-container .img-text-box6 {
+    background-image: url('../images/style-img6.png');
+}
+
+.box4-container .img-text-box .text-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 396px;
+    height: 532px;
+    padding: 110px 45px 0;
+}
+
+.box4-container .img-text-box .text-box .title {
+    font-size: 36px;
+    color: #A69070;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+
+.box4-container .img-text-box .text-box .content-text {
+    font-size: 18px;
+    color: #666666;
+    line-height: 33px;
+}
+
+.box4-container .img-text-box .text-box .btn1-box {
+    margin-left: -10px;
+    background-image: url('../images/btn1.png');
+    background-size: 100% 100%;
+    width: 218px;
+    height: 68px;
+    position: absolute;
+    bottom: 66px;
+    left: 45px;
+}
+
+.box4-container .img-text-box .text-box .btn1-box a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 4px;
+    left: 11px;
+}
+
+.box5 {
+    background: url('../images/box5-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 1157px;
+}
+.box5-container{
+    position: relative;
+}
+.box5-container>.title {
+    width: 100%;
+    height: 99px;
+    margin: 108px auto 0;
+
+}
+.box5-container .text-box{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 22px;
+    color: #7E6051;
+    width: 813px;
+    position: absolute;
+    top: 495px;
+    left: 194px;
+}
+.box5-container .text-box span{
+    color: #F25F42;
+}
+.box5-container .btn2-box{
+    margin-left: -10px;
+    width: 348px;
+    height: 79px;
+    background-image: url('../images/btn2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 167px;
+    left: 435px;
+}
+.box5-container .btn2-box a {
+    display: inline-block;
+    width: 330px;
+    height: 65px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 11px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .box-container {
+        width: 40rem;
+    }
+    .box-container>.title {
+        width: 39.966666rem;
+        height: 1.633333rem;
+    }
+    .box1 {
+        height: 37.133333rem;
+    }
+    .top-box {
+        right: 0;
+        width: 3.966666rem;
+        height: 3.966666rem;
+        padding-top: 0.833333rem;
+    }
+    .top-box .text1 {
+        font-size: 0.633333rem;
+        margin-bottom: 0.333333rem;
+    }
+    .top-box .text2 {
+        font-size: 0.8rem;
+    }
+    .box2 {
+        height: 33.366666rem;
+    }
+    .box2-container>.title {
+        margin: 3.3rem auto 1.5rem;
+    }
+    .box2-container .tap-box div {
+        width: 5.433333rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        border-radius: 0.166666rem;
+        font-size: 0.666666rem;
+    }
+    .box2-container .tap-box div:nth-of-type(2) {
+        margin: 0 1rem;
+    }
+    .box2-container .tap-box div img {
+        bottom: -0.166666rem;
+        left: calc(50% - 0.233333rem);
+        width: 0.466666rem;
+        height: 0.2rem;
+    }
+    .box2-container .img-text-box {
+        margin-top: 1.3rem;
+        height: 17.466666rem;
+        background-size: cover;
+    }
+    .box2-container .img-text-box .text-box {
+        top: 0.333333rem;
+        width: 13.2rem;
+        height: 16.566666rem;
+        padding: 2.5rem 1.533333rem 0 1.466666rem;
+    }
+    .box2-container .img-text-box .text-box .title {
+        font-size: 1.2rem;
+    }
+    .box2-container .img-text-box .text-box .content-text {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+        margin: 1.333333rem 0;
+    }
+    .box2-container .img-text-box .text-box .btn1-box {
+        margin-left: -0.333333rem;
+        width: 7.266666rem;
+        height: 2.266666rem;
+    }
+    .box2-container .img-text-box .text-box .btn1-box a {
+        width: 6.666666rem;
+        height: 1.666666rem;
+        border-radius: 0.666666rem;
+        top: 0.133333rem;
+        left: 0.366666rem;
+    }
+    .box3 {
+        height: 47.9rem;
+    }
+    .box3-container>.title {
+        margin: 4rem auto 2.75rem;
+    }
+    .box3-container .content-box {
+        height: 31.8rem;
+    }
+    .box3-container .content-box .text-box {
+        width: 10.066666rem;
+        height: 12.6rem;
+        padding: 2.166666rem 1.233333rem 0 1rem;
+    }
+    .box3-container .content-box .text-box .title {
+        font-size: 1.2rem;
+        margin-bottom: 1.333333rem;
+    }
+    .box3-container .content-box .text-box .content {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+    }
+    .box3-container .content-box .text-box1,
+    .box3-container .content-box .text-box3 {
+        left: 9.4rem;
+    }
+    .box3-container .content-box .text-box2,
+    .box3-container .content-box .text-box4 {
+        right: 0.133333rem;
+    }
+    .box4 {
+        height: 35.333333rem;
+    }
+    .box4-container>.title {
+        margin: 3.5rem auto 1.766666rem;
+    }
+    .box4-container .tap-box div {
+        width: 4.566666rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        border-radius: 0.166666rem;
+        font-size: 0.666666rem;
+        margin-right: 0.8rem;
+    }
+    .box4-container .tap-box div img {
+        bottom: -0.166666rem;
+        left: calc(50% - 0.233333rem);
+        width: 0.466666rem;
+        height: 0.2rem;
+    }
+    .box4-container .img-text-box {
+        margin-top: 1.8rem;
+        height: 18.266666rem;
+        background-size: cover;
+    }
+    .box4-container .img-text-box .text-box {
+        width: 13.2rem;
+        height: 17.733333rem;
+        padding: 3.666666rem 1.5rem 0;
+    }
+    .box4-container .img-text-box .text-box .title {
+        font-size: 1.2rem;
+        margin-bottom: 1.4rem;
+    }
+    .box4-container .img-text-box .text-box .content-text {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+    }
+    .box4-container .img-text-box .text-box .btn1-box {
+        margin-left: -0.333333rem;
+        width: 7.266666rem;
+        height: 2.266666rem;
+        bottom: 2.2rem;
+        left: 1.5rem;
+    }
+    .box4-container .img-text-box .text-box .btn1-box a {
+        width: 6.666666rem;
+        height: 1.666666rem;
+        border-radius: 0.666666rem;
+        top: 0.133333rem;
+        left: 0.366666rem;
+    }
+
+    .box5 {
+        height: 38.566666rem;
+    }
+    .box5-container>.title {
+        height: 3.3rem;
+        margin: 3.6rem auto 0;
+    }
+    .box5-container .text-box{
+        font-size: 0.733333rem;
+        width: 27.1rem;
+        top: 16.5rem;
+        left: 6.466666rem;
+    }
+    .box5-container .btn2-box{
+        margin-left: -0.333333rem;
+        width: 11.6rem;
+        height: 2.633333rem;
+        bottom: 5.566666rem;
+        left: 14.5rem;
+    }
+    .box5-container .btn2-box a {
+        width:10rem;
+        height: 2.166666rem;
+        border-radius: 1rem;
+        left: 0.366666rem;
+    }
+}

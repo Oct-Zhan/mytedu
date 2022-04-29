@@ -1,0 +1,117 @@
+.layui-this{
+	color:#0078ff;
+}
+
+.row {
+	max-width: 1920px;
+	min-height: 390px;
+	height: 390px;
+	margin: 0 auto;
+	background-image: url(../img/bg03.png);
+	background-position: center top;
+	background-size: cover;
+}
+
+.aui-banner-main {
+	width: 1920px;
+	height: 390px;
+}
+
+.aui-banner-button a {
+	width: 168px;
+	height: 48px;
+	text-align: center;
+	font-size: 32px;
+	color: #ffffff;
+	position: relative;
+	top: 160px;
+}
+
+/* 注册 */
+.table-box {
+	width:1200px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	top: -215px;
+}
+
+.table-text{
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 33px;
+}
+
+.table {
+	width: 1200px;
+	height: 629px;
+	border-radius: 8px;
+	background-color: white;
+	box-shadow: 0px 5px 5px #f4f4f4;
+	z-index: 899;
+	margin: 0 auto;
+
+}
+
+.table-cell {
+	width:965px;
+	margin: 0 auto;
+	padding-top: 104px;
+}
+
+.table-form {
+	width: 394px;
+	height: 386px;
+	float: right;
+}
+
+.table-form p {
+	padding-bottom: 10px;
+}
+
+.ipt-item {
+	width: 100%;
+	height: 54px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+.ipt-item .ipt-itemicon {
+	width: 50px;
+	height: 54px;
+	border: 1px solid #F4F4F4;
+	background-color: #f9fbff;
+}
+
+.ipt-itemicon img {
+	margin: 16px 0px 15px 15px;
+}
+
+.ipt-item .form_input {
+	width: 340px;
+	background: none;
+	outline: none;
+	border: 1px solid #F4F4F4;
+	padding-left: 20px;
+	color: #999999;
+	border-radius: 3px;
+}
+
+.table-form button {
+	width: 390px;
+	height: 58px;
+	margin-top: 30px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px #d3e8ff;
+	background-color: #0078ff;
+	color: white;
+}
+
+.nav-right {
+	margin: auto;
+	position: absolute;
+	top: 180px;
+	right: 0;
+}

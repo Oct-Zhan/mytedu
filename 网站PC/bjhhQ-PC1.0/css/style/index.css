@@ -1,0 +1,692 @@
+/* 首页样式 */
+
+
+/*------ banner列表开始 ------*/
+
+.free-box {
+    height: 100px;
+}
+
+.free-box .module-wrap {
+    height: 100%;
+    justify-content: space-between;
+}
+
+.free-box .module-wrap .item-box {
+    height: 100%;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.free-box .module-wrap .item-box .title-box {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.free-box .module-wrap .item-box .title-box img {
+    margin: 4px 0 0 15px;
+}
+
+.free-box .module-wrap .item-box .title-box .icon2 {
+    width: 21px;
+    height: 21px;
+    padding: 2.5px 2px;
+}
+
+.free-box .module-wrap .item-box .text {
+    font-size: 14px;
+    color: #999999;
+}
+
+.free-box .module-wrap .item-box:hover .title {
+    color: #3664FF;
+}
+
+.free-box .module-wrap .item-box .code-img {
+    position: absolute;
+    top: 43px;
+    right: -9px;
+    display: none;
+}
+
+
+/*------ banner列表结束 ------*/
+
+
+/*------ 打造数字装企-开始 ------*/
+
+.box1 {
+    height: 685px;
+    background-color: #f5f6fb;
+}
+
+.box .module-wrap>.title-box {
+    align-items: center;
+}
+
+.box .module-wrap>.title-box>.title {
+    font-size: 44px;
+    font-weight: bold;
+    color: #000000;
+    padding: 95px 0 24px;
+}
+
+.box .module-wrap>.title-box>.subtitle {
+    font-size: 16px;
+    color: #999999;
+}
+
+.box1 .item-box {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.box1 .item-box .item {
+    width: 389px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 .item-box .item .title-box {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.box1 .item-box .item .title-box>img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box1 .item-box .item .title-box .text-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.box1 .item-box .item .title-box .text-box {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.box1 .item-box .item .title-box .text-box .text {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.box1 .item-box .item .title-box .text-box .text img {
+    margin: 3px 0 0 5px;
+}
+
+.box1 .item-box .item .bot-box {
+    display: flex;
+    align-items: flex-start;
+    padding: 23px 25px 30px 25px;
+    background-color: #ffffff;
+    height: 180px;
+}
+
+.box1 .item-box .item .bot-box img {
+    margin-right: 20px;
+}
+
+.box1 .item-box .item .bot-box .text-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+}
+
+.box1 .item-box .item .bot-box .text-box .title {
+    font-size: 22px;
+    color: #333333;
+}
+
+.box1 .item-box .item .bot-box .text-box .subtitle {
+    font-size: 14px;
+    color: #999999;
+    margin: 10px 0 22px;
+}
+
+.box1 .item-box .item .bot-box .text-box button {
+    width: 152px;
+    height: 36px;
+    background-color: #3664FF;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.box1 .item-box .item-cur .title-box .text-box .title,
+.box1 .item-box .item-cur .title-box .text-box .text {
+    color: #ffffff;
+}
+
+
+/*------ 打造数字装企-结束 ------*/
+
+
+/*------ 选择保驾-开始 -------*/
+
+.box2 {
+    height: 445px;
+}
+
+.box2 .text-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.box2 .text-box .text-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 .text-box .text-item .num-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.box2 .text-box .text-item .num-box>span {
+    font-size: 60px;
+    color: #3664ff;
+}
+
+.box2 .text-box .text-item .num-box .text {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box2 .text-box .text-item .num-box .text span:first-of-type {
+    font-size: 42px;
+    color: #3664FF;
+    margin-bottom: -10px;
+}
+
+.box2 .text-box .text-item>.text {
+    font-size: 18px;
+    color: #666666;
+}
+
+
+/*------ 选择保驾-结束 -------*/
+
+
+/*------ 核心优势-开始 ------*/
+
+.box3 {
+    height: 700px;
+    background-image: url("../../images/index/box3_bg.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+.box3 .module-wrap>.title-box>.title,
+.box5 .module-wrap>.title-box>.title {
+    color: #ffffff;
+}
+
+.box3 .module-wrap>.title-box>.subtitle,
+.box5 .module-wrap>.title-box>.subtitle {
+    color: #adadad;
+}
+
+.box3 .icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.box3 .icon-box .icon-item {
+    width: 228px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-left: 26px;
+}
+
+.box3 .icon-box .icon-item img {
+    margin-right: 14px;
+}
+
+.box3 .icon-box .icon-item .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3 .icon-box .icon-item .text span:first-of-type {
+    margin-bottom: 4px;
+}
+
+
+/*------ 核心优势-结束 ------*/
+
+
+/*------ 解决方案-开始 ------*/
+
+.box4 {
+    height: 790px;
+    background-color: #f5f6fb;
+}
+
+.box4 .swiper-container {
+    height: 460px;
+    width: 1200px;
+    margin-top: 55px;
+}
+
+.box4 .swiper-container .swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.box4 .swiper-container .swiper-slide .item-box {
+    width: 386px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+.box4 .swiper-container .swiper-slide .item-box:hover {
+    box-shadow: 0 0 20px 2px #ebecf2;
+}
+
+.box4 .swiper-container .swiper-slide .item-box img {
+    width: 386px;
+    height: 217px;
+}
+
+.box4 .swiper-container .swiper-slide .item-box .text-box {
+    width: 100%;
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 30px 30px;
+}
+
+.box4 .swiper-container .swiper-slide .item-box .title {
+    font-size: 22px;
+    color: #051233;
+    margin-bottom: 14px;
+}
+
+.box4 .swiper-container .swiper-slide .item-box .text-box .text {
+    font-size: 14px;
+    color: #818799;
+    line-height: 24px;
+}
+
+.box4 .swiper-container .swiper-pagination-bullet,
+.box6 .swiper-pagination-bullet {
+    width: 50px;
+    height: 4px;
+    border-radius: 0;
+}
+
+
+/*------ 解决方案-结束 ------*/
+
+
+/*------ 智囊服务团队-开始 ------*/
+
+.box5 {
+    background: url("../../images/index/box5_bg.png");
+    background-size: cover;
+    background-position: center top;
+    height: 670px;
+}
+
+.box5 .icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.box5 .icon-item {
+    display: flex;
+    align-items: center;
+}
+
+.box5 .icon-item img {
+    margin-right: 30px;
+}
+
+.box5 .icon-item .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.box5 .icon-item .text-box .title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.box5 .icon-item .text-box .text {
+    font-size: 14px;
+}
+
+.box5 .icon-item:nth-of-type(2) {
+    margin: 0 50px;
+}
+
+.box5 .icon-item:nth-of-type(5) {
+    margin-left: 20px;
+}
+
+.box5 .icon-item:nth-of-type(4),
+.box5 .icon-item:nth-of-type(5),
+.box5 .icon-item:nth-of-type(6) {
+    margin-top: 85px;
+}
+
+
+/*------ 智囊服务团队-结束 ------*/
+
+
+/*------ 合作伙伴-开始 ------*/
+
+.box6 {
+    height: 1145px;
+    background-color: #ffffff;
+}
+
+.box6 .module-wrap>.title-box>.subtitle span {
+    color: #3664ff;
+}
+
+.box6 .swiper-container {
+    height: 360px;
+    width: 1200px;
+    box-shadow: 0 2px 15px 2px #f1f2f6;
+    margin-top: 65px;
+}
+
+.box6 .swiper-container .swiper-slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box6 .swiper-container .swiper-slide>img {
+    width: 460px;
+    height: 360px;
+}
+
+.box6 .swiper-container .swiper-slide .text-box {
+    width: 740px;
+    height: 360px;
+    background-color: #ffffff;
+    padding: 55px 0 70px 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box6 .swiper-container .swiper-slide .text-box .text1-box {
+    position: relative;
+    font-size: 22px;
+    color: #000000;
+    line-height: 42px;
+    margin-left: 4px;
+}
+
+.box6 .swiper-container .swiper-slide .text-box .text1-box img {
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+
+.box6 .swiper-container .swiper-slide .text-box .text2-box {
+    margin-left: 4px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    color: #000000;
+}
+
+.box6 .swiper-container .swiper-slide .text-box .text2-box span {
+    font-size: 14px;
+    color: #999999;
+}
+
+.box6 .swiper-pagination {
+    text-align: center;
+    width: 1200px;
+    position: static;
+    margin: 46px 0 80px;
+}
+
+.box6 .swiper-pagination-bullet {
+    margin: 0 4px;
+}
+
+
+/*------ 合作伙伴-结束 ------*/
+
+
+/* 放大成功经验-开始 */
+
+.float-box .module-wrap>.title-box .title {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 41px 0 8px;
+    font-weight: normal;
+    display: flex;
+}
+
+.float-box .module-wrap>.title-box .title .num {
+    font-size: 42px;
+    margin-top: -9px;
+}
+
+.float-box .module-wrap>.title-box .subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .6);
+}
+
+
+/* 侧边栏 */
+
+.asidepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 68px;
+    height: 206px;
+    position: fixed;
+    top: calc(50% - 103px);
+    right: 0;
+    z-index: 100;
+}
+
+.asidepage .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    background-color: #3664FF;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.asidepage .item img {
+    margin-bottom: 8px;
+}
+
+.asidepage .item:hover {
+    background-color: #01CE73;
+}
+
+.asidepage .text {
+    font-size: 12px;
+}
+
+
+/* 免费通话弹窗 */
+
+.free-phone-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 46, 68, 0.4);
+    display: none;
+}
+
+.free-phone-content {
+    width: 600px;
+    height: 497px;
+    background-color: #ffffff;
+    position: absolute;
+    top: calc(50% - 248.5px);
+    left: calc(50% - 300px);
+    padding: 75px 98px 70px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.free-phone-content .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.free-phone-content .subtitle {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.free-phone-content .subtitle span {
+    color: #3664FF;
+}
+
+.free-phone-content .input-box {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+}
+
+.free-phone-content .input-box input {
+    flex: 1;
+    font-size: 16px;
+    color: #333333;
+}
+
+.free-phone-content .input-box input::placeholder {
+    color: #999999;
+}
+
+.free-phone-content .input-box input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.free-phone-content .input-box input::-moz-placeholder {
+    color: #999999;
+}
+
+.free-phone-content .input-box input:-ms-input-placeholder {
+    color: #999999;
+}
+
+.free-phone-content .input-box .btn {
+    width: 110px;
+    line-height: 45px;
+    text-align: right;
+    color: #999999;
+    cursor: default;
+}
+
+.free-phone-content .input-box .btn2 {
+    text-decoration: underline;
+    color: #3664FF;
+    cursor: pointer;
+}
+
+.free-phone-content button {
+    height: 60px;
+    background-color: #3664FF;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.free-phone-content .icon-close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.success-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.success-content {
+    width: 154px;
+    height: 158px;
+    background-color: rgba(032, 043, 064, .85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    top: calc(50% - 77px);
+    left: calc(50% - 79px);
+}
+
+.success-content img {
+    margin-bottom: 16px;
+}

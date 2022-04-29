@@ -1,0 +1,25 @@
+.verify-wrap{
+    span{
+        border-bottom: 0;
+        margin-right: 0;
+    }
+}
+.des-apply{
+    .verify-wrap{
+        width: 237px;
+        margin-top: 15px;
+    }
+    .agreement-box{
+        width: 237px;
+        margin: 15px auto ;
+        .item:first-of-type{
+            span {
+                margin-right: 0;
+            }
+        }
+    }
+}
+.zxgs-info {
+    display: flex;
+    align-items: flex-end;
+}

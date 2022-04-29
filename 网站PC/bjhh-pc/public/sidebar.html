@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>侧边悬浮</title>
+</head>
+
+<body>
+
+    <div class="sidebar-box">
+        <img src="./images/reuse1/jisuanqi.gif" alt="" class="jisuanqi-gif">
+        <div class="btn-box">
+            <div class="btn-wrap btn-wrap1">
+                <div class="btn btn1">
+                    <span>合作咨询</span>
+                    <div class="text-box">
+                        <div class="title">商家合作咨询：</div>
+                        <a href="" class="text text1">合资咨询一</a>
+                        <a href="" class="text text1">合资咨询二</a>
+                        <a href="" class="text text1">合资咨询三</a>
+                        <div class="text text2">13666072442</div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <div class="btn btn2">
+                    <span>关注我们</span>
+                    <div class="text-box">
+                        <img src="../images/reuse1/pic_code.png" alt="" class="img1">
+                        <div class="text">关注保驾护航公众号</div>
+                        <img src="../images/reuse1/pic_code2.png" alt="" class="img2">
+                        <div class="text">关注保驾护航微博</div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <div class="btn btn3">
+                    <img src="./images/icon1/ico_next2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $(function () {
+        $('.sidebar-box .btn-wrap1').hover(function () {
+            $(this).find('.text-box').css('display', 'flex')
+        }, function () {
+            $(this).find('.text-box').hide()
+        })
+        /* 返回顶部 */
+        $('.sidebar-box .btn3').click(function(){
+            $('html,body').animate({scrollTop:0},300)
+        })
+        /* 计算器弹窗 */
+        $('.sidebar-box .jisuanqi-gif').click(function(){
+            $('.jisuanqi-mask-box').css('display','flex')
+        })
+        $('.jisuanqi-mask-box .mask-close').click(function(){
+            $('.jisuanqi-mask-box').addClass('close-jisuanqi-mask-box')
+            let t = setTimeout(function(){
+                $('.jisuanqi-mask-box').hide().removeClass('close-jisuanqi-mask-box')
+                clearTimeout(t)
+            },800)
+        })
+
+    })
+</script>
+
+</html>

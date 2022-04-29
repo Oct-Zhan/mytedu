@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 免费设计弹窗 */
+.mfsj-mask-box .mask-content {
+  width: 503px;
+  position: absolute;
+  top: calc(50% - 294.5px);
+  left: calc(50% - 251.5px);
+  background: #fcfcfc;
+  padding-bottom: 40px;
+}
+
+.mfsj-mask-box .mask-content .mask-banner-box {
+  width: 503px;
+  height: 125px;
+  position: relative;
+}
+
+.mfsj-mask-box .mask-content .mask-banner-box .mask-banner {
+  width: 100%;
+  height: 100%;
+}
+
+.mfsj-mask-box .mask-content .mask-banner-box .mask-close {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.mfsj-mask-box .mask-content .mask-form {
+  padding: 0 50px;
+}
+
+.mfsj-mask-box .mask-content .mask-form > div, .mfsj-mask-box .mask-content .mask-form input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.mfsj-mask-box .mask-content .mask-form .title {
+  font-size: 28px;
+  text-align: center;
+  padding: 25px 0;
+  margin-bottom: 0;
+}
+
+.mfsj-mask-box .mask-content .mask-form input {
+  display: inline-block;
+  width: 403px;
+  height: 43px;
+  border: 1px solid #e0e0e0;
+  text-indent: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel {
+  position: relative;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-result {
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  border: 1px solid #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-result span {
+  text-indent: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-result .city-san {
+  width: 29px;
+  height: 41px;
+  background: #fafafa url(../images/icon1/ico_down2.png) no-repeat center center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-option {
+  position: absolute;
+  left: 0;
+  top: 42px;
+  z-index: 50;
+  background: #fcfcfc;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  display: none;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-option::-webkit-scrollbar {
+  display: none;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-option p {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.mfsj-mask-box .mask-content .mask-form .mask-city-sel .city-sel-option p:hover {
+  background: #f4f4f4;
+  color: #666;
+}
+
+.mfsj-mask-box .mask-content .mask-form .btn {
+  height: 43px;
+  width: 100%;
+  line-height: 43px;
+  color: white;
+  background: #e30113;
+  font-size: 18px;
+}
+
+.mfsj-mask-box .mask-content .mask-form .btn:hover {
+  background: #b31523;
+}
+/*# sourceMappingURL=mask-mfsj.css.map */

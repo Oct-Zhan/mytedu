@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft Yahei';
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#header-page{
+    height: 94px;
+}
+.box {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.box-container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.box1 {
+    background: url('../images/img1.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 937px;
+}
+
+.box1 .box1-container {
+    margin: 0  auto ;
+    position: relative;
+}
+
+.top-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../images/top-img.png');
+    background-size: 100% 100%;
+    width: 119px;
+    height: 119px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.top-box .text {
+    color: white;
+}
+
+.top-box .text1 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.top-box .text2 {
+    font-size: 24px;
+}
+
+.box2{
+    background: url('../images/img2.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 726px;
+}
+.box2-container{
+    position: relative;
+}
+.box2 .box2-container>.title{
+    width: 429px;
+    height: 51px;
+    position: absolute;
+    top: 225px;
+    left: 100px;
+}
+.box2 .content{
+    font-size: 20px;
+    color: #333333;
+    position: absolute;
+    top: 325px;
+    left: 100px;
+    line-height: 36px;
+}
+.box2 .btn-box{
+    background: url('../images/btn1.png');
+    background-size: 100% 100%;
+    width: 214px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 471px;
+    left: 98px;
+    cursor: pointer;
+}
+.box3{
+    background: url('../images/img3.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height:1022px;
+    padding-top: 100px;
+}
+.box3 .box3-container>.title{
+    width: 888px;
+    height: 51px;
+    margin:0 auto ;
+    display: block;
+}
+.box3 .tap-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 932px;
+    margin: 60px auto 54px;
+}
+.box3 .tap-box .tap-item{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    background-image: url('../images/selected-no-1.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.box3 .tap-box .tap-item .num{
+    font-size: 34px;
+    margin: 30px 0 5px;
+}
+.cur2{
+    background-image: url('../images/selected-1.png') !important;
+}
+.box3 .swiper-container{
+   width: 100%;
+   height: 480px;
+   box-shadow: 0 0 20px 10px #5D7597;
+}
+.box3 .swiper-slide,.box5 .swiper-slide{
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 5px;
+}
+.box3 .swiper-slide1{
+    background-image: url('../images/study1.png');
+}
+.box3 .swiper-slide2{
+    background-image: url('../images/study2.png');
+}
+.box3 .swiper-slide3{
+    background-image: url('../images/study3.png');
+}
+.box3 .text-box,.box5 .text-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 90px 50px 0;
+    width: 432px;
+    height: 480px;
+}
+.box3 .text-box .title,.box5 .text-box .title{
+    font-size: 36px;
+    color: #526079;
+    margin-bottom: 15px;
+}
+.box3 .text-box .content,.box5 .text-box .content{
+    font-size: 20px;
+    color: #333333;
+    line-height: 40px;
+}
+.box3 .text-box  a,.box5 .text-box  a{
+    display: block;
+    width: 214px;
+    height: 50px;
+    background-image: url('../images/btn2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 88px;
+    left: 50px;
+}
+.box4{
+    background: url('../images/img4.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height:959px;
+    padding-top: 92px;
+}
+.box4 .box4-container{
+    position: relative;
+}
+.box4 .box4-container>.title{
+    width: 455px;
+    height: 122px;
+    display: block;
+    margin: 0 auto 60px;
+}
+.box4 .text-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4 .text-box>div{
+    width: 387px;
+    height: 550px;
+    padding: 60px 30px 0;
+}
+.box4 .text-box>div .title{
+    font-size: 34px;
+    color: #526079;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box4 .text-box>div .title span{
+    font-size: 26px;
+    margin-right: 15px;
+}
+.box4 .text-box>div  .content{
+    color: #333333;
+    font-size: 18px;
+    line-height: 35px;
+}
+.box4 a{
+    display: block;
+    width: 288px;
+    height: 64px;
+    position: absolute;
+    bottom: 50px;
+    left: 453px;
+    border-radius: 30px;
+}
+.box5{
+    background: url('../images/img5.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height:1009px;
+    padding-top: 125px;
+}
+.box5 .box5-container{
+    position: relative;
+}
+.box5 .box5-container>.title{
+    width: 546px;
+    height: 51px;
+    margin:0 auto ;
+    display: block;
+}
+.box5 .tap-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 941px;
+    margin: 70px auto 50px;
+}
+.box5 .tap-box .tap-item{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    background-image: url('../images/selected-no-2.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.box5 .tap-box .tap-item .num{
+    font-size: 34px;
+    margin: 30px 0 5px;
+}
+.cur3{
+    background-image: url('../images/selected-2.png') !important;
+}
+.box5 .swiper-container{
+   width: 100%;
+   height: 480px;
+}
+.box5 .swiper-slide1{
+    background-image: url('../images/style1.png');
+}
+.box5 .swiper-slide2{
+    background-image: url('../images/style2.png');
+}
+.box5 .swiper-slide3{
+    background-image: url('../images/style3.png');
+}
+.box5 .swiper-slide4{
+    background-image: url('../images/style4.png');
+}
+.box5 .text-box{
+    padding: 85px 50px 0;
+}
+.box5 .text-box .title{
+    font-size: 36px;
+    color: #725C51;
+    margin-bottom: 18px;
+}
+.box5 .text-box  a{
+    background-image: url('../images/btn3.png');
+}
+.box5 .block{
+    width: 100%;
+    height: 80px;
+    background-color:#D9C3BD;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .box-container {
+        width: 40rem;
+    }
+    .box1 {
+        height: 31.2rem;
+    }
+    .top-box {
+        right: 0;
+        width: 3.966666rem;
+        height: 3.966666rem;
+        padding-top: 0.833333rem;
+    }
+    .top-box .text1 {
+        font-size: 0.633333rem;
+        margin-bottom: 0.333333rem;
+    }
+    .top-box .text2 {
+        font-size: 0.8rem;
+    }
+    .box2{
+        height: 24.2rem;
+    }
+    .box2 .box2-container>.title{
+        width:14.3rem;
+        height: 1.7rem;
+        top: 7.5rem;
+        left: 3.333333rem;
+    }
+    .box2 .content{
+        font-size: 0.666666rem;
+        top: 10.833333rem;
+        left: 3.333333rem;
+        line-height: 1.2rem;
+    }
+    .box2 .btn-box{
+        width: 7.133333rem;
+        height: 1.666666rem;
+        top: 15.7rem;
+        left: 3.266666rem;
+    }
+    .box3{
+        height:34.066666rem;
+        padding-top: 3.333333rem;
+    }
+    .box3 .box3-container>.title{
+        width: 29.6rem;
+        height: 1.7rem;
+    }
+    .box3 .tap-box{
+        width: 31.066666rem;
+        margin: 2rem auto 1.8rem;
+    }
+    .box3 .tap-box .tap-item{
+        width: 5.333333rem;
+        height: 5.333333rem;
+        font-size: 0.866666rem;
+    }
+    .box3 .tap-box .tap-item .num{
+        font-size: 1.133333rem;
+        margin: 1rem 0 0.166666rem;
+    }
+    .box3 .swiper-container{
+       height:16rem;
+       box-shadow: 0 0 0.666666rem 0.333333rem #5D7597;
+    }
+    .box3 .swiper-slide,.box5 .swiper-slide{
+        border-radius: 0.166666rem;
+    }
+    .box3 .text-box,.box5 .text-box{
+        padding: 3rem 1.666666rem 0;
+        width: 14.4rem;
+        height: 16rem;
+    }
+    .box3 .text-box .title,.box5 .text-box .title{
+        font-size:1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .box3 .text-box .content,.box5 .text-box .content{
+        font-size: 0.666666rem;
+        line-height: 1.333333rem;
+    }
+    .box3 .text-box  a,.box5 .text-box  a{
+        width: 7.133333rem;
+        height: 1.666666rem;
+        bottom: 2.933333rem;
+        left: 1.666666rem;
+    }
+    .box4{
+        height:31.966666rem;
+        padding-top: 3.066666rem;
+    }
+    .box4 .box4-container>.title{
+        width: 15.166666rem;
+        height: 4.066666rem;
+        margin: 0 auto 2rem;
+    }
+    .box4 .text-box>div{
+        width: 12.9rem;
+        height: 18.333333rem;
+        padding: 2rem 1rem 0;
+    }
+    .box4 .text-box>div .title{
+        font-size: 1.133333rem;
+        margin-bottom: 0.666666rem;
+    }
+    .box4 .text-box>div .title span{
+        font-size: 0.866666rem;
+        margin-right: 0.5rem;
+    }
+    .box4 .text-box>div  .content{
+        font-size: 0.6rem;
+        line-height: 1.166666rem;
+    }
+    .box4 a{
+        width: 9.6rem;
+        height: 2.133333rem;
+        bottom: 1.666666rem;
+        left: 15.1rem;
+        border-radius: 1rem;
+    }
+    .box5{
+        height:33.633333rem;
+        padding-top: 4.166666rem;
+    }
+    .box5 .box5-container>.title{
+        width: 18.2rem;
+        height: 1.7rem;
+    }
+    .box5 .tap-box{
+        width: 31.366666rem;
+        margin: 2.333333rem auto 1.666666rem;
+    }
+    .box5 .tap-box .tap-item{
+        width: 5.333333rem;
+        height: 5.333333rem;
+        font-size: 0.866666rem;
+    }
+    .box5 .tap-box .tap-item .num{
+        font-size: 1.133333rem;
+        margin: 1rem 0 0.166666rem;
+    }
+    .box5 .swiper-container{
+       height: 16rem;
+    }
+    .box5 .text-box{
+        padding: 2.833333rem 1.666666rem 0;
+    }
+    .box5 .text-box .title{
+        font-size:1.2rem;
+        margin-bottom: 0.6rem;
+    }
+    .box5 .block{
+        height: 2.666666rem;
+    }
+}

@@ -1,0 +1,13 @@
+.img-mask-box .mask-content {
+  padding: 40px 40px 0 0;
+  position: relative;
+  display: inline-block;
+}
+
+.img-mask-box .mask-content .mask-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=mask-img.css.map */

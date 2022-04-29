@@ -1,0 +1,1002 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft Yahei';
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+#header-page{
+    height: 94px;
+}
+.banner{
+    background-image: url('../images/img_bg_1.png') ;
+    width: 100%;
+}
+.banner-container{
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-container .top-box{
+    text-align: center;
+    background-image: url('../images/img_top.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.banner-container .top-box .text{
+    color: white;
+}
+.box{
+    width: 100%;
+}
+.box-container{
+    height: 100%;
+    margin:  0 auto;
+    position: relative;
+}
+.box1{
+    background-image: url('../images/img_bg_2.png');
+}
+.box1-container .text-box{
+    position: absolute;
+}
+.box1-container .text-box>.text{
+    color: #333333;
+}
+.box1-container .text-box .bot .btn{
+    background-image: url('../images/img_btn_1.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+.box1-container .text-box .bot .btn .text{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1-container .text-box .bot{
+    display: flex;
+    justify-content: space-between;
+}
+.box1-container .text-box .bot .btn .text img{
+    vertical-align: middle;
+}
+.box1-container .text-box .bot .btn .text span{
+    vertical-align: middle;
+}
+.box1-container .text-box .bot .bot-text .text1{
+    font-family: 'Kunstler Script';
+    color: #EACDAD;
+}
+.box1-container .text-box .bot .bot-text .text2{
+    color: #9C774F;
+}
+.box2{
+    background-image: url('../images/img_bg_3.png');
+}
+.box2-container>.title{
+    width: 100%;
+    text-align: center;
+}
+.box2-container .bot-box{
+    width: 100%;
+    position: relative;
+}
+.box2-container .bot-box .bot-left-box{
+    position: absolute;
+}
+.box2-container .bot-box .bot-left-box .title  span{
+    color: #9C774F;
+}
+.box2-container .bot-box .bot-left-box .text-box>div:nth-of-type(1){
+    position: relative;
+}
+.box2-container .bot-box .bot-left-box .text-box>div>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.box2-container .bot-box .bot-left-box .text-box div .text1{
+    color: #333333;
+    float: left;
+}
+.box2-container .bot-box .bot-left-box .text-box div .text2{
+    color: #CC413E;
+}
+.box2-container .bot-box .bot-left-box .text-box div .text3{
+    color: #333333;
+}
+.box2-container .bot-box .bot-left-box .text-box div .text4{
+    color: #333333;
+}
+.box2-container .bot-box .bot-right-box .bot-right-item{
+    position: absolute;
+}
+.box2-container .bot-box .bot-right-box .item2,
+.box2-container .bot-box .bot-right-box .item3,
+.box2-container .bot-box .bot-right-box .item4{
+   text-align: right;
+}
+.box2-container .bot-box .bot-right-box .text{
+     color: #333333;
+ }
+ .box3{
+    background-image: url('../images/img_bg_4.png');
+}
+.box3-container .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 auto;
+}
+.box3-container .title  div{
+    color: #333333;
+}
+.swiper-box{
+    position: relative;
+}
+.swiper-container .bg-box{
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-container .bg-box .text-box .title{
+    color: #9C774F;
+}
+.swiper-container .bg-box .text-box .text{
+    color:#333333;
+}
+.swiper-container .bg-box .text-box .name{
+    color:#EACDAD;
+    font-family: 'Kunstler Script';
+    text-align: right;
+}
+.swiper-container .bg-box1{
+    background-image: url('../images/img_1.png');
+}
+.swiper-container .bg-box2{
+    background-image: url('../images/img_2.png');
+}
+.swiper-container .bg-box3{
+    background-image: url('../images/img_3.png');
+}
+.swiper-container .bg-box4{
+    background-image: url('../images/img_4.png');
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 15px;
+}
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    opacity:1;
+    border: 2px solid #AD8559;
+    margin: 0 10px;
+    outline: none;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #AD8559;
+}
+.box4{
+    background-image: url('../images/img_bg_5.png');
+}
+.box4-container .btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4-container .btn{
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    position: relative;
+}
+.box4-container .btn .btn-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box4-container .btn{
+    background-image: url('../images/img_btn_3.png');
+}
+.box4-container .btn1{
+    background-image: url('../images/img_btn_2.png');
+}
+.box4-container .content .text-box .title{
+    text-align: center;
+}
+.box4-container .content .text-box .text1{
+    color: #9C774F;
+    font-family: 'Kunstler Script';
+}
+.box4-container .content .text-box .img-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4-container .content .text-box .img-box .img-item div{
+    text-align: center;
+    color: #333333;
+}
+.box4-container .content .text-box .img-box .img-item-cur div{
+    color: #9C774F;
+}
+.box4-container .content .text-box .img-box .img-item-cur img{
+    border: 2px solid #EACDAD;
+}
+.box4-container .content .btn-box{
+    background-image: url('../images/img_btn_5.png');
+    background-size: 100% 100%;
+    position: relative;
+ }
+ .box4-container .content .btn-box .btn-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.box4-container .content{
+    background-image: url('../images/img_8.png');
+}
+.box4-container .list3{
+    display: none;
+}
+.box4-container .list2{
+    display: none;
+}
+@media screen and (min-width: 1921px){
+    .banner{
+        background-size: 100% 100%;
+        height: 33.833333rem;
+    }
+    .banner-container{
+        width: 40rem;
+    }
+    .banner-container .top-box{
+        width: 3.966666rem;
+        height: 3.966666rem;
+        padding-top: 0.833333rem;
+    }
+    .banner-container .top-box .text1{
+        font-size: 0.633333rem;
+        margin-bottom: 0.2rem;
+    }
+    .banner-container .top-box .text2{
+        font-size: 0.8rem;
+    }
+    .box{
+        min-width: 1200px;
+        background-size: 100% 100%;
+    }
+    .box-container{
+        width: 40rem;
+    }
+    .box1{
+        height: 22.633333rem;
+    }
+    .box1-container .text-box{
+        width:38.15rem;
+        height: 13.766666rem; 
+        top: 5.166666rem;
+        left: 0.95rem;
+        padding: 2.266666rem 0 0 2.433333rem;
+    }
+    .box1-container .text-box .title{
+        width: 23.6rem;
+        height: 1.233333rem;
+        margin-bottom: 1.85rem;
+    }
+    .box1-container .text-box>.text{
+        font-size: 0.666666rem;
+        margin-bottom: 0.833333rem;
+    }
+    .box1-container .text-box .bot .btn{
+        width: 7.6rem;
+        height: 2.133333rem;
+        left: -0.2rem;
+    }
+    .box1-container .text-box .bot .btn .text{
+        width: 7.133333rem;
+        height: 1.55rem;
+        top: 0.1rem;
+        left:0.15rem;
+        font-size: 0.733333rem;
+    }
+    .box1-container .text-box .bot {
+        padding-right: 9.266666rem;
+        margin-top: 1rem;
+    }
+    .box1-container .text-box .bot .btn .text img{
+        width: 0.33333rem;
+        height: 0.566666rem;
+        margin: 0.15rem 0 0 0.4rem;
+    }
+    .box1-container .text-box .bot .bot-text .text1{
+        font-size: 1.666666rem;
+    }
+    .box1-container .text-box .bot .bot-text .text2{
+        font-size: 0.666666rem;
+        margin-left: 0.5rem;
+    }
+    .box2{
+        height: 28.666666rem;
+    }
+    .box2-container>.title{
+        height: 3rem;
+        padding-top: 1rem;
+    }
+    .box2-container .title img{
+        width: 15.933333rem;
+        height: 1.4rem;
+    }
+    .box2-container .bot-box{
+        height: 20.166666rem; 
+        top: 1.68rem;
+    }
+    .box2-container .bot-box .bot-left-box{
+        width: 13.9666666rem;
+        height: 15.9rem;
+        top: 2.8rem;
+        left: 3.1rem;
+        padding: 0.866666rem 1.333333rem 0 1.333333rem;
+    }
+    .box2-container .bot-box .bot-left-box .title  span{
+        font-size: 0.933333rem;
+    }
+    .box2-container .bot-box .bot-left-box .title img{
+        width: 0.733333rem;
+        height: 0.6rem;
+        margin-right: 0.333333rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box{
+        padding: 0.75rem 0 0 1.766666rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box>div{
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div img{
+        width: 0.35rem;
+        height: 0.42rem;
+        position: absolute;
+        top: 1.1rem;
+        right: -0.666666rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text1{
+        font-size: 0.733333rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text2{
+        font-size: 0.933333rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text3{
+        font-size: 0.533333rem;
+        margin-left: 0.333333rem;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text4{
+        font-size: 0.666666rem;
+    }
+    .box2-container .bot-box .bot-right-box{
+        width: 18rem;
+        height: 16.75rem;
+        position: absolute;
+        top: 2.1rem;
+        right: 2.3rem;
+    }
+    .box2-container .bot-box .bot-right-box .item1 img{
+        width: 2.133333rem;
+        height:1rem;
+    }
+    .box2-container .bot-box .bot-right-box .item2{
+        top: 1.4rem;
+        right: 0.9rem;
+    }
+    .box2-container .bot-box .bot-right-box .item2 img{
+        width: 1.4rem;
+        height:1rem;
+    }
+    .box2-container .bot-box .bot-right-box .item3{
+        top: 5.45rem;
+        right: 0rem;
+    }
+    .box2-container .bot-box .bot-right-box .item3 img{
+        width: 2rem;
+        height:1rem;
+    }
+    .box2-container .bot-box .bot-right-box .item4{
+        top: 11.1rem;
+        right: 0.4rem;
+    }
+    .box2-container .bot-box .bot-right-box .item4 img{
+        width: 2.1rem;
+        height:1rem;
+    }
+    .box2-container .bot-box .bot-right-box .item5{
+        bottom: 0;
+        left: 0.25rem;
+    }
+    .box2-container .bot-box .bot-right-box .item5 img{
+        width: 1.933333rem;
+        height:1rem;
+    }
+    .box2-container .bot-box .bot-right-box .text{
+        font-size: 0.733333rem;
+        margin: 0.38rem 0 0 0;
+    }
+    .box2-container .bot-box .bot-right-box .num span:nth-of-type(1){
+        font-size: 1.333333rem;
+    }
+    .box2-container .bot-box .bot-right-box .num span:nth-of-type(2){
+        font-size: 0.8rem;
+    }
+    .box3{
+        height: 34.733333rem;
+    }
+    .box3-container{
+        width: 40rem;
+        padding-top: 9rem;
+    }
+    .box3-container .title{
+        width: 40rem;
+    }
+    .box3-container .title .title-left{
+        width: 6.966666rem;
+        height: 1.133333rem;
+    }
+    .box3-container .title .title-right{
+        width: 7.866666rem;
+        height: 1.066666rem;
+    }
+    .box3-container .title  div{
+        font-size: 0.8rem;
+        letter-spacing: 0.25rem;
+        margin-left: 1rem;
+    }
+    .swiper-container {
+        width: 40rem;
+        height: 17.933333rem;
+        margin-top: 1.9rem;
+    }  
+    .swiper-container .bg-box{
+        width:40rem;
+        height: 17.933333rem;
+    }
+    .swiper-container .bg-box .text-box{
+        width: 14.133333rem;
+        height: 15.4rem;
+        position: absolute;
+        top: 0.97rem;
+        right: 1rem;
+        padding: 2.85rem 0 0 1rem;
+    }
+    .swiper-container .bg-box .text-box .title{
+        font-size: 1.2rem;
+        margin-bottom: 0.95rem;
+    }
+    .swiper-container .bg-box .text-box .text{
+        font-size: 0.6rem;
+        line-height: 1.37rem;
+    }
+    .swiper-container .bg-box .text-box .name{
+        font-size: 2.333333rem;
+        margin-top: 1rem;
+    }
+    .swiper-container .bg-box .text-box .name1{
+        padding-right: 1.9rem;
+    }
+    .swiper-container .bg-box .text-box .name2{
+        padding-right: 2rem;
+    }
+    .swiper-container .bg-box .text-box .name3{
+        padding-right: 1.5rem;
+    }
+    .swiper-container .bg-box .text-box .name4{
+        padding-right: 1.2rem;
+    }
+    .swiper-pagination{
+        width: 100%;
+        bottom: -1.3rem;
+    }
+    .box4{
+        height: 34.533333rem;
+    }
+    .box4-container{
+        width: 40rem;
+        padding-top: 9.5rem;
+    }
+    .box4-container .btn{
+        width: 7.266666rem;
+        height: 2.4rem;
+        font-size: 0.733333rem;
+        margin: 0 0.2rem 0 0.5rem;
+    }
+    .box4-container .btn img{
+        margin-right: 0.333333rem;
+    }
+    .box4-container .btn .btn-content{
+        width: 6.666666rem;
+        height: 1.733333rem;
+        top: 0.1rem;
+        left: 0.2rem;
+    }
+    .box4-container .btn1 img{
+        width: 0.833333rem;
+        height: 0.866666rem;
+    }
+    .box4-container .btn2 img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .box4-container .btn3 img{
+        width: 0.8rem;
+        height: 0.7rem;
+    }
+    .box4-container .list{
+        width: 40rem;
+        height: 17.4rem;
+        margin-top: 1.2rem;
+        position: relative;
+    }
+     .box4-container .list .left-img{
+      width: 24.166666rem;
+      height: 17.333333rem;
+      margin-top: 0.033333rem;
+    }
+    .box4-container .content{
+       width: 40rem;
+       height: 17.4rem;
+       background-size: 100% 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+    }
+    .box4-container .content .text-box{
+        width: 14.133333rem;
+        height: 15.4rem;
+        position: absolute;
+        top: 0.97rem;
+        right: 1rem;
+        padding: 1.466666rem 0.733333rem 0;
+    }
+    .box4-container .content .text-box .text1{
+        font-size: 2.2rem;
+    }
+    .box4-container .content .text-box .text2{
+        color: #9C774F;
+        font-size: 1.133333rem;
+        margin-left: 0.3rem;
+    }
+    .box4-container .content .text-box .text2-cur{
+        margin-left: 0.7rem;
+    }
+    .box4-container .content .text-box .text3{
+        color: #9C774F;
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 0.1rem 0 1.5rem;
+    }
+    .box4-container .content .text-box .img-box img{
+        width: 3.333333rem;
+        height: 3.333333rem;
+        border: 2px solid #F7EBDE;
+        padding: 0.2rem;
+        border-radius: 50%;
+        box-sizing: content-box;
+        cursor: pointer;
+    }
+    .box4-container .content .text-box .img-box .img-item div{
+        font-size: 0.6rem;
+    }
+    .box4-container .content .btn-box{
+       width: 7.633333rem;
+       height: 2.233333rem;
+       margin: 0.866666rem auto 0;
+    }
+    .box4-container .content .btn-box .btn-content{
+        width: 7.166666rem;
+        height: 1.65rem;
+        top: 0.15rem;
+        left: 0.2rem;
+        font-size: 0.733333rem;
+    }
+    .box4-container .content .btn-box .btn-content img{
+        width: 0.333333rem;
+        height: 0.566666rem;
+        margin: 0.15rem 0 0 0.4rem;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .container{
+        overflow-x: scroll;
+    }
+    .banner{
+        min-width: 1200px; 
+        background-size: cover;
+        background-position: center top;
+        height: 1015px;
+    }
+    .banner-container{
+        width: 1200px;
+    }
+    .banner-container .top-box{
+        width: 119px;
+        height: 119px;
+        padding-top: 25px;
+    }
+    .banner-container .top-box .text1{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .banner-container .top-box .text2{
+        font-size: 24px;
+    }
+    .box{
+        min-width: 1200px;
+        background-size: cover;
+        background-position: center top;
+    }
+    .box-container{
+        width: 1200px;
+    }
+    .box1{
+        height: 679px;
+    }
+    .box1-container .text-box{
+        width:1152px;
+        height: 413px;   
+        top: 155px;
+        left:24px;
+        padding: 68px 0 0 73px;
+    }
+    .box1-container .text-box .title{
+        width: 708px;
+        height: 37px;
+        margin-bottom: 60px;
+    }
+    .box1-container .text-box>.text{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .box1-container .text-box .bot .btn{
+        width: 228px;
+        height:64px;
+        left: -5px;
+    }
+    .box1-container .text-box .bot .btn .text{
+        width: 214px;
+        height: 46px;
+        top:3px;
+        left:4px;
+        font-size: 22px;
+    }
+    .box1-container .text-box .bot {
+        padding-right: 278px;
+        margin-top: 30px;
+    }
+    .box1-container .text-box .bot .btn .text img{
+        width: 10px;
+        height: 17px;
+        margin: 4.5px 0 0 10px;
+    }
+    .box1-container .text-box .bot .bot-text .text1{
+        font-size: 50px;
+    }
+    .box1-container .text-box .bot .bot-text .text2{
+        font-size: 20px;
+        margin-left: 15px;
+    } 
+    .box2{
+        height: 860px;
+    }
+    .box2-container>.title{
+        height: 90px;
+        padding-top: 30px;
+    }
+    .box2-container .title img{
+        width: 478px;
+        height:42px;
+    }
+    .box2-container .bot-box{
+        height: 605px; 
+        top: 50px;
+    }
+    .box2-container .bot-box .bot-left-box{
+        width:420px;
+        height: 478px;
+        top: 83px;
+        left: 92px;
+        padding: 30px 40px 0 40px;
+    }
+    .box2-container .bot-box .bot-left-box .title  span{
+        font-size: 28px;
+    }
+    .box2-container .bot-box .bot-left-box .title img{
+        width:22px;
+        height:18px;
+        margin-right:12px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box{
+        padding: 24px 0 0 53px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box>div{
+        height: 75px;
+        line-height: 75px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box>div:nth-of-type(1){
+        height: 74px;
+        line-height: 74px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div img{
+        width: 11px;
+        height: 14px;
+        position: absolute;
+        top: 32px;
+        right:-20px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text1{
+        font-size: 22px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text2{
+        font-size: 28px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text3{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .box2-container .bot-box .bot-left-box .text-box div .text4{
+        font-size: 20px;
+    }
+    .box2-container .bot-box .bot-right-box{
+        width: 540px;
+        height: 501px;
+        position: absolute;
+        top: 66px;
+        right: 70px;
+    }
+    .box2-container .bot-box .bot-right-box .item1 img{
+        width: 64px;
+        height: 30px;
+    }
+    .box2-container .bot-box .bot-right-box .item2{
+        top: 42px;
+        right: 26px;
+    }
+    .box2-container .bot-box .bot-right-box .item2 img{
+        width: 42px;
+        height: 30px;
+    }
+    .box2-container .bot-box .bot-right-box .item3{
+        top: 164px;
+        right: 0;
+    }
+    .box2-container .bot-box .bot-right-box .item3 img{
+        width: 60px;
+        height: 30px;
+    }
+    .box2-container .bot-box .bot-right-box .item4{
+        bottom: 90px;
+        right: 11px;
+    }
+    .box2-container .bot-box .bot-right-box .item4 img{
+        width: 63px;
+        height: 30px;
+    }
+    .box2-container .bot-box .bot-right-box .item5{
+        bottom: 0;
+        left: 5px;
+    }
+    .box2-container .bot-box .bot-right-box .item1 img{
+        width: 58px;
+        height: 30px;
+    }
+    .box2-container .bot-box .bot-right-box .text{
+        font-size:22px;
+        margin: 14px 0 0 3px;
+    }
+    .box2-container .bot-box .bot-right-box .num span:nth-of-type(1){
+        font-size:40px;
+    }
+    .box2-container .bot-box .bot-right-box .num span:nth-of-type(2){
+        font-size: 24px;
+    }
+    .box3{
+        height: 1042px;
+    }
+    .box3-container{
+        width: 1200px;
+        padding-top: 270px;
+    }
+    .box3-container .title{
+        width: 1200px;
+    }
+    .box3-container .title .title-left{
+        width: 209px;
+        height: 34px;
+    }
+    .box3-container .title .title-right{
+        width: 236px;
+        height: 32px;
+    }
+    .box3-container .title  div{
+        font-size: 24px;
+        letter-spacing: 7.5px;
+        margin-left: 28px;
+    }
+    .swiper-container {
+        width: 1200px;
+        height: 538px;
+        margin-top: 60px;
+    }  
+    .swiper-container .bg-box{
+        width: 1200px;
+        height: 538px;
+    }
+    .swiper-container .bg-box .text-box{
+        width: 424px;
+        height: 462px;
+        position: absolute;
+        top: 29px;
+        right: 30px;
+        padding: 83px 0 0 30px;
+    }
+    .swiper-container .bg-box .text-box .title{
+        font-size: 36px;
+        margin-bottom: 28.5px;
+    }
+    .swiper-container .bg-box .text-box .text{
+        font-size: 18px;
+        line-height: 42px;
+    }
+    .swiper-container .bg-box .text-box .name{
+        font-size: 70px;
+        margin-top: 30px;
+    }
+    .swiper-container .bg-box .text-box .name1{
+        padding-right: 54px;
+    }
+    .swiper-container .bg-box .text-box .name2{
+        padding-right: 62px;
+    }
+    .swiper-container .bg-box .text-box .name3{
+        padding-right: 45px;
+    }
+    .swiper-container .bg-box .text-box .name4{
+        padding-right: 36px;
+    }
+    .swiper-pagination{
+        width: 100%;
+        bottom: -34px;
+    }
+    .box4{
+        height: 1036px;
+    }
+    .box4-container{
+        width: 1200px;
+        padding-top: 285px;
+    }
+    .box4-container .btn{
+        width: 218px;
+        height:72px;
+        font-size: 22px;
+        margin: 0 6px 0 15px;
+    }
+    .box4-container .btn img{
+        margin-right: 10px;
+    }
+    .box4-container .btn .btn-content{
+        width: 200px;
+        height: 52px;
+        top: 3px;
+        left: 5px;
+    }
+    .box4-container .btn1 img{
+        width: 25px;
+        height: 26px;
+    }
+    .box4-container .btn2 img{
+        width: 24px;
+        height:24px;
+    }
+    .box4-container .btn3 img{
+        width: 24px;
+        height: 21px;
+    }
+    .box4-container .list{
+        width: 1200px;
+        height: 522px;
+        margin-top: 36px;
+        position: relative;
+    }
+     .box4-container .list .left-img{
+      width: 725px;
+      height: 520px;
+      margin-top: 1px;
+    }
+    .box4-container .content{
+       width: 1200px;
+       height: 522px;
+       background-size: 100% 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+    }
+    .box4-container .content .text-box{
+        width: 424px;
+        height: 462px;
+        position: absolute;
+        top: 29px;
+        right: 30px;
+        padding: 44px 22px 0;
+    }
+    .box4-container .content .text-box .text1{
+        font-size: 66px;
+    }
+    .box4-container .content .text-box .text2{
+        color: #9C774F;
+        font-size: 34px;
+        margin-left: 10px;
+    }
+    .box4-container .content .text-box .text2-cur{
+        margin-left: 21px;
+    }
+    .box4-container .content .text-box .text3{
+        color: #9C774F;
+        font-size: 18px;
+        text-align: center;
+        margin: 3px 0 45px;
+    }
+    .box4-container .content .text-box .img-box img{
+        width: 100px;
+        height: 100px;
+        border: 2px solid #F7EBDE;
+        padding: 6px;
+        border-radius: 50%;
+        box-sizing: content-box;
+        cursor: pointer;
+    }
+    .box4-container .content .text-box .img-box .img-item div{
+        font-size: 18px;
+    }
+    .box4-container .content .btn-box{
+       width: 229px;
+       height: 67px;
+       margin: 26px auto 0;
+    }
+    .box4-container .content .btn-box .btn-content{
+        width: 215px;
+        height: 48px;
+        top:5px;
+        left: 7px;
+        font-size: 22px;
+    }
+    .box4-container .content .btn-box .btn-content img{
+        width: 10px;
+        height: 17px;
+        margin: 4.5px 0 0 10px;
+    }
+}
+
+

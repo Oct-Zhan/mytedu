@@ -1,0 +1,920 @@
+/* 装修效果图开始-design.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.design-banner {
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.design-img-photo {
+    width: 100%;
+    height: 400px;
+    background: url(../images/index2/design/xgt-ban.jpg) center center no-repeat;
+}
+
+.design-img {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.design-index {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.design-a-title {
+    text-align: center;
+    padding: 90px 0;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.design-a-title p {
+    color: #555;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+/* center */
+.design-table {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.design-file {
+    width: 400px;
+    height: 160px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.design-file-icon {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    position: relative;
+    left: 14%;
+    margin: 30px 0 0 0;
+}
+
+.design-file-icon img {
+    margin-right: 20px;
+}
+
+.design-file-icon p {
+    letter-spacing: 1px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.design-file-main {
+    width: 75%;
+    margin-left: 40px;
+}
+
+.design-file-main a {
+    margin-right: 14px;
+    font-size: 14px;
+    line-height: 35px;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    color: #999999;
+}
+
+.design-file-main a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.design-first-box {
+    width: 1224px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
+
+.design-first-main {
+    height: auto;
+    overflow: hidden;
+    margin: 0px 24px 24px 0px;
+    border-radius: 5px;
+}
+
+.design-main-col {
+    width: 282px;
+    height: 210px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.design-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 18px 0 18px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 0;
+}
+
+
+.first-con-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: rgba(173, 61, 61, 0.9);
+    color: #fff;
+    text-align: left;
+    padding-left: 45px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.first-con-hover div {
+    margin-top: 40px;
+    line-height: 36px;
+}
+
+.con-p1 {
+    font-size: 24px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.design-main-col:hover .first-con-hover {
+    display: block;
+}
+
+.con-btn {
+    color: #fff;
+    border-radius: 10px;
+    width: 110px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.con-btn img {
+    width: 6px;
+    position: relative;
+    top: -6px;
+}
+
+.img_div {
+    border-radius: 5px;
+    display: block;
+    position: relative;
+}
+
+.design-main-col .col-bg {
+    opacity: .12;
+}
+
+.design-col-hover {
+    position: relative;
+    color: #ffffff;
+    top: -108px;
+    left: 920px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.xgGray {
+    width: 282px;
+    height: 210px;
+    background-color: rgba(101, 101, 101, 0.6);
+    background-size: cover;
+}
+
+.design-first-main .col-a {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -132px;
+    left: -10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+
+}
+
+.design-first-main .col-bg-more {
+    position: relative;
+    top: -158px;
+    left: 200px;
+}
+
+
+/* 店铺装修效果图 */
+.design-center {
+    background-color: #f9f9f9;
+}
+
+.design-section {
+    width: 1238px;
+    height: 676px;
+    margin: 0 auto;
+}
+
+.sect-wrap {
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 105px;
+}
+
+.wrap-con {
+    overflow: initial;
+}
+
+.design-section-big {
+    float: left;
+    width: 626px;
+    height: 444px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.design-section-big img {
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.design-section-main {
+    width: 600px;
+    height: 432px;
+    border-radius: 5px;
+    color: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: -30px;
+    top: -50px;
+    z-index: 1;
+    background: #c04645;
+    padding: 58px 40px 40px 40px;
+}
+
+.design-sect-title {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.design-sect-title span:first-child {
+    font-weight: bold;
+}
+
+.sect-text {
+    margin-left: -10px;
+}
+
+.section-list {
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-section-main>div:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+.section-list p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    width: 20%;
+}
+
+.section-list p span:nth-child(2) {
+    margin-left: 27px;
+}
+
+.section-list div {
+    width: 410px;
+    margin-left: 30px;
+}
+
+.section-list a {
+    min-width: 42px;
+    color: #fff;
+    font-size: 14px;
+    margin: 7px 13px 9px 0;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+
+.section-list a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.design-section-box {
+    width: 600px;
+    height: 468px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.design-section-row {
+    width: 600px;
+    height: 468px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    left: -10px;
+}
+
+.design-section-row .design-section-list:nth-child(1) {
+    padding-right: 24px;
+}
+
+.design-section-row .design-section-list:nth-child(3) {
+    padding-right: 24px;
+}
+
+.design-section-bom {
+    width: 1238px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    left: 16px;
+}
+
+.design-section-bom .design-section-list:nth-child(1) {
+    margin-right: 24px;
+}
+
+.design-section-bom .design-section-list:nth-child(2) {
+    margin-right: 24px;
+}
+
+.design-section-bom .design-section-list:nth-child(3) {
+    margin-right: 24px;
+}
+
+/* 办公室装修效果图 */
+.design-last {
+    width: 100%;
+    height: 100%;
+}
+
+.design-third {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.design-third-wrap {
+    text-align: center;
+    padding: 90px 0;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 32px;
+    color: #555;
+}
+
+.design-last-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.design-third .design-table .design-file-main {
+    margin-left: 55px;
+}
+
+/* 装修效果图结束-design.css */
+
+
+
+/* 房屋效果图-开始xgt-list.css */
+.xgt-list-page {
+    padding-bottom: 90px;
+}
+
+.xgt-tab {
+    width: 1200px;
+    margin: 50px auto 10px;
+    height: 44px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.xgt-tab span {
+    padding: 0 40px;
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+}
+
+.xgt-tab span:hover,
+.xgt-tab .active {
+    color: #de0010;
+}
+
+.xgt-tab01 {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.xgt-tab01-top {
+    line-height: 70px;
+    height: 72px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.xgt-tab01-title {
+    width: 115px;
+    text-align: center;
+}
+
+.xgt-tab01-top .xgt-tab-headline {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.xgt-tab01 span {
+    border-bottom: 1px solid transparent;
+    line-height: 30px;
+    margin-right: 22px;
+    cursor: pointer;
+    color: #666;
+}
+
+.xgt-tab01 .active {
+    border-bottom: 1px solid #e01120;
+    color: #e01120;
+}
+
+.xgt-tab01 .active a {
+    color: #e01120 !important;
+}
+
+.xgt-line-title {
+    line-height: 55px !important;
+    border-right: 1px solid #ededed;
+    width: 115px;
+    background: #fafafa;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 40px !important;
+}
+
+.xgt-tab01-line {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+
+
+.xgt-line-more {
+    display: inline-block;
+    color: #fafafa;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 13px;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    position: absolute;
+    right: 84px;
+    top: 0;
+    display: none;
+}
+
+.xgt-none {
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.xgt-line-more img {
+    margin: 12px auto;
+}
+
+.xgt-tab01-line-box.line-box {
+    border-bottom: none;
+}
+
+.xgt-tab01-line section {
+    display: flex;
+    width: 995px;
+    display: inline-block;
+    line-height: 55px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.xgt-tab01-line section span {
+    margin-top: 14px;
+}
+
+.xgt-tab01-line section span a:hover{
+    padding-bottom:5px ;
+    border-bottom:1px solid #de0010;
+    color: #de0010;
+}
+
+.xgt-tab01-line-box {
+    width: 990px !important;
+}
+
+.xgt-tab01-line .xgt-tab01-line-box section:nth-child(2) span {
+    position: relative;
+    left: 54px;
+}
+
+.line-box {
+    border-bottom: 1px solid #eee;
+}
+
+.line-box2 {
+    border-bottom: none;
+}
+
+.xgt-tab01-line:last-of-type section {
+    border-bottom: 0;
+}
+
+.xgt-line-box {
+    width: 706px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.xgt-line-box section {
+    height: 56px;
+    overflow: hidden;
+}
+
+.xgt-tab02 {
+    margin: 50px auto 20px;
+    width: 1200px;
+    font-size: 16px;
+    color: #999;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.xgt-tab02 span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.xgt-tab02 .active {
+    color: #de0010;
+}
+
+.pic-list-main {
+    padding: 0 2px 30px 2px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pic-list-column {
+    float: left;
+    width: 280px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-list-column:last-of-type {
+    margin-right: 0;
+}
+
+.pic-list-col {
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(197, 197, 197, 0.42);
+    background: #fff;
+    width: 100%;
+    margin-bottom: 24px;
+    display: block;
+    transition: all .3s ease;
+}
+
+.pic-list-col * {
+    transition: all .3s ease;
+}
+
+.pic-list-col:hover .index-02-hover {
+    opacity: 1;
+}
+
+.pic-list-col .index-02-hover {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.pic-list-col .index-02-hover div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-height: 56%;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+
+.index-02-btn {
+    margin-top: 20px;
+}
+
+.index-02-btn,
+.xgt-btn {
+    color: #fff;
+    border-radius: 10px;
+    width: 110px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.index-02-btn img,
+.xgt-btn img {
+    width: 6px;
+    margin-left: 4px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    vertical-align: top;
+}
+
+
+.pic-list-col .index-02-hover .index-02-p1 {
+    font-size: 24px;
+    min-height: 50px;
+    width: 185px;
+    display: inline-block;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.pic-list-col .index-02-hover p:nth-of-type(2) {
+    font-size: 18px;
+    min-height: 60px;
+    color: #fff;
+    line-height: 90px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pic-col-p {
+    display: inline-block;
+    text-align: center;
+    padding: 0 6px;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #666;
+    line-height: 45px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.pic-col-box span {
+    float: right;
+    margin-right: 15px;
+    color: #666;
+    line-height: 45px;
+    height: 45px;
+    font-size: 12px;
+}
+
+.pic-col-img {
+    position: relative;
+}
+
+.pic-img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.index-02-name {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #626262;
+    opacity: 0.79;
+}
+
+.index-02-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(173, 61, 61, 0.9);
+    color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+/*分页插件 */
+.paging-box{
+    padding-bottom: 90px;
+}
+.tcdPageCode {
+    text-align: center;
+}
+
+.tcdPageCode a {
+    display: inline-block;
+    color: #999;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    vertical-align: middle;
+    font-size: 16px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.tcdPageCode .ell {
+    display: inline-block;
+    color: #999;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    vertical-align: middle;
+    font-size: 16px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.tcdPageCode a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #de0010;
+}
+
+.tcdPageCode span.current {
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #de0010;
+    margin: 0 2px;
+    vertical-align: middle;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.tcdPageCode .nextPage,
+.tcdPageCode .prevPage {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcdPageCode .nextPage img,
+.tcdPageCode .prevPage img {
+    width: 8px;
+}
+.tcdPageCode .prevPage img:nth-of-type(2){
+    transform: rotateY(180deg);
+    display: none;
+}
+.tcdPageCode .nextPage img:nth-of-type(2){
+    display: none;
+}
+.tcdPageCode .prevPage:hover img:nth-of-type(1),
+.tcdPageCode .nextPage:hover img:nth-of-type(1) {
+    display: none;
+}
+.tcdPageCode .prevPage:hover img:nth-of-type(2),
+.tcdPageCode .nextPage:hover img:nth-of-type(2) {
+    display: block;
+}
+
+.tcdPageCode li {
+    display: inline-block;
+}
+
+.tcdPageCode span.disabled,
+.tcdPageCode .gotodNumber,
+.goto,
+.tcdPageCode input {
+    display: none;
+}
+/*分页插件 */
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.eg img {
+    max-width: 800px;
+    min-height: 500px;
+}
+
+input {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+/* 房屋效果图-结束xgt-list.css */

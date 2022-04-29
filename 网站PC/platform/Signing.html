@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+    <title>保驾护航签约收银台</title>
+    <link type="text/css" rel="stylesheet" href="css/Signing.css">
+    <script src="js/Signing.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="boot">
+        <div class="main device">
+            <div class="backdrop">
+                <!-- logo -->
+                <div class="logo">
+                    <img class="bao-logo" src="image\bao_logo.png">
+                    <text class="writing">签约收银台</text>
+                </div>
+            </div>
+            <!-- 内容背景 -->
+
+            <div class="tabbg tabclass">
+                <div class="details">
+                    <div class="deta-conten">
+                        <!-- 内容标题 -->
+                        <div class="center">银行汇款<p class="link-top"></p>
+                        </div>
+                        <!-- 银行汇款复制 -->
+                        <div class="mittan">
+                            <!-- 中国工商 -->
+                            <div class="icbc">
+                                <img class="icbc-icon" src="image\icon\icbc.png">
+                                <p class="icbc-title">
+                                    收款人：厦门保驾护航网络科技有限公司<br>
+                                    开户行：中国工商银行厦门软件园支行<br>
+                                    开户号：<b>4100 2001 1920 0060 925</b>&nbsp;
+                                    <button class="copy">复制</button>
+                                </p>
+                            </div>
+                            <!-- 中国银行 -->
+                            <div class="china">
+                                <img class="china-icon" src="image\icon\china.png">
+                                <p class="china-title">
+                                    收款人：厦门保驾护航网络科技有限公司<br>
+                                    开户行：中国银行厦门市分行<br>
+                                    开户号：<b>4195 69160246</b>&nbsp;
+                                    <button class="copy">复制</button>
+                                </p>
+                            </div>
+                            <!-- 建设银行 -->
+                            <div class="ccb">
+                                <img class="ccb-icon" src="image\icon\ccb.png">
+                                <p class="ccb-title">
+                                    收款人：厦门保驾护航网络科技有限公司<br>
+                                    开户行：中国建设银行厦门东区支行<br>
+                                    开户号：<b>3510 1562 4010 5252 4685</b>&nbsp;
+                                    <button class="copy">复制</button>
+                                </p>
+                            </div>
+                            <!-- 农业银行 -->
+                            <div class="abc">
+                                <img class="abc-icon" src="image\icon\abc.png">
+                                <p class="abc-title">
+                                    收款人：厦门保驾护航网络科技有限公司<br>
+                                    开户行：中国建设银行厦门东区支行<br>
+                                    开户号：<b>3510 1562 4010 5252 4685</b>&nbsp;
+                                    <button class="copy">复制</button>
+                                </p>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="link-footer"></div>
+                        </div>
+                        <!-- 在线支付 -->
+                        <div class="onpay">
+                            <span></span>
+                            <label>在线支付</label>
+                            <div class="onpayfirm">0.10元</div>
+                        </div>
+                    </div>
+                    <!-- 这是分割 -->
+                    <!-- 下拉 -->
+                    <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                        <!-- 企业付款 -->
+                        <!-- 第一个一整块 -->
+                        <div class="panel panel-default">
+                            <div class="firmware-wrap">
+                                <div class="firmware">
+                                    <span></span>
+                                    <label>企业付款</label>
+                                </div>
+                                <div class="firm-wrap dropUp">
+                                    <!-- 被点击的部分 -->
+                                    <div class="firm panelheading" id="hide" data-id="val" role="tab">
+                                        <div class="firm-left">
+                                            <img class="firm-img" src="image/icon/pay_01.png">
+                                            <a data-toggle="collapse" data-parent="#acction" role="button"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                <label class="title">企业网银</label>
+                                            </a>
+                                        </div>
+                                        <div class="firm-dole">应付金额：
+                                            <b style="color: #fc6621;">0.01</b>
+                                            <label>元</label>
+                                        </div>
+                                    </div>
+                                    <!-- 银行列表 -->
+                                    <!-- 折叠部分 -->
+                                    <div class="item-main childbody" id="collapseOne" role="tabpanel" aria-labelledby="hide"
+                                        style="display: block;">
+                                        <!-- 内容 -->
+                                        <div class="panelbody">
+                                            <ul class="bank-list" id="style-bg">
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\01000000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\01030000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\04010000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03030000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\14010000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03050000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03050000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03080000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03010000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03100000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\04083320.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03020000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\01050000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\03040000.png">
+                                                </li>
+                                                <li class="filter" style="list-style-type:none;">
+                                                    <img class="bank-cpy" src="image\icon\company.png">
+                                                    <img class="bank-img" src="image\bank\01000000.png">
+                                                </li>
+                                            </ul>
+                                            <button class="com-tips">跳转网银支付</button>
+                                            <div class="com-btn">
+                                                <table class="com-limit">
+                                                    <tbody id="qyquota">
+                                                        <tr>
+                                                            <td class="com-limit-th">银行</td>
+                                                            <td class="com-limit-th">卡种类</td>
+                                                            <td class="com-limit-th">客户类型</td>
+                                                            <td class="com-limit-th">单笔限额/元</td>
+                                                            <td class="com-limit-th">每日限额/元</td>
+                                                            <td class="com-limit-th">备注</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 个人付款 -->
+                        <div class="personal">
+                            <div class="indual">
+                                <span></span>
+                                <label>个人付款</label>
+                            </div>
+                            <!-- 支付宝 -->
+                            <!-- 第二块一整块 -->
+                            <div clss="panel panel-default">
+                                <div class="indual-big-box dropUp">
+                                    <!-- 被点击的部分 -->
+                                    <div class="indual-son panelheading" id="son" data-id="big">
+                                        <div class="indual-left">
+                                            <img class="indual-img" src="image/icon/pay_04.png">
+                                            <label class="indual-title" role="button" data-toggle="collapse"
+                                                aria-expanded="false" aria-controls="son">支付宝支付</label>
+                                        </div>
+                                        <div class="indual-dole">应付金额：
+                                            <b style="color: #fc6621;">0.01</b>
+                                            <label>元</label>
+                                        </div>
+                                    </div>
+                                    <!-- 支付宝二维码 -->
+                                    <!-- 折叠部分 -->
+                                    <div class="ind childbody" id="collapseTow" style="display: block;">
+                                        <!-- 内容 -->
+                                        <div class="panelbody">
+                                            <div class="ind-header">
+                                                <div class="ind-inner">
+                                                    <label class="ind-ma">二维码将于</label>
+                                                    <span class="ind-pan">1</span>
+                                                    <label class="ind-time">分钟后失效,请尽快支付!</label>
+                                                </div>
+                                                <div class="ind-img">
+                                                    <div class="ind-ptbox">
+                                                        <img class="ind-photo" src="image/ew.png">
+                                                    </div>
+                                                    <div class="ind-handle">
+                                                        <p>操作步骤</p>
+                                                        <ul class="ind-list">
+                                                            <li class=ind-item style="list-style-type:none;">
+                                                                <img class="ind-left" src="image\icon\left.png">
+                                                                <label>1</label>
+                                                                <span>拿出手机，打开支付宝APP</span>
+                                                            </li>
+                                                            <li class=ind-item style="list-style-type:none;">
+                                                                <img class="ind-left" src="image\icon\left.png">
+                                                                <label>2</label>
+                                                                <span>点击扫一扫</span>
+                                                            </li>
+                                                            <li class=ind-item style="list-style-type:none;">
+                                                                <img class="ind-left" src="image\icon\left.png">
+                                                                <label>3</label>
+                                                                <span>输入支付密码</span>
+                                                            </li>
+                                                            <li class=ind-item style="list-style-type:none;">
+                                                                <img class="ind-left" src="image\icon\left.png">
+                                                                <label>4</label>
+                                                                <span>付款成功</span>
+                                                            </li>
+                                                            <li class=ind-item style="list-style-type:none;">
+                                                                <img class="ind-left" src="image\icon\left.png">
+                                                                <label>5</label>
+                                                                <span>收银台自动刷新页面显示付款成功</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 银联聚合码 -->
+                        <!-- 第三块一整块 -->
+                        <div class="panel panel-default">
+                            <div class="union-big-box dropUp">
+                                <!-- 被点击的部分 -->
+                                <div class="union panelheading" id="code" role="tab" data-id="uniform">
+                                    <div class="union-left">
+                                        <img class="union-img" src="image/icon/union.png">
+                                        <label class="union-title">银联聚合码</label>
+                                        &nbsp;
+                                        <label class="union-title">您也可以使用</label>
+                                        &nbsp;&nbsp;
+                                        <img src="image/icon/pay_04.png">
+                                        &nbsp;&nbsp;
+                                        <img src="image/icon/pay_05.png">
+                                        &nbsp;
+                                        <label class="union-title">进行扫码支付</label>
+                                    </div>
+                                    <div class="union-dole">应付金额：
+                                        <b style="color: #fc6621;">0.01</b>
+                                        <label>元</label>
+                                    </div>
+                                </div>
+                                <!-- 银联二维码 -->
+                                <!-- 折叠部分 -->
+                                <div class="union-agg childbody" id="collapseThree" style="display: block;">
+                                    <!-- 内容 -->
+                                    <div class="panelbody">
+                                        <div class="ind-header child">
+                                            <div class="ind-inner">
+                                                <label class="ind-ma">二维码将于</label>
+                                                <span class="ind-pan">1</span>
+                                                <label class="ind-time">分钟后失效,请尽快支付!</label>
+                                            </div>
+                                            <div class="ind-img">
+                                                <div class="ind-ptbox">
+                                                    <img class="ind-photo" src="image/ew.png">
+                                                </div>
+                                                <div class="ind-handle">
+                                                    <p>操作步骤</p>
+                                                    <ul class="ind-list">
+                                                        <li class=ind-item style="list-style-type:none;">
+                                                            <img class="ind-left" src="image\icon\left.png">
+                                                            <label>1</label>
+                                                            <span>拿出手机，打开支付宝APP</span>
+                                                        </li>
+                                                        <li class=ind-item style="list-style-type:none;">
+                                                            <img class="ind-left" src="image\icon\left.png">
+                                                            <label>2</label>
+                                                            <span>点击扫一扫</span>
+                                                        </li>
+                                                        <li class=ind-item style="list-style-type:none;">
+                                                            <img class="ind-left" src="image\icon\left.png">
+                                                            <label>3</label>
+                                                            <span>输入支付密码</span>
+                                                        </li>
+                                                        <li class=ind-item style="list-style-type:none;">
+                                                            <img class="ind-left" src="image\icon\left.png">
+                                                            <label>4</label>
+                                                            <span>付款成功</span>
+                                                        </li>
+                                                        <li class=ind-item style="list-style-type:none;">
+                                                            <img class="ind-left" src="image\icon\left.png">
+                                                            <label>5</label>
+                                                            <span>收银台自动刷新页面显示付款成功</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 个人网银 -->
+                        <!-- 第四块一整块 -->
+                        <div class="panel panel-default">
+                            <div class="silver-wrap dropUp">
+                                <!-- 被点击的部分 -->
+                                <div class="silver panelheading" id="vate" data-id="inti">
+                                    <div class="silver-left">
+                                        <img class="silver-image" src="image/icon/pay_06.png">
+                                        <label class="title">个人网银</label>
+                                    </div>
+                                    <div class="silver-dole">应付金额：
+                                        <b style="color: #fc6621;">0.01</b>
+                                        <label>元</label>
+                                    </div>
+                                </div>
+                                <!-- 列表 -->
+                                <!-- 折叠部分 -->
+                                <div class="silver-main childbody" id="collapseFour" style="display: block;">
+                                    <!-- 内容 -->
+                                    <div class="panelbody">
+                                        <div class="tab_menu">
+                                            <ul class="click">
+                                                <li class="reveal active" id="deposit">储蓄卡</li>
+                                                <span class="spdcard"></span>
+                                                <li class="reveal2" id="deposit2">信用卡</li>
+                                            </ul>
+                                        </div>
+                                        <div class="headline1 show">
+                                            <!-- 储蓄卡 -->
+                                            <div class="datail1">
+                                                <ul class="silver-list" id="sol">
+                                                    <li class="silver-item cob-item-sel" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01000000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01030000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\04010000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03030000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\14010000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03050000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03050000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03080000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03010000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03100000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\04083320.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03020000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01050000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\03040000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01000000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01000000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01000000.png">
+                                                    </li>
+                                                    <li class="silver-item" style="list-style-type:none;">
+                                                        <img class="silver-img" src="image\bank\01000000.png">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="headline2">
+                                                <!-- 信用卡 -->
+                                                <div class="datail2">
+                                                    <ul class="silver-list" id="lkml">
+                                                        <li class="silver-item cob-item-sel"
+                                                            style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\01000000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\01030000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\04010000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03030000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\14010000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03050000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03050000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+                                                        <li class="silver-item" style="list-style-type:none;">
+                                                            <img class="silver-img" src="image\bank\03080000.png">
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="commop">
+                                            <button class="com-tips">跳转网银支付</button>
+                                        </div>
+                                        <div class="com-btn">
+                                            <table class="com-limit">
+                                                <tbody id="qyquota">
+                                                    <tr>
+                                                        <td class="com-limit-th">银行</td>
+                                                        <td class="com-limit-th">卡种类</td>
+                                                        <td class="com-limit-th">客户类型</td>
+                                                        <td class="com-limit-th">单笔限额/元</td>
+                                                        <td class="com-limit-th">每日限额/元</td>
+                                                        <td class="com-limit-th">备注</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 快捷支付 -->
+                        <!-- 第四块一整块 -->
+                        <div class="panel panel-default">
+                            <div class="quick-wrap dropUp">
+                                <!-- 被点击的部分 -->
+                                <div class="quick panelheading" id="fast" data-id="mental">
+                                    <div class="quick-left">
+                                        <img class="quick-img" src="image/icon/pay_07.png">
+                                        <label class="title">快捷支付</label>
+                                    </div>
+                                    <div class="quick-dole">应付金额：
+                                        <b style="color: #fc6621;">0.01</b>
+                                        <label>元</label>
+                                    </div>
+                                </div>
+                                <!-- 表单 -->
+                                <!-- 折叠部分 -->
+                                <form action="" method="get">
+                                    <div class="quick-main childbody" id="collapseFive" style="display: block;">
+                                        <!-- 内容 -->
+                                        <div class="panelbody">
+                                            <div class="bind-card">
+                                                <label>填入卡号</label>
+                                            </div>
+                                            <div class="quick-site">
+                                                <div class="ipt-item">
+                                                    <div class="ipt-lab">卡&nbsp&nbsp 号:</div>
+                                                    <div class="ipt-bankpay">
+                                                        <div class="ipt-bank-add">
+                                                            <input type="text" class="form_input" placeholder="银行卡卡号" />
+                                                            <button class="sav-btn">储蓄卡账号</button>
+                                                        </div>
+                                                        <div class="stat">
+                                                            <img class="stat-img" src="image/icon/error.png">
+                                                            &nbsp银行账号不能为空
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="information">
+                                                    <form method="post" name="form" action="user.do?method=register"
+                                                        onSubmit="return beforeSubmit(this);">
+                                                        <div class="ipt-item">
+                                                            <div class="ipt-lab">姓&nbsp&nbsp 名:</div>
+                                                            <input type="text" name="username"
+                                                                class="form_input notNull" value=""
+                                                                placeholder="真实姓名" />
+                                                        </div>
+                                                        <div class="ipt-item">
+                                                            <div class="ipt-lab">身份证:</div>
+                                                            <input type="text" class="form_input" placeholder="身份证号码" />
+                                                        </div>
+                                                        <div class="ipt-item">
+                                                            <div class="ipt-lab">手机号:</div>
+                                                            <input type="text" class="form_input"
+                                                                placeholder="银行预留手机号" />
+                                                        </div>
+                                                    </form>
+                                                    <div class="ipt-item">
+                                                        <div class="ipt-lab">验证码:</div>
+                                                        <input type="text" class="ipt-txt-yzm" placeholder="短信验证码" />
+                                                        <div class="sav">
+                                                            <button class="auth">获取验证码</button>
+                                                            <br>
+                                                            <a class="ipt-info-l" id="btn2">没有收到短信？</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="judge-control">
+                                                    <button class="mate">绑卡并支付</button>
+                                                    <div class="agre">
+                                                        <label for="a1"><input name="agree" type="checkbox"
+                                                                value="" />&nbsp同意</label>
+                                                        <a href="#" id="btn3">《支付用户协议》</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 这是分割 -->
+                </div>
+                <!-- 这里是分割 -->
+                <div class="footercopyright">
+                    <span>Copyright © 2014 ALL RIGHTS RESERVED.ICP经营许可证：闽ICP备14017745号-1</span>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+        var accordion = document.getElementById('accordion');//获取id为accordion的标签
+        var dropUp = accordion.getElementsByClassName('dropUp');//点击
+        var dropDown = accordion.getElementsByClassName('childbody');//获取所有标签为child的元素
+        for (let i = 0; i < dropUp.length; i++) {//遍历
+        dropUp[i].addEventListener('click',function(){//监听点击
+            if (dropUp[i].style.height == '480px') {
+                dropUp[i].style.height = 57 + 'px';  
+                return; 
+            }
+            for (let j = 0; j < dropDown.length; j++) {
+                dropUp[j].style.height = 57 + 'px';//最大高度
+            }
+            if (dropUp[i].style.height == '57px') {
+                dropUp[i].style.height = 480 + 'px';   
+            }
+                     
+        })
+    }
+    //显示隐藏
+    $(function () {
+        $('#deposit2').click(function () {
+            $('.datail1').hide()
+            $('.datail2').show()
+        });
+        $('#deposit').click(function () {
+            $('.datail2').hide()
+            $('.datail1').show()
+        });
+        $('.click li').click(function () {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+            } else {
+                $(this).addClass('active').siblings('li').removeClass('active');
+            }
+        });
+    });
+    // 收缩
+    // 企业网银
+    // $(document).ready(function () {
+    //     $("#hide").click(function (e) {
+    //         console.log(e)
+    //         let id = e.currentTarget.dataset.id
+    //         if (id == 'val') {
+    //             $(this).attr('data-id', 'val2')
+    //             $('.firm-wrap').addClass('dropDown')
+    //             $('.firm-wrap').removeClass('dropUp')
+    //         } else {
+    //             $(this).attr('data-id', '1')
+    //             $('.firm-wrap').addClass('dropUp')
+    //             $('.firm-wrap').removeClass('dropDown')
+    //         }
+    //     });
+
+    //     $("#son").click(function (e) {
+    //         console.log(e)
+    //         let id = e.currentTarget.dataset.id
+    //         if (id == 'big') {
+    //             $(this).attr('data-id', 'val2')
+    //             $('.indual-big-box').addClass('dropDown')
+    //             e.stopPropagation();
+    //             $('.indual-big-box').removeClass('dropUp')
+    //         } else {
+    //             $(this).attr('data-id', '1')
+    //             $('.indual-big-box').addClass('dropUp')
+    //             $('.indual-big-box').removeClass('dropDown')
+    //         }
+    //     });
+    //     $("#code").click(function (e) {
+    //         console.log(e)
+    //         let id = e.currentTarget.dataset.id
+    //         if (id == 'uniform') {
+    //             $(this).attr('data-id', 'val2')
+    //             $('.union-big-box').addClass('dropDown')
+    //             $('.union-big-box').removeClass('dropUp')
+    //         } else {
+    //             $(this).attr('data-id', '1')
+    //             $('.union-big-box').addClass('dropUp')
+    //             $('.union-big-box').removeClass('dropDown')
+    //         }
+    //     });
+    //     $("#vate").click(function (e) {
+    //         let id = e.currentTarget.dataset.id
+    //         if (id == 'inti') {
+    //             $(this).attr('data-id', 'val2')
+    //             $('.silver-wrap').addClass('dropDown')
+    //             $('.silver-wrap').removeClass('silverUp')
+    //         } else {
+    //             $(this).attr('data-id', 'vol')
+    //             $('.silver-wrap').addClass('silverUp')
+    //             $('.silver-wrap').removeClass('dropDown')
+    //         }
+    //     });
+    //     $('.silver-list li').click(function () {
+    //         $(this).addClass('newclass');
+    //         $(this).siblings().removeClass('newclass');
+    //     });
+    //     $("#fast").click(function (e) {
+    //         let id = e.currentTarget.dataset.id
+    //         if (id == 'mental') {
+    //             $(this).attr('data-id', 'val3')
+    //             $('.quick-wrap').addClass('quickDown')
+    //             $('.quick-wrap').removeClass('quickUp')
+    //         } else {
+    //             $(this).attr('data-id', 'vol1')
+    //             $('.quick-wrap').addClass('quickUp')
+    //             $('.quick-wrap').removeClass('quickDown')
+    //         }
+    //     });
+    // });
+    $(function () {
+        $('.bank-list li').click(function () {
+            if ($(this).hasClass('newclass')) {
+                $(this).removeClass('newclass');
+            } else {
+                $(this).addClass('newclass').siblings('li').removeClass('newclass');
+            }
+        });
+
+    });
+</script>
+
+</html>

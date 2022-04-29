@@ -1,0 +1,285 @@
+.banner-box{
+    height: 520px;
+    background-image: url("../images/college/banner.png");
+    background-size: cover;
+    background-position: center top;
+}
+.banner-box .module-wrap{
+    height: 100%;
+    padding-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-box .text-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.banner-box .text-box .label{
+    width:86px;
+    height: 21px;
+    line-height: 21px;
+    border-radius: 30px;
+    background-color: #0AE483;
+    color: #343AC9;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 9px;
+}
+.banner-box .text-box .text{
+    font-size: 16px;
+    color: #ffffff;
+}
+.banner-box .text2{
+    display: flex;
+    align-items: center;
+    font-size: 44px;
+    color: #ffffff;
+}
+.banner-box .text2 span{
+    color: #09E583;
+}
+.banner-box .module-wrap>.text{
+    font-size: 44px;
+    color: #ffffff;
+}
+.banner-box  .text3{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 35px;
+}
+.banner-box button{
+    width: 172px;
+    height: 50px;
+    background-color: #01CE73;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+.banner-box .time{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 22px;
+}
+.nav-box{
+    background-color: #ffffff;
+    height: 81px;
+    border-bottom: 1px solid #E7E9ED;
+}
+.nav-box-float{
+    position: fixed;
+    top: 112px;
+    left: 0;
+    z-index: 100;
+    box-shadow:0 5px 10px -5px rgba(212, 212, 221, 0.4);
+}
+.nav-box .module-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-box .nav{
+    padding:0  106.5px;
+    font-size: 22px;
+    color: #333333;
+    height: 100%;
+    line-height: 80px;
+    cursor: pointer;
+}
+.nav-box .nav-cur{
+    color: #3664FF;
+    position: relative;
+}
+.nav-box .nav-cur::after{
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #3664FF;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 75px);
+}
+.list{
+    background-color: #ffffff;
+}
+.list .module-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 50px;
+}
+.list-box{
+    overflow: hidden;
+    width: 100%;
+}
+.list-box .item{
+    float: left;
+    margin: 0 20px 40px 0;
+    border: 1px solid #F2F2F2;
+    width: 386px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.list-box .item:nth-of-type(3n){
+    margin-right: 0;
+}
+.list-box .item .text1-box{
+    width: 100%;
+    height: 214px;
+    display: flex;
+    position: relative;
+}
+.list-box .item .text1-box img{
+    height: 100%;
+    width: 100%;
+}
+.list-box .item .text1-box .text1-c{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 38px;
+}
+.list-box .item .text1-box .text1-c .title{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 35px;
+}
+.list-box .item .text1-box .text1-c .wire{
+    width: 200px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.list-box .item .text1-box .text1-c .text{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .84);
+    letter-spacing: 3.3px;
+}
+.list-box .item .text1-box .text1-cur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .6);
+}
+.list-box .item .text1-box .text1-cur button{
+    width: 142px;
+    height: 50px;
+    background-color: #3664FF;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    animation:btnAnimation 0.6s 1;
+    -webkit-animation:btnAnimation 0.6s 1;
+    -moz-animation: btnAnimation 0.6s 1;
+}
+.list-box .item .text2-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 22px 30px;
+    background-color: #ffffff;
+    height: 168px;
+}
+.list-box .item .text2-box .title{
+    font-size: 22px;
+    color: #333333;
+    line-height: 35px;
+}
+.list-box .item .text2-box .text-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-box .item .text2-box .text-b .price{
+    font-size: 20px;
+    color: #FF452D;
+}
+.list-box .item .text2-box .text-b  .num{
+    font-size: 14px;
+    color: #999999;
+}
+.list-box .item:hover{
+    box-shadow: 0 0 10px 2px #F5F5F6;
+}
+.list-box .item:hover  .text1-cur{
+    display: flex;
+}
+.more-btn{
+    width: 172px;
+    height: 50px;
+    border: 1px solid #3664FF;
+    font-size: 18px;
+    color: #3664FF;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 2px;
+    margin: 10px 0 40px;
+}
+.list2,.list3{
+    display: none;
+}
+.float-box  .module-wrap>.title-box .title{
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 41px 0 8px;
+    font-weight: normal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.float-box  .module-wrap>.title-box .title .num{
+    font-size: 42px;
+    margin-top: -9px;
+}
+.float-box  .module-wrap>.title-box  .subtitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, .6);
+    text-align: center;
+}
+
+@keyframes btnAnimation{
+    from{
+       transform: translateY(20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes btnAnimation{
+    from{
+       transform: translateY(20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes btnAnimation{
+    from{
+       transform: translateY(20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

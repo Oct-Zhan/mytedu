@@ -1,0 +1,56 @@
+.msg-mask-box .mask-content {
+  width: 530px;
+  height: 260px;
+  background: white;
+  position: absolute;
+  z-index: 1000;
+  left: calc(50% - 265px);
+  top: calc(50% - 130px);
+}
+
+.msg-mask-box .mask-content .msg-title-box {
+  height: 46px;
+  background: #e30113;
+  line-height: 46px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.msg-mask-box .mask-content .msg-title-box span {
+  float: left;
+  color: white;
+}
+
+.msg-mask-box .mask-content .msg-title-box i {
+  width: 46px;
+  height: 46px;
+  background: url(../images//icon1/ico_close2.png) no-repeat center center;
+  float: right;
+  cursor: pointer;
+}
+
+.msg-mask-box .mask-content .msg-title-box i:hover {
+  background: url(../images//icon1/ico_close2.png) no-repeat center center #b31523;
+}
+
+.msg-mask-box .mask-content .msg-content {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 0 10px;
+  margin-top: 70px;
+}
+
+.msg-mask-box .mask-content .msg-content .text {
+  padding: 0 40px;
+}
+
+.msg-mask-box .mask-content .msg-content .btn {
+  width: 76px;
+  height: 32px;
+  color: white;
+  background: #e30113;
+  margin-top: 70px;
+  line-height: 32px;
+}
+/*# sourceMappingURL=mask-msg.css.map */

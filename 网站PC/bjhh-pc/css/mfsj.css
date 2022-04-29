@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.mfsj-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: none;
+}
+
+.mfsj-main{
+    width: 503px;
+    background: #fcfcfc;
+    position: absolute;
+    left: calc(50% - 251.5px);
+    top: calc(50% - 224px);
+    z-index: 10000;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.mfsj-main .mfsj-ban {
+    width: 503px;
+    height: 125px;
+    position: relative;
+}
+
+.mfsj-main .mfsj-ban img {
+    width: 100%;
+    height: 100%;
+}
+
+.mfsj-main .mfsj-ban .mfsj-out {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.mfsj-main .mfsj-ban .mfsj-out img {
+    width: 100%;
+    height: 100%;
+}
+
+.mgsj-form {
+    padding: 0 50px;
+}
+
+.mgsj-form p {
+    font-size: 28px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.mgsj-form div {
+    margin-bottom: 15px;
+}
+
+.mgsj-form div input {
+    display: inline-block;
+    width: 403px;
+    height: 43px;
+    border: 1px solid #e0e0e0;
+    text-indent: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.index-city-sele {
+    margin-right: 30px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+.city-sele-result {
+    width: 228px;
+    height: 32px;
+    line-height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city-sele-option {
+    position: absolute;
+    left: 0;
+    top: 43px !important;
+    background: #fcfcfc;
+    width: 100%;
+    height: 260px;
+    line-height: 40px;
+    border: 1px solid #e0e0e0 !important;
+    border-top: 0;
+    padding: 10px 0 10px 0px !important;
+    box-sizing: border-box;
+    z-index: 10;
+    overflow: auto;
+    display: none;
+    border-radius: 0 0 5px 5px;
+    border-top:none;
+}
+
+.city-sele-option::-webkit-scrollbar {
+    display: none;
+}
+
+.city-sele-option p:hover {
+    color: #de0010;
+}
+
+.city-list .active span {
+    color: #de0010;
+}
+
+.mfsj-sele {
+    width: 405px;
+    height: 43px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    text-indent: 10px;
+}
+
+.mfsj-sele span {
+    color: #666;
+    font-size: 14px;
+}
+
+.city-pan {
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+.city-san {
+    display: inline-block;
+    width: 29px;
+    height: 41px;
+    background: #fafafa url(../images/icon3/icon-down-01.png) no-repeat center center;
+    border-left: 1px solid #e0e0e0;
+    margin: 0 !important;
+}
+
+.city-sele-option-2 {
+    /* font-size: 14px; */
+    padding: 0;
+    height: auto;
+    top: 43px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+}
+
+.city-sele-option-2 p {
+    font-size: 14px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.city-sele-option-2 p:hover {
+    background: #f4f4f4;
+    color: #666;
+}
+
+.mgsj-sub span{
+    display: inline-block;
+    text-align: center;
+    height: 43px;
+    width: 100%;
+    line-height: 43px;
+    color: white;
+    background: #e30113;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.mgsj-sub span:hover {
+    background: #b31523;
+}
+
+.please-name {
+    width: 530px;
+    height: 260px;
+    background: white;
+    position: absolute;
+    z-index: 10000;
+    left: calc(50% - 265px);
+    top: calc(50% - 130px);
+    display: none;
+}
+
+.please-name-title {
+    height: 46px;
+    background: #e30113;
+    line-height: 46px;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+.please-name-title span {
+    float: left;
+    color: white;
+}
+
+.please-name-title i {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: url(../images/icon3/warnning_close.png) no-repeat center center;
+    float: right;
+    cursor: pointer;
+}
+
+.please-name-title i:hover {
+    background: url(../images/icon3/warnning_close.png) no-repeat center center #b31523;
+}
+
+.please-name-main{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+    margin-top: 70px;
+}
+.please-name-btn{
+    width: 76px;
+    height: 32px;
+    color: white;
+    border: none;
+    background: #e30113;
+    margin-top: 70px;
+    line-height: 32px;
+}
+.mfsj-sele {
+    width: 405px !important;
+    height: 43px !important;
+    padding: 0px !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0 !important;
+    text-indent: 10px !important;
+}

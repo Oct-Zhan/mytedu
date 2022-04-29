@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片弹窗</title>
+    <link rel="stylesheet" href="../css/mask-img.css">
+</head>
+<body>
+
+    <div class="mask-box img-mask-box">
+        <div class="mask-content">
+            <img src="../images/icon1/ico_close.png" alt="" class="mask-close">
+            <img src="../images//reuse1/pic1.png" alt="" class="mask-img">
+        </div>
+    </div>
+    
+</body>
+<script>
+    $(function(){
+        $(".img-mask-box .mask-close").click(function(){
+            $(".img-mask-box").hide()
+        })
+    })
+</script>
+</html>

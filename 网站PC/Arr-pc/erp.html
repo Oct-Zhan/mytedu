@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>艾瑞尔-装企erp</title>
+	<link href="css/aacomon.css" rel="stylesheet" type="text/css" />
+	<link href="css/erp.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+	<!-- 导航 -->
+	<div class="ov">
+		<div class="aui-header-nav moveDown">
+			<div class="aui-wo">
+				<div class="wrapper">
+					<a href="#">
+						<div class="aui-logo">
+							<span class="line"></span>
+							<span>装企咨询管理专家</span>
+						</div>
+					</a>
+				</div>
+				<div class="aui-top-nav" id="subNav">
+					<ul class="menu">
+						<li><a href="./index.html">首页</a></li>
+						<li class="selectedNav moveUpdate"><a href="erp.html">装企ERP</a></li>
+						<li><a href="./customer.html">客户案例</a></li>
+						<li><a href="./plan.html">解决方案</a></li>
+						<li><a href="./about.html">关于我们</a></li>
+						<li><a href="./company.html">公司咨讯</a></li>
+						<li><a href="./free.html">免费体验</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- banner -->
+	<div class="row">
+		<div class="aui-banner-main">
+			<div class="aui-banner-box">
+				<div class="aui-banner-button">
+					<a href="#"><strong>立即免费体验</strong></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 右边悬浮 -->
+	<div class="nav-right">
+		<img src="img/icon_nav/right.png">
+	</div>
+	<!-- 装企erp -->
+	<div class="box-center">
+		<div class="solu-container">
+			<div class="solu-nav">
+				<div class="solu"></div>
+			</div>
+			<div class="box-left">
+				<ul>
+					<li class="text-bold">小类目第一</li>
+					<li class="text-box">钉钉软件装企应用类小程序</li>
+					<br>
+					<li class="text-bold">1000家</li>
+					<li class="text-box">拥有<span>1000+</span>以上使用艾瑞尔ERP的装企</li>
+					<br>
+					<li class="text-bold">售后服务一流</li>
+					<li class="text-box">售后服务群多对一服务,帮助装企实施落地</li>
+					<br>
+					<li class="text-bold">专业导师团队</li>
+					<li class="text-box">咨询赋能和落地指导赋能,真正的帮助装企完成信息化数字化的升级 </li>
+				</ul>
+				<div class="text-button">
+					<button type="button">免费试用</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 -->
+	<div class="footer-box">
+		<div class="footer">
+			<div class="gradient">
+				<div class="footer-main">
+					<img src="./img/icon_nav/footer.png">
+					<div class="footer-main-nav">
+						<ul>
+							<li>装企ERP</li>
+							<li>客户案例</li>
+							<li>解决方案</li>
+						</ul>
+						<ul>
+							<li>关于我们</li>
+							<li>公司咨讯</li>
+							<li>免费体验</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-text">
+					<p class="footer-text-p">四川艾瑞尔企业管理有限公司</p>
+					<br>
+					<span class="footer-text-s">联系电话：18060997798</span>
+					<p class="footer-text-s">联系地址：成都市青羊区人民中路二段29号泰丰国际广场1305号</p>
+				</div>
+			</div>
+			<div class="footer-b">
+				<div class="footer-a">
+					<span>四川艾瑞尔企业管理有限公司&nbsp;版权所有&nbsp;蜀ICP备2020036828号-1&nbsp;&nbsp;&nbsp;&nbsp;Copyrigh&nbsp;©&nbsp;2021-2022&nbsp;aruierzx.com
+						. All Rights Reserved
+					</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		jQuery(".aui-banner-main").slide({
+			mainCell: ".bd ul",
+			effect: "left",
+			autoPlay: true,
+			trigger: "click",
+			delayTime: 700
+		});
+		$(window).on('scroll', function () {
+			if ($(document).scrollTop() > 150) {
+				$('.aui-header-nav').addClass('solid').removeClass('moveDown');
+				$('.aui-header-top').addClass('moveUp');
+			} else {
+				$('.aui-header-nav').removeClass('solid').addClass('moveDown');
+				$('.aui-header-top').removeClass('moveUp');
+			}
+		});
+	</script>
+
+</body>
+
+</html>

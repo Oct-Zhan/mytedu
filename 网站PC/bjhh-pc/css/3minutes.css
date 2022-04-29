@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3分钟学装修开始 */
+.threeMin-banner {
+    width: 100%;
+    height: 600px;
+    background: url('../images/index2/3minutes/pic_001.png') no-repeat center 0;
+    background-size: cover;
+}
+
+.three-boxs {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.money-where {
+    width: 100%;
+    height: 100%;
+    background: url('../images/index2/3minutes/pic_002.png') center bottom no-repeat;
+}
+
+.money-where-one {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 98px 0 48px;
+}
+
+.money-where-one h2 {
+    width: 440px;
+    height: 74px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_003.jpg') no-repeat;
+}
+
+.money-where-one p {
+    width: 440px;
+    height: 60px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_005.jpg') no-repeat;
+}
+
+.round-img {
+    height: 308px;
+    background: url('../images/index2/3minutes/pic_004.png') no-repeat;
+}
+
+.room-img {
+    height: 430px;
+    background: url('../images/index2/3minutes/pic_006.png') no-repeat;
+    z-index: -1;
+}
+
+.money-where-one>button {
+    display: block;
+    width: 220px;
+    height: 54px;
+    margin: 30px auto 0;
+    border: 0;
+    background-color: #fd744c;
+    border-radius: 27px;
+    -webkit-box-shadow: 0 2px 20px #fd744c;
+    box-shadow: 0 2px 20px #fd744c;
+    font: 20px/54px 'PingFangMedium';
+    text-align: center;
+    color: #fff;
+}
+
+/* 装修需要多长时间开始 */
+.decoration-time {
+    width: 1200px;
+    height: 860px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_007.png') no-repeat;
+}
+
+/* 装修需要多长时间结束 */
+
+/* 装修流程是怎样的开始 */
+.dec-process {
+    padding: 98px 0 100px;
+    background-color: #ffd08b;
+}
+
+.dec-process-tit,
+.dec-way-tit {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dec-process h2 {
+    width: 462px;
+    margin: 0 auto 29px;
+    height: 72px;
+    background: url('../images/index2/3minutes/pic_008.png') no-repeat;
+}
+
+.dec-process p {
+    font: 20px/40px 'PingFangRegular';
+    text-align: center;
+    color: #515364;
+}
+
+.dec-process-con {
+    width: 1530px;
+    margin: 79px auto 0;
+}
+
+.dec-process-list {
+    width: 1310px;
+    height: 411px;
+    padding: 0 72px 0 148px;
+    margin-left: -37px;
+    background: url('../images/index2/3minutes/pic_009.png') left bottom no-repeat;
+    box-sizing: content-box;
+}
+
+.dec-process-li {
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 300px;
+    margin-left: 4px;
+}
+
+.li-bottom {
+    margin-top: 60px;
+}
+
+div.dec-process-li:nth-child(1) {
+    margin-left: 0;
+    background: url('../images/index2/3minutes/menu_aboutus01.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(2) {
+    background: url('../images/index2/3minutes/menu_aboutus02.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(3) {
+    background: url('../images/index2/3minutes/menu_aboutus03.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(4) {
+    background: url('../images/index2/3minutes/menu_aboutus04.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(5) {
+    background: url('../images/index2/3minutes/menu_aboutus05.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(6) {
+    background: url('../images/index2/3minutes/menu_aboutus06.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(7) {
+    background: url('../images/index2/3minutes/menu_aboutus07.png') center center no-repeat;
+}
+
+div.dec-process-li:nth-child(8) {
+    background: url('../images/index2/3minutes/menu_aboutus08.png') center center no-repeat;
+}
+
+.dec-process-li span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 装修流程是怎样的结束 */
+
+/* 装修的几种方式开始 */
+.dec-way {
+    width: 1200px;
+    height: 760px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.dec-way-tit h2 {
+    width: 462px;
+    height: 80px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_010.png') no-repeat;
+}
+
+.dec-way-con {
+    position: relative;
+    width: 1200px;
+    margin: 110px auto 0;
+}
+
+.dec-way-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.dec-way-inbox {
+    width: 624px;
+    height: 470px;
+    overflow: hidden;
+    z-index: 4 !important;
+    position: relative;
+    top: 50px;
+    --swiper-navigation-size: 0;
+}
+
+.dec-con-sbox {
+    width: 624px;
+    height: 370px;
+    background-color: #ffd5c8;
+    color: #515364;
+}
+
+.way-left-con {
+    overflow: hidden;
+    position: relative;
+    width: 510px;
+    height: 238px;
+    padding: 44px 55px 88px 60px;
+    background-color: #ffd5c8;
+    text-align: left;
+    word-wrap:break-word;
+}
+
+.way-left-con h3 {
+    margin-bottom: 7px;
+    font: 36px/50px 'PingFangRegular';
+    color: #515364;
+}
+
+.way-left-con p:nth-of-type(1){
+    margin-bottom: 20px;
+    letter-spacing: -0.4px;
+    font: 20px/36px 'PingFangRegular';
+    color: #515364;
+}
+
+.way-left-con p:nth-of-type(2){
+    letter-spacing: -0.4px;
+    font: bold 20px/40px 'PingFangRegular';
+    color: #515364;
+}
+.way-left-con p em{
+    float: left;
+    width: 62px;
+}
+
+.way-left-con p span{
+    float: left;
+    width: 448px;
+    font: 20px/36px 'PingFangRegular';
+    color: #515364;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-wrapper .swiper-slide .clix {
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffd08b;
+}
+
+
+.swiper-wrapper .swiper-slide .clix>span {
+    display: block;
+    margin-top: 13px;
+    color: #ff7f24;
+    font-weight: bold;
+}
+
+.mySwiper {
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+}
+
+.mySwiper .swiper-slide .clix {
+    background-color: #f0edf1;
+}
+
+.mySwiper .swiper-slide .clix span {
+    color: #a0a0aa;
+}
+
+.mySwiper .swiper-slide-thumb-active .clix {
+    background-color: #ffd08b;
+    opacity: 1;
+}
+
+.mySwiper .swiper-slide-thumb-active .clix span {
+    color: #ff7f24;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev img {
+    position: relative;
+    top: 128px;
+    left: 450px;
+}
+
+.swiper-button-next img {
+    position: relative;
+    top: 128px;
+    right: 40px;
+}
+
+.way-left-con {
+    overflow: hidden;
+    position: relative;
+    width: 510px !important;
+    padding: 44px 55px 88px 60px;
+    background-color: #ffd5c8;
+}
+
+.dec-way-right {
+    float: right;
+    width: 675px;
+    height: 470px;
+    background: url('../images/index2/3minutes/pic_011.png') center center no-repeat;
+    position: relative;
+    top: -420px;
+}
+
+.way-btn-le {
+    float: left;
+    background: url('../images/icon2/3minutes/icon_01.png') no-repeat;
+}
+
+.way-btn-ri {
+    float: right;
+    background: url('../images/icon2/3minutes/icon_02.png') no-repeat;
+}
+
+/* 装修的几种方式结束 */
+
+.choose-and-material {
+    max-width: 1920px;
+    height: 1455px;
+    background: url('../images/index2/3minutes/choos-material-bg.png') center bottom no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* 装修如何选择开始 */
+
+.dec-choose {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.dec-choose-con {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dec-choose-con>h2 {
+    width: 462px;
+    height: 80px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_012.png') center center no-repeat;
+}
+
+.dec-choose-con p {
+    width: 1200px;
+    height: 307px;
+    margin: 91px 0 37px;
+    background: url('../images/index2/3minutes/dec-choose-con.png') center center no-repeat;
+}
+
+/* 装修如何选择结束 */
+
+/* 装修材料有哪些开始 */
+.dec-material {
+    padding: 100px 0 113px;
+}
+
+.dec-material-con {
+    width: 1222px;
+    margin: 0 auto;
+}
+
+.dec-material-con h2 {
+    width: 462px;
+    height: 80px;
+    margin: 0 auto;
+    background: url('../images/index2/3minutes/pic_014.png') center center no-repeat;
+}
+
+.dec-material-list {
+    margin-top: 82px;
+    width: 1222px;
+    height: 376px;
+}
+
+.dec-material-list dl {
+    position: relative;
+    width: 596px;
+    height: 376px;
+}
+
+.dec-mate-left {
+    float: left;
+}
+
+.dec-mate-right {
+    float: right;
+}
+
+.dec-material-list dl dt {
+    width: 596px;
+    height: 320px;
+}
+
+.dec-mate-left dt {
+    background: url('../images/index2/3minutes/pic_015.png') center no-repeat;
+}
+
+.dec-mate-right dt {
+    background: url('../images/index2/3minutes/pic_016.png') center no-repeat;
+}
+
+.dec-material-list dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.dec-material-list dl dd {
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+    padding: 18px 26px;
+    width: 498px;
+    background-color: #fff;
+    box-shadow: 0 1px 20px #e0dfe0;
+}
+
+.dec-material-list dd p em {
+    float: left;
+    width: 62px;
+}
+
+.dec-material-list dd p span {
+    float: left;
+    width: 436px;
+}
+
+.dec-material-list dd p {
+    font: 20px/36px 'PingFangRegular';
+    color: #515364;
+}
+/* 装修材料有哪些结束 */
+/* 3分钟学装修结束 */

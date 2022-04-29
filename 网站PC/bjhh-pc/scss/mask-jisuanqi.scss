@@ -1,0 +1,203 @@
+.jisuanqi-mask-box{
+	z-index: 999;
+	.mask-content{
+		width: 1185px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		.top-img{
+			width: 1185px;
+			height: 208px;
+			z-index: 1;
+		}
+		.jisuanqi-content{
+			position: relative;
+			margin: -54px 5.5px 0;
+			width: 1174px;
+			background-color: #fff;
+			border-radius: 5px;
+			z-index: 2;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			&::after{
+				content: '';
+				width: 1px;
+				height: 100%;
+				background-color: #DDDDDD;
+				position: absolute;
+				top: 0;
+				left: 658px;
+			}
+			&::before{
+				content: '';
+				width: 140px;
+				height: 146px;
+				background-image: url('../images/reuse1/jsq_play.png');
+				background-size: 100% 100%;
+				position: absolute;
+				top: calc(50% - 73px);
+				right: calc(50% - 140px);
+				z-index: 5;
+				cursor: pointer;
+			}
+			>div{
+				padding: 50px 0 60px;
+				.title-box{
+					display: flex;
+					align-items: flex-end;
+					justify-content: flex-start;
+					.text1{
+						font-size: 28px;
+						color: #333333;
+					}
+					.text2{
+						font-size: 16px;
+						color: #666666;
+						margin: 0 0 3px 10px;
+						span{
+							color: #F45237;
+						}
+					}
+					.text3{
+						font-size: 36px;
+						color: #F45237;
+						margin: 0 10px -4px;
+					}
+				}
+			}
+			.left-box{
+                width: 658px;
+				padding-left: 60px;
+				.form-box{
+					width: 495px;
+					margin-top: 50px;
+					>.item{
+						display: flex;
+						align-items: flex-start;
+						justify-content: flex-start;
+						margin-bottom: 24px;
+						.label{
+							width: 124px;
+							position: relative;
+							font-size: 18px;
+							color: #333333;
+							&::after{
+								content: '*';
+                                font-size: 18px;
+								color: #F45237;
+								position: absolute;
+								top: calc(50% - 8px);
+								right: 25px;
+							}
+						}
+						.input-box{
+							flex: 1;
+							display: flex;
+							flex-wrap: wrap;
+							select{
+								height: 36px;
+								font-size: 16px;
+								color: #333333;
+								padding: 0 18px 0 12px;
+								appearance:none;
+								background: url('../images/icon1/ico_down2.png') no-repeat;
+								background-position: 94% center;
+								background-size: 8px;
+								border: 1px solid #DDDDDD;
+							}
+							input{
+								height: 36px;
+								border: 1px solid #DDDDDD;
+								padding: 0 12px;
+								width: 100%;
+							}
+						}
+						.sel-city-box{
+							justify-content: space-between;
+							select{
+                               width: 180px;
+							}
+						}
+						.house-area-box{
+							position: relative;
+							&::after{
+								content: '㎡';
+								position: absolute;
+								right: 15px;
+								top: calc(50% - 11px);
+								font-size: 16px;
+								color: #333333;
+							}
+						}
+						.sel-home-box{
+							select{
+								width: 116px;
+								margin-right: 11px;
+								&:nth-of-type(3),&:nth-of-type(5){
+									margin-right: 0;
+								}
+								&:nth-of-type(4),&:nth-of-type(5){
+									width: 180px;
+									margin-top: 24px;
+								}
+							}
+						}
+					}
+					.agreement-box{
+						margin: 15px 0 0 !important;
+					}
+				}
+			}
+			.right-box{
+                width: 516px;
+				padding-left: 100px;
+				.text-box{
+					margin-top: 90px;
+					width: 356px;
+					height: 280px;
+					border-radius: 5px;
+					border:1px solid #DDDDDD;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					padding: 35px 0 35px 90px;
+					.item{
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						font-size: 18px;
+						color: #333333;
+						.label{
+							width: 80px;
+						}
+						.text{
+							span{
+								display: inline-block;
+								width: 70px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.mask-close{
+			position: absolute;
+			top: 55px;
+			right: -40px;
+			cursor: pointer;
+		}
+	}
+}
+.close-jisuanqi-mask-box{
+	left: auto;
+	right: -550px;
+	transform: scale(0.05) translate(98%, 20%);
+	transition: all 0.9s;
+}
+@media screen and (max-width:1350px) {
+	.close-jisuanqi-mask-box{
+		right:auto;
+		left: 40%;
+	}
+}

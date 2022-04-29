@@ -1,0 +1,85 @@
+.solution-box .module-wrap,
+.solution-box  .solution-list-box,
+.solution-box .solution-list,
+.solution-box  .solution-item .text-box{
+    display: flex;
+    flex-direction: column;
+}
+.banner-box{
+    height: 642px;
+    background-image: url("../images/solution/bg.png");
+    background-size: cover;
+    background-position: center top;
+}
+.banner-box .module-wrap{
+    position: relative;
+}
+.banner-box button{
+    width: 168px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #2A64FD;
+    position: absolute;
+    left: 0;
+    bottom: 156px;
+}
+.solution-box .module-wrap{
+    padding: 90px 0 120px;
+}
+.solution-box .module-wrap>.title{
+    font-size: 36px;
+    color: #333333;
+}
+.solution-box  .solution-list-box{
+    width: 756px;
+    margin-top: 30px;
+}
+.solution-box .solution-list{
+    margin-bottom: 48px;
+}
+.solution-box .solution-content{
+    display: flex;
+    justify-content: space-between;
+}
+.solution-box  .solution-item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 194px;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 40px 0;
+    cursor: pointer;
+}
+.solution-box  .solution-item:last-of-type{
+    border: 0;
+}
+.solution-box  .solution-item .img{
+    width: 200px;
+    height: 112px;
+    margin-right: 28px;
+}
+.solution-box  .solution-item .text-box{
+   justify-content: space-between;
+   height: 112px;
+}
+.solution-box  .solution-item .text-box .title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+.solution-box  .solution-item .text-box .text{
+    line-height: 23px;
+}
+.solution-box  .solution-item .text-box .text,
+.solution-box  .solution-item .text-box .date{
+    font-size: 14px;
+    color: #999999;
+}
+.solution-box  .solution-item .more-btn{
+    width: 29px;
+    height: 28px;
+    margin-left: 37px;
+}

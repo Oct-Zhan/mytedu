@@ -1,0 +1,61 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-t{
+    background-color: #283454;
+    height: 252px;
+}
+.footer-t .module-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-t .module-wrap .text-box,
+.footer-t .module-wrap .text-box ul li{
+    display: flex;
+}
+.footer-t .module-wrap .text-box .footer-logo{
+    width: 160px;
+    height: 60px;
+    margin-right: 110px;
+}
+.footer-t .module-wrap .text-box ul,
+.footer-t .module-wrap .info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+}
+.footer-t .module-wrap .text-box ul{
+    padding-top: 8px;
+}
+.footer-t .module-wrap .text-box .a-box-2{
+    margin-left: 70px;
+}
+.footer-t .module-wrap .text-box ul li a{
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer-t .module-wrap .text-box ul li a:hover{
+    color: #0078FF;
+}
+.footer-t .module-wrap .info-box{
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 4px;
+}
+.footer-t .module-wrap .info-box .company-name{
+    font-size: 24px;
+}
+.footer-t .module-wrap .info-box .tel{
+    margin-top: 12px;
+}
+.footer-b{
+    background-color: #222A38;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .3);
+}

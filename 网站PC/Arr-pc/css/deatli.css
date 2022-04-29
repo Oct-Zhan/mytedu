@@ -1,0 +1,109 @@
+/* 必要布局样式css */
+.aui-header-nav.solid{
+	height:75px;
+}
+/* right广告 */
+.solu .ab{
+	position: absolute;
+	top: 280px;
+	right:360px;
+}
+/* 目录 */
+.aui-box{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	position: relative;
+	top:75px;
+}
+.aui-nav{
+	width: 460px;
+	font-size: 14px;
+	color: #a6a6a6;
+	padding-top: 22px;
+}
+.aui-nav a{
+	color: #a6a6a6;
+}
+/* 广告 */
+.box-left {
+    width: 360px;
+    height: 520px;
+    margin-left: 75px;
+    margin-top: 110px;
+    background-image: url(../img/bg21.png);
+}
+
+.box-left ul {
+    width: 300px;
+    height: 345px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.text-bold {
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0a1633;
+}
+
+.text-box {
+    font-size: 15px;
+    margin-top: 14px;
+    color: #697698;
+}
+
+.text-box span {
+    color: #deb384;
+}
+
+.text-button {
+    color: #664c3b;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+button {
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ffbd77;
+    border-radius: 50px;
+    background-color: #ffbd77;
+}
+/* 详情 */
+.big-box{
+	width:1200px;
+	height:1115px;
+	margin:0 auto;
+}
+.nav-box{
+	width:1200px;
+	height:1125px;
+	position: relative;
+	top:70px;
+	display:flex;
+	flex-direction:row;
+}
+.deat-main{
+	width: 760px;
+	height: 1115px;
+	margin: 0 auto;
+}
+.deat-title {
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+.deat-py{
+	margin-bottom:200px;
+}
+.deat-py p{
+	line-height: 40px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.footer-box{
+	margin-top:210px;
+}

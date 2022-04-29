@@ -1,0 +1,160 @@
+@import "./scss-global.scss";
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .global-container{
+        width: 100%;
+    }
+    .footer-box1{
+        min-height: 195px;
+        background-color: #F4F4F6;
+        .global-content{
+            padding: 54px 0 35px;
+            .footer-tab-box{
+                margin-bottom: 15px;
+                span{
+                    padding: 0 15px;
+                    height: 32px;
+                    line-height: 32px;
+                    background-color: #E7E8EA;
+                    color: #666;
+                    font-size: 14px;
+                    margin-right: 13px;
+                    cursor: pointer;
+                }
+                .active{
+                    color: #fff;
+                    background-color: #B1B1B1;
+                }
+            }
+            .footer-company-box{
+                .footer-company-text{
+                    display: none;
+                    a{
+                        margin-right: 10px;
+                        color: #A6A6A6;
+                        font-size: 12px;
+                        line-height: 30px;
+                    }
+                }
+                .footer-company-text1{
+                    display: block;
+                }
+            }
+        }
+    }
+    .footer-box2{
+        height: 468px;
+        background-image: url('../images//footer1/bg.png');
+        background-position:  center top;
+        background-size: cover;
+        .global-content{
+            padding-top: 62px;
+            .bot-main {
+                margin-bottom: 70px;
+                overflow: hidden;
+                .bot-logo{
+                    float: left;
+                    margin: 6px 68px 0 0;
+                }
+                .bot-col {
+                    vertical-align: top;
+                    line-height: 35px;
+                    float: left;
+                    p{
+                        &:first-child {
+                            color: #fff;
+                            font-size: 14px;
+                        }
+                        &:nth-child(2) {
+                            font-size: 25px;
+                            color: #fff;
+                        }
+                        &:last-child {
+                            font-size: 14px;
+                            color: #8a8f94;
+                        }
+                    }
+                    a {
+                        display: block;
+                        color: #8a8f94;
+                        font-size: 12px;
+                        line-height: 30px;
+                        &:hover{
+                            color: $palette-red-base;
+                        }
+                    }
+                }
+                .bot-col1{
+                    width: 160px;
+                }
+                .bot-col2{
+                    width: 135px;
+                }
+                .bot-col3{
+                    width: 140px;
+                }
+                .bot-col4{
+                    width: 130px;
+                }
+                .bot-col5{
+                    width: 155px;
+                }
+                .bot-code {
+                    float: right;
+                    text-align: center;
+                    padding-top: 6px;
+                    p{
+                        color: #fff;
+                        line-height: 40px;
+                        font-size: 12px;
+                        text-align: center;
+                    }
+                }
+            }
+            .bot-cont{
+                font-size: 12px;
+                color: #8a8f94;
+                width: 1200px;
+                margin: 0 auto;
+                line-height: 30px;
+                overflow: hidden;
+                .bot-l{
+                    float: left;
+                    p{
+                        a{
+                            color: #8a8f94;
+                            &:hover{
+                                color: $palette-red-base;
+                            }
+                        }
+                        span {
+                            padding: 0 4px;
+                        }
+                    }
+                    .footer-text2{
+                        display: none;
+                    }
+                }
+                .bot-r{
+                    float: right;
+                    vertical-align: middle;
+                    a{
+                        overflow: hidden;
+                        display: inline-block;
+                        margin-right: 15px;
+                        vertical-align: middle;
+                        &:last-of-type{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

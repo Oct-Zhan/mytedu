@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>协议弹窗</title>
+    <link rel="stylesheet" href="../css/mask-agreement.css">
+</head>
+<body>
+
+    <div class="mask-box agreement-mask-wrap">
+        <div class="mask-content">
+            <div class="agreement-content">
+               <iframe src="https://m.bao315.com/activity/privacy3.html" frameborder="0" class="iframe"></iframe>
+            </div>
+            <img src="../images/icon1/ico_close.png" alt="" class="mask-close">
+        </div>
+    </div>
+</body>
+<script>
+    $(function(){
+        $('.agreement-mask-wrap .mask-close').click(function () {
+            $('.agreement-mask-wrap').hide()
+        })
+    })
+</script>
+</html>

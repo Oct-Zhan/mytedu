@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>免费设计弹窗</title>
+    <link rel="stylesheet" href="../css/mask-mfsj.css">
+    <script src="./js/common1.js"></script>
+</head>
+
+<body>
+
+    <div class="mask-box mfsj-mask-box">
+        <div class="mask-content">
+            <div class="mask-banner-box">
+                <img src="../images/reuse1/mask_banner.png" alt="" class="mask-banner">
+                <img src="../images/icon1/ico_form_close.png" alt="" class="mask-close">
+            </div>
+            <div class="mask-form">
+                <div class="title">申请免费设计</div>
+                <input type="text" placeholder="您的称呼">
+                <input type="text" placeholder="您的电话">
+                <div class="mask-city-sel">
+                    <div class="city-sel-result">
+                        <span>经济装修</span>
+                        <div class="city-san"></div>
+                    </div>
+                    <div class="city-sel-option">
+                        <p>经济装修</p>
+                        <p>中档装修</p>
+                        <p>高档装修</p>
+                    </div>
+                </div>
+                <div class="verify-wrap" id="verify-wrap1"></div>
+                <div class="agreement-box">
+                    <div class="item">
+                        <img src="../images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                        <span class="agreement-item" data-agreement="1">《用户协议》</span>
+                        <span class="agreement-item" data-agreement="2">《隐私政策》</span>
+                    </div>
+                    <div class="item">
+                        <img src="../images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                        <span class="agreement-item" data-agreement="3">《共享说明》</span>
+                    </div>
+                </div>
+                <button class="btn submit">立即免费申请</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    $(function () {
+
+        /* 下拉框 */
+        $('.mfsj-mask-box .city-sel-result').click(function () {
+            $('.mfsj-mask-box .city-sel-option').show()
+        })
+        $('.mfsj-mask-box .city-sel-option p').click(function () {
+            let selText = $('.mfsj-mask-box .city-sel-result span')
+            selText.text($(this).text())
+            $('.mfsj-mask-box .city-sel-option').hide()
+        })
+
+
+        /* 滑动验证 */
+        // slideVerify.resetVerify();可以重置插件回到初始状态 
+        var slideVerifyVal1 = false
+        var SlideVerifyPlug = window.slideVerifyPlug;
+        var slideVerify1 = new SlideVerifyPlug('#verify-wrap1', {
+            wrapWidth: '403',
+            initText: '按住滑块向右拖动',
+            sucessText: '验证通过',
+            getSuccessState: function (res) {
+                slideVerifyVal1 = res
+            }
+        });
+
+
+
+        /* 关闭弹窗 */
+        $('.mfsj-mask-box .mask-close').click(function () {
+            $('.mfsj-mask-box').hide()
+            resetMfsjMask()
+        })
+
+        /* 重置弹窗 */
+        function resetMfsjMask(){
+            let text = $('.mfsj-mask-box .city-sel-option p').eq(0).text()
+            $('.mfsj-mask-box .city-sel-result span').text(text)
+            slideVerify1.resetVerify()
+            $('.mfsj-mask-box .agreement-box .img').attr('src','../images/icon1/ico_sel_no.png')
+        }
+
+
+        /* 提交表单 */
+        $('.mfsj-mask-box .submit').click(function(){
+            $('.msg-mask-box').show()
+        })
+
+
+    })
+</script>
+
+</html>

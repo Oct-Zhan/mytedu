@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft Yahei';
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header-page{
+    height: 94px;
+}
+.banner {
+    height: 991px;
+    width: 100%;
+    min-width: 1280px;
+    background: url("../images/index-1.jpg") center 100%;
+}
+
+.box1 {
+    background: url("../images/index-2.jpg") center;
+    width: 100%;
+    height: 1113px;
+}
+
+.box2 {
+    background: url("../images/index-3.jpg") center;
+    width: 100%;
+    height: 1042px;
+}
+
+.box3 {
+    background: url("../images/index-4.jpg") center;
+    width: 100%;
+    height: 881px;
+}
+
+.banner-container {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-container .top-box {
+    text-align: center;
+    background-image: url('../images/img_top.png');
+    background-size: 100% 100%;
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    right: calc(50% - 600px);
+    z-index: 2;
+    color: #fff;
+    padding-top: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 19px
+}
+
+.banner-container .top-box .text2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.content-title-info {
+    width: 1280px;
+    margin: 545px auto 0;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+    padding-right: 170px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content-title-info p {
+    display: inline-block;
+    width: 380px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.look-more {
+    margin-top: 30px;
+    width: 214px;
+    height: 67px;
+    display: block;
+    background: url("../images/look.png");
+}
+
+.box {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 1280px;
+}
+
+.box-container {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box1-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 299px;
+    text-align: center;
+}
+
+.bg-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn-info {
+    margin-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.btn-info span {
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background: url("../images/btn-1.png");
+}
+
+.btn2 {
+    background: url("../images/btn-2.png");
+}
+
+.btn1:hover {
+    background: url("../images/btn1.png");
+
+}
+.btn2:hover {
+    background: url("../images/btn2.png");
+
+}
+
+.box2-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab span {
+    width: 174px;
+    height: 74px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 60px;
+    color: #764D32;
+    background: url("../images/tab-bg.png");
+}
+.tab span:hover {
+    background: url("../images/tab-a.png");
+}
+.tab-img {
+    width: 1216px;
+    height: 538px;
+    margin-top: 62px;
+    margin-left: 55px;
+    display: inline-block;
+    position: relative;
+}
+
+.tab-img a {
+    display: block;
+    position: absolute;
+    width: 214px;
+    height: 67px;
+    top: 282px;
+    right: 205px;
+}
+
+@media screen and (max-width: 1210px) {
+    .content-title-info {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .content-title-info {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1850px) {
+    .content-title-info {
+        padding-left: 20%;
+    }
+}
+

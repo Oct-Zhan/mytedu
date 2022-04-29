@@ -1,0 +1,404 @@
+/* banner */
+.row{
+    max-width: 1920px;
+    min-height:640px;
+    height:640px;
+    margin: 0 auto;
+    background-image: url(../img/banner.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+.aui-banner-main{
+    width:1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.aui-banner-box{
+    width:330px;
+    height:48px;
+    position: relative;
+    top:500px;
+}
+.aui-banner-button a {
+    width:168px;
+    height:48px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #2a64fd;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.aui-banner-button a:hover {
+    color: #fff;
+    border-color: #3981ff;
+    background-color: #3981ff;
+}
+
+/* 解决方案 */
+.solu-title{
+    text-align: center;
+}
+.solu-title h1{
+    font-size:36px;
+    color: #1b1b1b;
+    padding-top:60px;
+}
+.solu-title p {
+    padding-top:10px;
+}
+.solu-main{ 
+    width:1200px;
+    margin:auto;
+    position: relative;
+    top:55px;
+}
+.solu-main ul{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0;
+    margin: 0;
+}
+.solu-main ul li{
+	height: 278px;
+}
+.solu-list{
+    margin: 0 0 30px 20px;
+}
+.solu-list:hover{
+	box-shadow: 0px 5px 15px #e9e9e9;
+}
+.s1{
+    display:none;
+}
+.solu-main ul li .solu-list-item:hover .s1{
+    display:block;
+}
+.solu-main ul li .solu-list-item:hover .s1+.s2{
+    display:none;
+}
+.solu-list-item{
+    width:378px;
+    height: 278px;
+    line-height:30px;
+	border-bottom: 1px solid #e9e9e9;
+    background: white;
+}
+.soluimg1{
+    width:378px;
+}
+.solu-list-item p{
+    padding-top:10px;
+}
+.solu-list .soluimg{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -30px;
+    margin-right: 15px;
+}
+.solu{
+    width:1200px;
+    height:790px;
+    margin: 0 auto;
+}
+.solu-button{
+   margin-top:60px;
+   margin-left: 515px;
+}
+.solu-button a{
+    width:152px;
+    height:40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #999999;
+    background-color: #ffffff;
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+}
+/* 选择艾瑞尔 */
+.choose-box{
+    margin-top:130px;
+}
+.choose{
+    max-width:1920px;
+    height:805px;
+    min-height:805px;
+    margin: 0 auto;
+    background-image: url(../img/choosebg.png);
+    background-position: center;
+}
+.choose-label{
+    width:1200px;
+    margin: 0 auto;
+}
+.choose-text{
+    width:1200px;
+    height:65px;
+    position: relative;
+    top:90px;
+}
+.choose h1{
+    margin-top:90px;
+    color: #ffffff;
+    text-align: center;
+}
+.choose .choose-p{
+    color:rgb(172, 172, 172);
+    text-align: center;
+}
+.choose-us{
+    width:1200px;
+    margin-top:60px;
+}
+.choose-brief{
+    width:1200px;
+    height:296px;
+    background-color: #ffffff;
+    margin:auto;
+    position: relative;
+    top:60px;
+}
+.choose-main{
+    width:650px;
+    height:210px;
+    margin:0;
+    text-align:left;
+    line-height: 24px;
+    margin-left:60px;	
+}
+.choose-main h2{
+    padding-top:50px;
+    font-size:20px;
+}
+.choose-main p{
+    text-align:left;
+    padding-top:30px;
+    font-size:14px;
+    color: #686868;
+}
+.choose-main button{
+    border:none;
+    width:125px;
+    height:40px;
+    background-color:#0078ff;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top:25px;
+    font-size:14px;
+}
+.choose-img{
+    width:411px;
+    height:215px;
+    float:right;
+    margin-right:40px;
+    margin-top: -168px;
+}
+.choose-icontxt{
+    width:1200px;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 120px;
+}
+.choose-icontxt span{
+    width:1px;
+    height:130px;
+    background-color:rgb(207, 207, 207);
+}
+/* 客户案例 */
+.case{
+    width:1200px;
+    height:820px;
+    margin:0 auto;
+}
+.case h1{
+    font-size:36px;
+    color: #1b1b1b;
+    position: relative;
+    text-align: center;
+	top: 90px;
+}
+.case .text-muted{
+    margin-top:100px;
+    text-align: center;
+}
+.case-main{
+    margin:auto;
+    position: relative;
+    top:50px;
+}
+.case-main ul{
+    width:1185px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: auto;
+}
+.case-main li:hover{
+	box-shadow: 0px 5px 15px #e9e9e9;
+}
+.caseimg{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.w1{
+    display:none;
+}
+.case-main .case-main-menu li .case-list:hover .w1{
+    display: block;
+}
+.case-main .case-main-menu li .case-list:hover .w1+.w2{
+    display:none;
+}
+.case-main-menu .case-list{
+    width:385px;
+    height:490px;
+    border:1px solid #dddd;
+}
+.case-list .casebg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.case-title{
+    font-size:24px;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    margin-left:30px;
+    margin-top: 30px;
+}
+.case-bluetext{
+    margin-left:30px;
+    color: #0068de;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.case-text{
+    text-align:left;
+    margin: 10px 40px 0px 30px;
+}
+.case-button{
+    width:1200px;
+    height:40px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-left: 515px;
+}
+.case-button a{
+    width:152px;
+    height:40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #999999;
+    background-color: #ffffff;
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+}
+/* 实力保障 */
+.power-box{
+    margin-top:85px;
+}
+.power{
+    max-width:1920px;
+    height:580px;
+    min-height:580px;
+    margin:0 auto;
+    background-image: url(../img/soltbg.png);
+    background-position: center;
+}
+.power-top{
+    width:1170px;
+    margin:0 auto;
+    text-align: center;
+}
+.power-ab{
+    width:1200px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.power-main{
+   margin-top: 50px ;
+   margin:0 auto;
+}
+.power h1{
+	font-size: 36px;
+    color: #1b1b1b;
+    text-align: center;
+	padding-top:90px ;
+}
+.power-p{
+    color:rgb(172, 172, 172);
+    text-align: center;
+    padding-top:13px;
+}
+.power-main ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 auto;
+}
+.d1{
+    display:none;
+}
+.power-main ul .power-list:hover{
+	background-color: #4b87ff;
+	box-shadow: 0px 5px 15px #e9e9e9;
+}
+.power-main ul .power-list:hover .d1{
+    display: block;
+}
+.power-main ul .power-list:hover .d1+.d2{
+    display:none;
+}
+.power-list{
+    width: 378px;
+    height:122px;
+    background-color: #ffffff;
+    margin: 0px 20px 20px 0px;
+}
+.power-list-img{
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: 34px 10px 30px 60px;
+    background-image: url(../img/solut_icon/001.png);
+}
+.power-list img{
+    margin: 34px 10px 30px 60px;
+}
+.power-list .power-doc{
+    width:162px;
+    height:50px;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -84px;
+    margin-left: 130px;
+}
+.power-text{
+    color: #272727;
+    float: left;
+}
+.power-list .power-small{
+    font-size:12px;
+    color: #888888;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+
+

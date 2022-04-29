@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="applicable-device" content="pc">
+	<meta name="mobile-agent" content="format=html5;url=https://m.bao315.com/">
+	<title>设计师登录注册</title>
+	<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.bao315.com/" >
+	<link rel="stylesheet" href="css/common1.css">
+	<link rel="stylesheet" href="css/common3.css">
+	<link rel="stylesheet" href="css/reuse3.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/common3.js"></script>
+</head>
+<body>
+	<!-- 公共头部开始 -->
+	<header id="header-page"></header>
+	<!-- 公共头部结束 -->
+	<div class="sign-wrap">
+		<div class="sign-main">
+			<div class="sign-le">
+				<div class="sign-le-main">
+					<p class="sign-le-p1">欢迎</p>
+					<p class="sign-le-p2">来到保驾护航网</p>
+					<a href="" class="sign-le-btn">商家登录</a>
+				</div>
+			</div>
+			<div class="sign-ri">
+				<div class="sign-ri-main">
+					<p class="sign-ri-p1">业主/设计师登录</p>
+					<div class="sign-ri-tab"><span class="active">快捷登录</span><span>密码登录</span></div>
+					<div class="sign-ri-cont">
+						<!-- quick -->
+						<div class="sign-cont-col">
+							<div class="sign-input"><img src="images/sign/icon-user.png" alt=""><input type="text" placeholder="手机号" class="input-tel"></div>
+							<div class="sign-input">
+								<img src="images/sign/icon-code.png" alt="">
+								<input type="text" placeholder="短信验证码">
+								<span class="sign-input-span getCode">获取验证码</span>
+								<div class="sign-code-pop">
+									<div><img src="images/sign/code.png" alt=""><span class="code-change">换一张</span></div>
+									<div><input type="text" placeholder="输入图形验证码"><span class="code-confirm">确定</span></div>
+								</div>
+							</div>
+							<!-- <p class="sign-err">222</p> -->
+							<a href="" class="sign-ri-btn sign-btn-01">登录</a>
+						</div>
+						<!-- code -->
+						<div class="sign-cont-col">
+							<div class="sign-input"><img src="images/sign/icon-user.png" alt=""><input type="text" placeholder="用户名或手机号" class="input-tel input-name"></div>
+							<div class="sign-input"><img src="images/sign/icon-pass.png" alt=""><input type="text" placeholder="请输入密码"></div>
+							<!-- <p class="sign-err">22</p> -->
+							<div class="sign-pass-bot">
+								<div class="sign-rem">
+									<section>
+										<img src="images/sign/uncheck.png" alt="">
+										<img src="images/sign/checked.png" alt="">
+									</section>
+									<span>记住密码</span>
+								</div>
+								
+								<a href="" class="sign-forget">忘记密码？</a>
+							</div>
+							<a href="" class="sign-ri-btn sign-btn-02">登录</a>
+
+						</div>
+					</div>
+					
+					<p class="sign-ri-tips"><span>没有账号？</span><a href="">去注册</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 公共底部开始 -->
+	<footer id="footer-page"></footer>
+	<!-- 公共底部结束 -->
+</div>
+</body>
+<script>
+	$(function(){
+		/* 引入公共部分 */
+		$('#header-page').load('../public/header1.html')
+        $('#footer-page').load('../public/footer2.html')
+	})
+</script>
+</html>

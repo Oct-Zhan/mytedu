@@ -1,0 +1,467 @@
+/* 公共样式 */
+
+
+/* ------ header部分开始 ------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .module-wrap,
+.head-top .btn-box,
+.head-bot-l,
+.head-bot-l .logo-box,
+.head-bot-l .head-nav-box,
+.head-bot-l .head-nav-box .head-nav,
+.head-bot-r,
+.head-bot-r .phone-box {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    height: 112px;
+    background-color: transparent;
+}
+
+header .module-wrap {
+    height: 100%;
+    justify-content: space-between;
+}
+
+.head-top {
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.head-top .module-wrap>.text {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.head-top .btn-box .free-trial,
+.head-top .btn-box .download-box .text {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.head-top .btn-box .free-trial {
+    margin-right: 40px;
+}
+
+.head-top .btn-box .download-box {
+    position: relative;
+}
+
+.head-top .btn-box .download-box img {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    display: none;
+}
+
+.head-bot {
+    height: 72px;
+}
+
+.head-top .btn-box .download-box .text:hover {
+    color: #09E583;
+    text-decoration: underline;
+}
+
+.head-top .btn-box .free-trial:hover {
+    color: #3664FF;
+    text-decoration: underline;
+}
+
+.head-bot-l {
+    height: 100%;
+}
+
+.head-bot-l .logo-box .text {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    margin-left: 30px;
+}
+
+.head-bot-l .logo-box .text::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, .3);
+    position: absolute;
+    top: calc(50% - 7px);
+    left: -14px;
+}
+
+.head-bot-l .head-nav-box {
+    padding-left: 30px;
+    height: 100%;
+}
+
+.head-bot-l .head-nav-box .head-nav {
+    margin-left: 40px;
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    height: 100%;
+}
+
+.head-bot-l .head-nav-box .head-nav:hover::after {
+    display: block;
+}
+
+.head-nav .icon-hot {
+    position: absolute;
+    top: 13px;
+    right: -26px;
+}
+
+.head-bot-l .head-nav-box .head-nav::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 12px;
+    left: calc(50% - 15px);
+    display: none;
+}
+
+.head-bot-l .head-nav-box .head-nav-cur::after {
+    display: block;
+}
+
+.head-bot-r .phone-box {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 40px;
+}
+
+.head-bot-r .phone-box img {
+    margin: 2px 7px 0 0;
+}
+
+.head-bot-r button {
+    width: 80px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, .25);
+    color: #ffffff;
+}
+
+.head-bot-r button:hover {
+    background-color: #3664FF;
+}
+
+.header2 {
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 1px rgba(212, 212, 221, 0.4);
+    border-bottom: 1px solid #E8E9ED;
+}
+
+.header2 .head-top .module-wrap>.text {
+    color: #666666;
+}
+
+.header2 .head-top .btn-box .free-trial,
+.header2 .head-top .btn-box .download-box .text {
+    color: #666666;
+}
+
+.header2 .head-top {
+    border-bottom: 1px solid #EEEEEE
+}
+
+.header2 .head-bot-l .logo-box .text {
+    color: #333333;
+}
+
+.header2 .head-bot-l .logo-box .text::after {
+    background-color: #C1C1C1;
+}
+
+.header2 .head-top .btn-box .download-box .text:hover {
+    color: #09E583;
+}
+
+.header2 .head-top .btn-box .free-trial:hover {
+    color: #3664FF;
+    text-decoration: underline;
+}
+
+.header2 .head-bot-l .head-nav-box .head-nav {
+    color: #333333;
+}
+
+.header2 .head-bot-l .head-nav-box .head-nav:hover,
+.header2 .head-bot-l .head-nav-box .head-nav-cur {
+    color: #3664FF;
+}
+
+.header2 .head-bot-l .head-nav-box .head-nav::after {
+    background-color: #426DFF;
+}
+
+.header2 .head-bot-r .phone-box {
+    color: #333333;
+}
+
+.header2 .head-bot-r button {
+    background-color: #3664FF;
+    color: #ffffff;
+}
+
+.header2 .head-bot-l .head-nav-box .head-nav-cur::after {
+    display: block;
+}
+
+
+/* ------ header部分结束 ------- */
+
+
+/* ------ banner整体-开始 ------- */
+
+.banner-box .swiper-slide .module-wrap,
+.free-box .module-wrap .item-box,
+.box .title-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-box .swiper-slide .text-box,
+.banner-box .swiper-slide .text2,
+.free-box .module-wrap,
+.free-box .module-wrap .item-box .title-box {
+    display: flex;
+    align-items: center;
+}
+
+.banner-box .swiper-slide .module-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-box .swiper-slide .text-box,
+.banner-box .swiper-slide .text2 {
+    display: flex;
+    align-items: center;
+}
+
+.banner-box {
+    height: 520px;
+    display: flex;
+}
+
+.banner-box .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-box .swiper-slide {
+    background-position: center top;
+    background-size: cover;
+}
+
+.banner-box .swiper-slide .module-wrap {
+    height: 100%;
+    padding-top: 187px;
+}
+
+.banner-box .swiper-slide .text-box {
+    display: flex;
+    align-items: center;
+}
+
+.banner-box .swiper-slide .text-box .label {
+    font-size: 14px;
+    color: #343ac9;
+    width: 70px;
+    height: 20px;
+    line-height: 21px;
+    border-radius: 20px;
+    background-color: #0ae483;
+    margin-right: 9px;
+    text-align: center;
+}
+
+.banner-box .swiper-slide .text-box .text {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.banner-box .swiper-slide .text2 {
+    font-size: 44px;
+    color: #ffffff;
+    padding: 15px 0 18px;
+    font-weight: bold;
+}
+
+.banner-box .swiper-slide .text2 .text-color {
+    color: #09E583;
+}
+
+.banner-box .swiper-slide .text2 .num {
+    font-size: 54px;
+}
+
+.banner-box .swiper-slide .text2 .add-icon {
+    margin-top: 10px;
+}
+
+.banner-box .swiper-slide .text3 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.banner-box .swiper-slide button {
+    width: 224px;
+    height: 50px;
+    background-color: #01CE73;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 38px;
+}
+
+.banner-box .swiper-pagination-bullet {
+    width: 50px;
+    height: 4px;
+    border-radius: 0;
+    background: #ffffff;
+    opacity: 1;
+}
+
+.banner-box .swiper-pagination-bullet-active {
+    background: #3664FF;
+}
+
+.banner-box .swiper-pagination {
+    bottom: 38px;
+}
+
+
+/* ------ banner整体-结束 ------- */
+
+
+/* footer */
+
+footer,
+.footer-top-left .item-box,
+footer .hot-phone-box,
+footer .code-box,
+.footer-bot .module-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 485px;
+    background-color: #0A1633;
+}
+
+.footer-top {
+    height: 350px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.footer-top .module-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 30px 0 0;
+}
+
+.footer-top-left,
+.footer-top-right {
+    display: flex;
+}
+
+.footer-top-left .item-box:nth-of-type(2) {
+    margin: 0 82px 0 74px;
+}
+
+.footer-top-left .item-box .title {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 0 28px;
+}
+
+.footer-top-left .item-box .alink {
+    font-size: 16px;
+    color: #6D7792;
+    margin-bottom: 20px;
+}
+
+footer .hot-phone-box .title-box {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+footer .hot-phone-box .title-box img {
+    margin-right: 14px;
+}
+
+footer .hot-phone-box .subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .hot-phone-box>.text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer .hot-phone-box .subtitle,
+footer .hot-phone-box>.text {
+    color: #6D7792;
+    margin-left: 45px;
+}
+
+.footer-top-left .item-box .alink:last-of-type,
+footer .hot-phone-box>.text:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer-top-left .item-box .alink:hover {
+    color: #3664FF;
+}
+
+footer .code-box {
+    align-items: center;
+    font-size: 12px;
+    color: #8794B5;
+    padding: 9px 0 0 85px;
+}
+
+footer .code-box img {
+    margin-bottom: 13px;
+}
+
+footer .code-box .text {
+    line-height: 20px;
+}
+
+.footer-bot {
+    height: 135px;
+}
+
+.footer-bot .module-wrap {
+    height: 100%;
+    justify-content: center;
+}
+
+.footer-bot .text {
+    font-size: 14px;
+    color: #6D7792;
+    line-height: 24px;
+}
+
+.footer-bot img {
+    width: 492px;
+    height: 28px;
+    margin-top: 16px;
+}

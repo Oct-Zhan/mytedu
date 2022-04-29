@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    transition: all .2s;
+    cursor: pointer;
+}
+button,input,textarea,select{
+    outline: none;
+}
+button{
+    cursor: pointer;
+}
+textarea{
+    resize:none;
+}
+input::placeholder{
+    color: #999999;
+}
+input::-webkit-input-placeholder{
+    color: #999999;
+}
+input::-moz-placeholder{
+    color: #999999;
+}
+#container,
+.main,
+.submit-succeed-mask .submit-succeed,
+.submit-succeed-mask .submit-succeed .text-box,
+.free-trial-box,
+.free-trial-box .text-box{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#container,.module{
+    width: 100%;
+    min-width: 1200px;
+}
+.module-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.line{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.line2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.line4{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.headerpage,.footerpage{
+    display: flex;
+    width: 100%;
+}
+.headerpage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 72px;
+    min-width: 1200px;
+    z-index: 10;
+}
+.footerpage{
+    height: 292px;
+}
+.asidepage{
+    position: fixed;
+    top: calc(50% - 182.5px);
+    right: 6px;
+    z-index: 10;
+    width: 210px;
+    height: 365px;
+    display: flex;
+}
+.mask{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(032, 043, 064, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+.submit-succeed-mask .submit-succeed{
+    width: 410px;
+    height: 373px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 186.5px);
+    left: calc(50% - 205px);
+    align-items: center;
+    padding: 50px 0;
+}
+.submit-succeed-mask .submit-succeed .title{
+    font-size: 24px;
+    color: #020419;
+    margin: 10px 0 25px;
+}
+.submit-succeed-mask .submit-succeed .text-box{
+    height: 50px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: #7D7F8B;
+}
+.submit-succeed-mask .submit-succeed  button{
+    width: 318px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(110deg,#4E9FFB,#2D81F6);
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+}
+.pagination .page,
+.pagination .page-more,
+.pagination .page-next{
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    border: 1px solid #E1E1E1;
+    font-size: 16px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.pagination .page-next{
+    margin-right: 0;
+}
+.pagination .page-cur{
+    background-color: #ABAFBE;
+    border: 1px solid #ABAFBE;
+    font-size: 18px;
+    color: #ffffff;
+}
+.free-trial-box{
+    width: 364px;
+    height: 520px;
+    background-image: url("../images/aside/bg.png");
+    background-size: 100% 100%;
+    padding: 50px 30px;
+}
+.free-trial-box .text-box{
+
+}
+.free-trial-box .text-box .title{
+    font-size: 18px;
+    color: #0A1633;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.free-trial-box .text-box .text{
+    font-size: 16px;
+    color: #697698;
+    margin-bottom: 32px;
+}
+.free-trial-box .text-box .text1{
+    margin-bottom: 6px;
+}
+.free-trial-box .text-box .text span{
+    color: #DDAE7B;
+}
+.free-trial-box button{
+    width: 130px;
+    height: 42px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #4E3930;
+    background-image: linear-gradient(36deg,#FFCE86,#FFBD77);
+}

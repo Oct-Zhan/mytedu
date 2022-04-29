@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器弹窗</title>
+    <link rel="stylesheet" href="../css/mask-jisuanqi.css">
+
+</head>
+
+<body>
+
+    <div class="mask-box jisuanqi-mask-box">
+        <div class="mask-content">
+            <img src="../images/reuse1/jsq_ban.png" alt="" class="top-img">
+            <div class="jisuanqi-content">
+                <div class="left-box">
+                    <div class="title-box">
+                        <div class="text1">免费获取装修报价</div>
+                        <div class="text2">今天已有<span>1092位</span>业主获取了装修预算</div>
+                    </div>
+                    <div class="form-box">
+                        <div class="item">
+                            <div class="label">所在城市:</div>
+                            <div class="input-box sel-city-box">
+                                <select id="navProvince">
+                                    <option value="">选择</option>
+                                    <option value="">浙江省</option>
+                                </select>
+                                <select id="navCity">
+                                    <option value="">选择</option>
+                                    <option value="">嘉兴市</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">房屋面积:</div>
+                            <div class="input-box house-area-box">
+                                <input type="text" placeholder="请输入您的房屋面积" id="houseArea">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">房屋户型:</div>
+                            <div class="input-box sel-home-box">
+                                <select class="spe" id="shiSelect">
+                                    <option value="1">1室</option>
+                                    <option value="2">2室</option>
+                                    <option value="3">3室</option>
+                                    <option value="4">4室</option>
+                                    <option value="5">5室</option>
+                                    <option value="6">6室</option>
+                                </select>
+                                <select class="spe" id="tingSelect">
+                                    <option value="1">1厅</option>
+                                    <option value="2">2厅</option>
+                                </select>
+                                <select class="spe" id="chuSelect">
+                                    <option value="1">1厨</option>
+                                    <option value="2">2厨</option>
+                                </select>
+                                <select id="weiSelect">
+                                    <option value="1">1卫</option>
+                                    <option value="2">2卫</option>
+                                    <option value="3">3卫</option>
+                                    <option value="4">4卫</option>
+                                </select>
+                                <select id="ytSelect">
+                                    <option value="1">1阳台</option>
+                                    <option value="2">2阳台</option>
+                                    <option value="3">3阳台</option>
+                                    <option value="4">4阳台</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">您的姓名:</div>
+                            <div class="input-box">
+                                <input type="text" placeholder="请输入您的姓名">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">手机号码:</div>
+                            <div class="input-box">
+                                <input type="text" placeholder="报价结果将发送到您的手机">
+                            </div>
+                        </div>
+                        <div class="verify-wrap" id="verify-wrap4"></div>
+                        <div class="agreement-box">
+                            <div class="item">
+                                <img src="../images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                                <span class="agreement-item" data-agreement="1">《用户协议》</span>
+                                <span class="agreement-item" data-agreement="2">《隐私政策》</span>
+                            </div>
+                            <div class="item">
+                                <img src="../images/icon1/ico_sel.png" alt="" class="img" data-id="1">
+                                <span class="agreement-item" data-agreement="3">《共享说明》</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="title-box">
+                        <div class="text1">您的装修预算</div>
+                        <div class="text3">458765</div>
+                        <div class="text1">元</div>
+                    </div>
+                    <div class="text-box">
+                        <div class="item">
+                            <div class="label">材料费:</div>
+                            <div class="text"><span>17800</span>元</div>
+                        </div>
+                        <div class="item">
+                            <div class="label">设计费:</div>
+                            <div class="text"><span>0</span>元</div>
+                        </div>
+                        <div class="item">
+                            <div class="label">人工费:</div>
+                            <div class="text"><span>20470</span>元</div>
+                        </div>
+                        <div class="item">
+                            <div class="label">质检费:</div>
+                            <div class="text"><span>0</span>元</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="../images/icon1/ico_close.png" alt="" class="mask-close">
+        </div>
+    </div>
+
+
+</body>
+<script>
+    $(function () {
+        var slideVerifyVal4 = false
+        var SlideVerifyPlug = window.slideVerifyPlug;
+        var slideVerify4 = new SlideVerifyPlug('#verify-wrap4', {
+            wrapWidth: '495',
+            initText: '按住滑块向右拖动',
+            sucessText: '验证通过',
+            getSuccessState: function (res) {
+                slideVerifyVal4 = res
+            }
+        });
+    })
+</script>
+
+</html>

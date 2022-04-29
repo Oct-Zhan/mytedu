@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="applicable-device" content="pc">
+    <meta name="mobile-agent" content="format=html5;url=https://m.bao315.com/">
+    <title>城市站</title>
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.bao315.com/" >
+    <link rel="stylesheet" href="./css/common1.css">
+    <link rel="stylesheet" href="./css/reuse1.css">
+    <link rel="stylesheet" href="./css/index-city.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jq-slideVerify.js"></script>
+    <script src="./js/index-city.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 公共头部开始 -->
+        <header id="header-page"></header>
+        <!-- 公共头部结束 -->
+
+        <!-- 内容开始 -->
+        <div class="content-wrap">
+            <!-- banner开始 -->
+            <div class="global-container banner-box">
+                <div class="global-content">
+                    <p class="index-top-entry">
+                        <a href="">进入厦门站</a><img src="./images/icon1/ico_entry.png" alt="">
+                    </p>
+                    <p class="index-top-p1">
+                        <span>保驾护航全国共开通了</span><span>317个</span><span>城市站</span>
+                    </p>
+                    <div class="top-main">
+                        <div class="index-top-select">
+                            <div class="index-se-le">
+                                <span class="index-se-span">按省份选择</span>
+                                <div class="index-city-sele">
+                                    <div class="city-sele-result"><span>选择省份</span><img src="./images/icon1/ico_down3.png" alt=""></div>
+                                    <input type="hidden" value="" id="province">
+                                    <div class="city-sele-option province-sele-option" id="navProvince_index">
+                                        <p id="a">北京市</p>
+                                        <p id="b">长沙市</p>
+                                        <p id="c">杭州市</p>
+                                        <p id="d">惠州市</p>
+                                        <p id="e">洛阳市</p>
+                                        <p id="f">洛阳市</p>
+                                        <p id="g">洛阳市</p>
+                                    </div>
+                                </div>
+                                <div class="index-city-sele">
+                                    <div class="city-sele-result"><span>选择城市</span><img src="./images/icon1/ico_down3.png"
+                                            alt="">
+                                    </div>
+                                    <input type="hidden" value="" id="city">
+                                    <div class="city-sele-option city-sele-option" id="navCity_index">
+                                        <p id="h">北京市</p>
+                                        <p id="i">长沙市</p>
+                                        <p id="j">杭州市</p>
+                                        <p id="k">惠州市</p>
+                                        <p id="l">洛阳市</p>
+                                        <p id="m">洛阳市</p>
+                                        <p id="n">洛阳市</p>
+                                    </div>
+                                </div>
+                                <a href="" class="select-btn">确定</a>
+                            </div>
+                        </div>
+                        <div class="index-top-tab">
+                            <i class="city-hot active">热门城市</i>
+                            <span>A</span>
+                            <span>B</span>
+                            <span>C</span>
+                            <span>D</span>
+                            <span>F</span>
+                            <span>G</span>
+                            <span>H</span>
+                            <span>J</span>
+                            <span>K</span>
+                            <span>L</span>
+                            <span>M</span>
+                            <span>N</span>
+                            <span>Q</span>
+                            <span>S</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>X</span>
+                            <span>Y</span>
+                            <span>Z</span>
+                        </div>
+                        <div class="index-top-cont">
+                            <div class="index-cont hot-city">
+                                <div class="index-cont-le">
+                                    <section>
+                                        <span>B</span>
+                                        <div class="wrap-a">
+                                            <a href="">北京市</a>
+                                            <a href="">保定市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>C</span>
+                                        <div class="wrap-a">
+                                            <a href="">长沙市</a>
+                                            <a href="">长治市</a>
+                                            <a href="">沧州市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>H</span>
+                                        <div class="wrap-a">
+                                            <a href="">杭州市</a>
+                                            <a href="">惠州市</a>
+                                            <a href="">呼和浩特市</a>
+                                            <a href="">合肥市</a>
+                                            <a href="">邯郸市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>L</span>
+                                        <div class="wrap-a">
+                                            <a href="">洛阳市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>N</span>
+                                        <div class="wrap-a">
+                                            <a href="">南阳市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>Q</span>
+                                        <div class="wrap-a">
+                                            <a href="">泉州市</a>
+                                            <a href="">青岛市</a>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="index-cont-ri">
+                                    <section>
+                                        <span>S</span>
+                                        <div class="wrap-a">
+                                            <a href="">上海市</a>
+                                            <a href="">苏州市</a>
+                                            <a href="">石家庄市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>T</span>
+                                        <div class="wrap-a">
+                                            <a href="">太原市</a>
+                                            <a href="">唐山市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>W</span>
+                                        <div class="wrap-a">
+                                            <a href="">潍坊市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>X</span>
+                                        <div class="wrap-a">
+                                            <a href="">徐州市</a>
+                                            <a href="">邢台市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>Y</span>
+                                        <div class="wrap-a">
+                                            <a href="">盐城市</a>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <span>Z</span>
+                                        <div class="wrap-a">
+                                            <a href="">郑州市</a>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="index-cont city-list">
+                                <section>
+                                    <span>A</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <span>B</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <span>C</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                        <a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <span>D</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <span>F</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <span>G</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京北京北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>H</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京北京北京</a><a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>J</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>K</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京北京北京北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>L</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>M</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>N</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京北京北京北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>Q</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>S</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>T</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>W</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京北京北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>X</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>Y</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                    </div>
+                                </section>
+                                <section><span>Z</span>
+                                    <div class="wrap-a">
+                                        <a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a><a href="">北京</a><a href="">北京</a><a href="">北京</a><a
+                                            href="">北京</a>
+                                        </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- banner结束 -->
+
+            <!-- 装修流程开始 -->
+            <div class="global-container  renovation-flow-wrap">
+                <div class="global-content  renovation-flow-box">
+                    <div class="main-title-box">
+                        <div class="title">装修流程</div>
+                        <div class="text-box">
+                            <div class="text">省钱、省心、有保障，不怕装修公司跑路</div>
+                        </div>
+                    </div>
+                    <div class="renovation-flow-main">
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow1.png" alt="">
+                            <p>免费验房</p>
+                            <p>钥匙入手，质量检测很必要</p>
+                            <p><span>1</span></p>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow2.png" alt="">
+                            <p>免费发布招标</p>
+                            <p>无需注册，多家装修公司比价</p>
+                            <p><span>2</span></p>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow3.png" alt="">
+                            <p>装修顾问电话交流</p>
+                            <p>我们会在2个工作日内电话你</p>
+                            <p><span>3</span></p>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow4.png" alt="">
+                            <p>量房 设计 报价</p>
+                            <p>多家装修公司免费量房报价</p>
+                            <p><span>4</span></p>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow5.png" alt="">
+                            <p>选择签订公司</p>
+                            <p>选择你满意的装修公司</p>
+                            <p><span>5</span></p>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/icon1/ico_flow6.png" alt="">
+                            <p>获得装修保障金</p>
+                            <p>免费申请保障金</p>
+                            <p><span>6</span></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 装修流程结束 -->
+
+            <!-- 最新装修效果图开始 -->
+            <div class="global-container new-decoration-render">
+                <div class="global-content">
+                    <div class="main-title-box">
+                        <a href="" class="title">最新装修效果图</a>
+                        <div class="text-box">
+                            <a href="" class="text">阳台装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">花园装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">吊顶装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">飘窗装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">中式装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">书房修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">复式装修效果图</a>
+                            <span>/</span>
+                            <a href="" class="text">走廊装修效果图</a>
+                        </div>
+                    </div>
+                    <div class="list-box">
+                        <a href="" class="item active">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item active">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item active">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item active">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text line">客厅装修效果图</div>
+                        </a>
+                        <a href="" class="item last-text">
+                            <img src="./images/index-city/pic1.jpg" alt="" class="pic">
+                            <div class="text">
+                                <span>其他更多</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 最新装修效果图结束 -->
+
+            <!-- 装修公司排行榜开始 -->
+            <div class="global-container company-sort-wrap">
+                <div class="global-content">
+                    <div class="main-title-box">
+                        <div class="title">装修公司排行榜</div>
+                    </div>
+                    <div class="tab-box flex-center">
+                        <div class="tab active">口碑排行榜</div>
+                        <div class="tab">签单排行榜</div>
+                        <div class="tab">热门排行榜</div>
+                    </div>
+                    <div class="list-box list-box1">
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_1.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_2.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_3.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list-box list-box2">
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_1.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_2.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_3.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list-box list-box3">
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_1.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_2.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <img src="./images/index-city/ico_3.png" alt="" class="icon-sort icon-one">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="item">
+                            <img src="./images/index/pic6.png" alt="" class="pic-logo">
+                            <div class="text-box">
+                                <div class="company-name line">厦门纽斯装饰工程有限公司</div>
+                                <div class="info">
+                                    <span>口碑值<span>397</span></span>
+                                    <span>案例<span>87</span>件</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 装修公司排行榜结束 -->
+
+            <!-- 装修房子的步骤开始 -->
+            <div class="global-container decoration-step-wrap">
+                <div class="global-content">
+                    <div class="main-title-box">
+                        <div class="title">装修房子的步骤</div>
+                    </div>
+                    <div class="step-content flex-between">
+                        <div class="box box1">
+                            <div class="top-box">
+                                <div class="text">装修前</div>
+                            </div>
+                            <div class="icon-box">
+                                 <a href="" class="item">
+                                     <img src="./images/icon1/ico_mini1.png" alt="">
+                                     <div class="text">收房量房</div>
+                                 </a>
+                                 <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini2.png" alt="">
+                                    <div class="text">核算预算</div>
+                                </a>
+                                <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini3.png" alt="">
+                                    <div class="text">设计阶段</div>
+                                </a>
+                                <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini4.png" alt="">
+                                    <div class="text">签订合同</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="box box2">
+                            <div class="top-box">
+                                <div class="text">装修中</div>
+                            </div>
+                            <div class="icon-box">
+                                 <a href="" class="item">
+                                     <img src="./images/icon1/ico_mini5.png" alt="">
+                                     <div class="text">改拆</div>
+                                 </a>
+                                 <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini6.png" alt="">
+                                    <div class="text">防水</div>
+                                </a>
+                                <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini7.png" alt="">
+                                    <div class="text">泥瓦</div>
+                                </a>
+                                <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini8.png" alt="">
+                                    <div class="text">水电</div>
+                                </a>
+                                <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini9.png" alt="">
+                                    <div class="text">木工</div>
+                                </a>
+                                <a href="" class="item">
+                                   <img src="./images/icon1/ico_mini10.png" alt="">
+                                   <div class="text">油漆</div>
+                               </a>
+                               <a href="" class="item">
+                                   <img src="./images/icon1/ico_mini11.png" alt="">
+                                   <div class="text">竣工</div>
+                               </a>
+                               <a href="" class="item">
+                                   <img src="./images/icon1/ico_mini12.png" alt="">
+                                   <div class="text">更多</div>
+                               </a>
+                            </div>
+                        </div>
+                        <div class="box box3">
+                            <div class="top-box">
+                                <div class="text">装修后</div>
+                            </div>
+                            <div class="icon-box">
+                                 <a href="" class="item">
+                                     <img src="./images/icon1/ico_mini13.png" alt="">
+                                     <div class="text">软装配置</div>
+                                 </a>
+                                 <a href="" class="item">
+                                    <img src="./images/icon1/ico_mini14.png" alt="">
+                                    <div class="text">即将入住</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 装修房子的步骤结束 -->
+
+            <!-- 装修注意事项及细节开始 -->
+            <div class="global-container decoration-attention-wrap">
+                <div class="global-content">
+                    <div class="main-title-box">
+                        <a href="" class="title">装修注意事项及细节</a>
+                        <div class="text-box">
+                            <a href="" class="text">日式客厅装修注意点</a>
+                            <span>/</span>
+                            <a href="" class="text">现代电视精装修注意点</a>
+                            <span>/</span>
+                            <a href="" class="text">餐厅装修注意点</a>
+                            <span>/</span>
+                            <a href="" class="text">服装店装修注意点</a>
+                        </div>
+                    </div>
+                    <div class="list-box">
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="" class="img-box">
+                                <img src="./images/index-city/pic1.jpg" alt="">
+                                <div class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</div>
+                            </a>
+                            <div class="text-box">
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                                <a href="" class="text line">厨房卫生间要怎么改?改造厨房卫生间的要</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 装修注意事项及细节结束 -->
+
+            <!-- 装修周边开始 -->
+            <div class="global-container decoration-rim-wrap">
+                <div class="global-content">
+                    <div class="main-title-box">
+                        <div class="title">装修周边</div>
+                    </div>
+                    <div class="list-box">
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="./images/index-city/pic2.jpg" alt="" class="pic-bg">
+                                <div class="icon-box">
+                                    <img src="./images/icon1/ico_rim1.png" alt="" class="icon">
+                                    <div class="text">装修材料</div>
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <a href="" class="more-btn">更多</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="./images/index-city/pic3.jpg" alt="" class="pic-bg">
+                                <div class="icon-box">
+                                    <img src="./images/icon1/ico_rim2.png" alt="" class="icon">
+                                    <div class="text">智能家电</div>
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <a href="" class="more-btn">更多</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <img src="./images/index-city/pic4.jpg" alt="" class="pic-bg">
+                                <div class="icon-box">
+                                    <img src="./images/icon1/ico_rim3.png" alt="" class="icon">
+                                    <div class="text">家居软装</div>
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <div class="text-wrap">
+                                    <a href="" class="title line">家装风格如何选择？家装风格如何选择？家装风格如何选择？</a>
+                                    <div class="text line2">选择家装风格需要很多时间和精力，如何选择好的装修风格很重要，我们一起来看看家装风格如何如何如何如何如何如何</div>
+                                </div>
+                                <a href="" class="more-btn">更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 装修周边结束 -->
+
+
+        </div>
+        <!-- 内容结束 -->
+
+        <!-- 公共底部开始 -->
+        <footer id="footer-page"></footer>
+        <!-- 公共底部结束 -->
+
+        <!-- 侧边悬浮开始 -->
+        <div id="sidebar-page"></div>
+        <!-- 侧边悬浮结束 -->
+
+        <!-- 计算器弹窗开始 -->
+        <div id="jisuanqi-mask-page"></div>
+        <!-- 计算器弹窗结束 -->
+
+    </div>
+</body>
+
+</html>

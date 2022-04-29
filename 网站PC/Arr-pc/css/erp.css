@@ -1,0 +1,109 @@
+/* banner */
+.row{
+    max-width: 1920px;
+    min-height:640px;
+    height:640px;
+    margin: 0 auto;
+    background-image: url(../img/banner-1.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+.aui-banner-main{
+    width:1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.aui-banner-box{
+    width:330px;
+    height:48px;
+    position: relative;
+    top:500px;
+}
+.aui-banner-button a {
+    width:168px;
+    height:48px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #2a64fd;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.aui-banner-button a:hover {
+    color: #fff;
+    border-color: #3981ff;
+    background-color: #3981ff;
+}
+
+/* 装企erp */
+.solu-nav{
+    width:750px;
+	height:5800px;
+	margin:0 auto;
+}
+.solu{
+	width:751px;
+    height:5800px;
+    background-image: url(../img/erpimg/index_03.png);
+}
+.box-center{
+    width:1300px;
+    margin: 0 auto;
+}
+.solu-container{
+    width:1300px;
+    display:flex;
+    flex-direction:row;
+    margin-top: 90px;
+}
+/* 广告 */
+.box-left{
+    width:360px;
+    height:520px;
+    margin-top: 89px;
+    background-image: url(../img/bg21.png);
+} 
+.box-left ul{
+    width:300px;
+    height:345px;   
+    margin-top:50px;
+    margin-left: 25px;
+}     
+.text-bold{
+    margin-top:14px;
+    font-weight: bold;
+    font-size:18px;
+    color:#0a1633;
+}    
+.text-box{
+    font-size: 15px;
+    margin-top: 14px;
+    color:#697698;
+}   
+.text-box span{
+    color:#deb384;
+}
+.text-button{
+    color:#664c3b;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+button{
+    width:130px;
+    height:45px;
+    text-align: center;
+    font-size: 16px;
+    border:1px solid #ffbd77;
+    border-radius: 50px;
+    background-color: #ffbd77;
+}
+.nav-right{
+    margin: auto;
+    position: absolute;
+    top: 820px;
+    right: 0;
+    z-index: 99;
+}
+

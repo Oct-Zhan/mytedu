@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,aADS,CACT,aAAa,CAAA;EACT,OAAO,EAAE,aAAa;EACtB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,YAAY;CAOxB;;AAXL,AAKQ,aALK,CACT,aAAa,CAIT,WAAW,CAAA;EACP,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "../scss/mask-img.scss"
+    ],
+    "names": [],
+    "file": "mask-img.css"
+}

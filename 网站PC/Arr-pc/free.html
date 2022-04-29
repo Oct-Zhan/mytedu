@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>艾瑞尔-免费体验</title>
+	<link href="css/aacomon.css" rel="stylesheet" type="text/css" />
+	<link href="css/free.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+	<!-- 导航 -->
+	<div class="ov">
+		<div class="aui-header-nav moveDown">
+			<div class="aui-wo">
+				<div class="wrapper">
+					<a href="#">
+						<div class="aui-logo">
+							<span class="line"></span>
+							<span>装企咨询管理专家</span>
+						</div>
+					</a>
+				</div>
+				<div class="aui-top-nav" id="subNav">
+					<ul class="menu">
+						<li><a href="./index.html">首页</a></li>
+						<li><a href="./erp.html">装企ERP</a></li>
+						<li><a href="./customer.html">客户案例</a></li>
+						<li><a href="./plan.html">解决方案</a></li>
+						<li><a href="./about.html">关于我们</a></li>
+						<li><a href="./company.html">公司咨讯</a></li>
+						<li class="selectedNav moveUpdate"><a href="free.html">免费体验</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- banner bg -->
+	<div class="row">
+		<div class="aui-banner-main">
+			<div class="aui-box">
+			</div>
+		</div>
+	</div>
+	<div class="aui-banner-bt"></div>
+	<!-- 右边悬浮 -->
+	<div class="nav-right">
+		<img src="img/icon_nav/right.png">
+	</div>
+	<!-- 注册 -->
+	<div class="table-box">
+		<div class="table-text">
+			<a href="#"><strong>立即注册 免费体验</strong></a>
+		</div>
+		<div class="table">
+			<div class="table-cell">
+				<img class="table-img" src="img/2c.png">
+				<div class="table-form">
+					<form>
+						<p>您的注册信息：</p>
+						<div class="ipt-item">
+							<div class="ipt-itemicon">
+								<img src="img/free/name.png">
+							</div>
+							<input type="text" name="username" class="form_input notNull" value=""
+								placeholder="您的店铺名称" />
+						</div>
+						<div class="ipt-item">
+							<div class="ipt-itemicon">
+								<img src="img/free/name01.png">
+							</div>
+							<input type="text" name="username" class="form_input notNull" value="" placeholder="您的称呼" />
+						</div>
+						<div class="ipt-item">
+							<div class="ipt-itemicon">
+								<img src="img/free/number.png">
+							</div>
+							<input type="text" name="username" class="form_input notNull" value=""
+								placeholder="您的手机号码" />
+						</div>
+						<div class="ipt-item">
+							<div class="ipt-itemicon">
+								<img src="img/free/phone.png">
+							</div>
+							<input type="text" name="username" class="form_input notNull" value=""
+								placeholder="手机验证码" />
+						</div>
+						<a href="#" style="color: #0078ff;
+						position: relative;
+						float: right;
+						padding-right: 30px;
+						margin-top: -38px;">获取验证码</a>
+					</form>
+
+					<button class="tip">立即体验</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 页脚 -->
+	<div class="footer-box">
+		<div class="footer">
+			<div class="gradient">
+				<div class="footer-main">
+					<img src="./img/icon_nav/footer.png">
+					<div class="footer-main-nav">
+						<ul>
+							<li>装企ERP</li>
+							<li>客户案例</li>
+							<li>解决方案</li>
+						</ul>
+						<ul>
+							<li>关于我们</li>
+							<li>公司咨讯</li>
+							<li>免费体验</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-text">
+					<p class="footer-text-p">四川艾瑞尔企业管理有限公司</p>
+					<br>
+					<span class="footer-text-s">联系电话：18060997798</span>
+					<p class="footer-text-s">联系地址：成都市青羊区人民中路二段29号泰丰国际广场1305号</p>
+				</div>
+			</div>
+			<div class="footer-b">
+				<div class="footer-a">
+					<span>四川艾瑞尔企业管理有限公司&nbsp;版权所有&nbsp;蜀ICP备2020036828号-1&nbsp;&nbsp;&nbsp;&nbsp;Copyrigh&nbsp;©&nbsp;2021-2022&nbsp;aruierzx.com
+						. All Rights Reserved
+					</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		jQuery(".aui-banner-main").slide({
+			mainCell: ".bd ul",
+			effect: "left",
+			autoPlay: true,
+			trigger: "click",
+			delayTime: 700
+		});
+		$(window).on('scroll', function () {
+			if ($(document).scrollTop() > 150) {
+				$('.aui-header-nav').addClass('solid').removeClass('moveDown');
+				$('.aui-header-top').addClass('moveUp');
+			} else {
+				$('.aui-header-nav').removeClass('solid').addClass('moveDown');
+				$('.aui-header-top').removeClass('moveUp');
+			}
+		});
+
+	</script>
+
+</body>
+
+</html>

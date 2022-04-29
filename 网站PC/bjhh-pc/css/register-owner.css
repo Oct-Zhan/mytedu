@@ -1,0 +1,272 @@
+.content-wrap .register-owner-wrap {
+  height: 849px;
+  background-image: url("../images/register/bg.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.content-wrap .register-owner-wrap .global-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-wrap .register-owner-wrap .global-content .box {
+  width: 790px;
+  height: 476px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 1px 12px 2px rgba(95, 129, 182, 0.3);
+          box-shadow: 0 1px 12px 2px rgba(95, 129, 182, 0.3);
+  position: relative;
+}
+
+.content-wrap .register-owner-wrap .global-content .box > div {
+  height: 100%;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-left {
+  width: 317px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 7px 0px 47px -11px #A3C6E6;
+          box-shadow: 7px 0px 47px -11px #A3C6E6;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-left .text {
+  font-size: 17px;
+  color: #666666;
+  margin-top: 40px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 60px 87px 0 99px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .input-box {
+  position: relative;
+  border-bottom: 1px solid #ECECEC;
+  margin-bottom: 24px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .input-box .icon {
+  position: absolute;
+  left: 5px;
+  bottom: 7px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .input-box input {
+  font-size: 16px;
+  height: 27px;
+  width: 100%;
+  padding-left: 32px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .input-box:nth-of-type(5) {
+  margin-bottom: 12px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .text {
+  height: 27px;
+  line-height: 27px;
+  font-size: 12px;
+  color: #E30213;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .text::before {
+  content: '';
+  width: 1px;
+  height: 10px;
+  background-color: #E30213;
+  position: absolute;
+  top: calc(50% - 5px);
+  left: 0;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .get-code-btn {
+  width: 88px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .time {
+  display: none;
+  width: 120px;
+  color: #666666;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .time span {
+  color: #E30213;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: translate(50%, -100%);
+          transform: translate(50%, -100%);
+  background: url("../images/sign/code-pop.png") no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 217px;
+  height: 125px;
+  padding: 18px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop div:first-child {
+  padding: 5px 10px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop div img {
+  width: 90px;
+  height: 40px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop div .code-confirm {
+  width: 56px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background: #de0010;
+  border-radius: 14px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .code-change {
+  cursor: pointer;
+  color: #999;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop input {
+  background: #fff;
+  width: 118px;
+  height: 30px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  padding: 0 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  margin: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .yzm-box .sign-code-pop input::-webkit-input-placeholder {
+  font-size: 11px;
+  text-align: center;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .agreement-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 12px;
+  color: #999999;
+  cursor: pointer;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .agreement-box img {
+  width: 11px;
+  height: 11px;
+  margin-right: 5px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .box-form .btn {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #E93542;
+  -webkit-box-shadow: 0 5px 10px 2px rgba(233, 53, 66, 0.5);
+          box-shadow: 0 5px 10px 2px rgba(233, 53, 66, 0.5);
+  font-size: 22px;
+  margin-top: 45px;
+}
+
+.content-wrap .register-owner-wrap .global-content .box .back-btn {
+  height: auto;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+/*# sourceMappingURL=register-owner.css.map */
